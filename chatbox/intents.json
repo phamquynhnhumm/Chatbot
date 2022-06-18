@@ -231,47 +231,68 @@
       ]
     },
     {
-      "tag": "tuvanmonngon",
+      "tag": "tuvanmoncosuachua",
       "patterns": [
-        "Món nào ",
-        ""
+        "Món nào chưa nhiều sữa chua nhỉ",
+        "Tôi muốn tư vấn món có sữa chua",
+        "Sữa chua có không nhỉ",
+        "Tìm kiếm món mát mà có sưaz chua"
       ],
       "responses": [
-        "",
-        ""
+        "Bạn vào danh mục sưaz chua nhé",
+        "Có món sữa chua dâu tằm hoàng kim đó quý khách",
+        "Có món sữa chua dâu tằm hạt dẻ đó quý khách",
+        "Có món sữa chua trắng đó quý khách"
       ]
     },
     {
-      "tag": "",
+      "tag": "tuvancaffe",
       "patterns": [
-        "",
-        ""
+        "Cửa hàng có caffe không nhỉ",
+        "Tôi muốn mua caffe",
+        "Uống caffe",
+        "Uống chút vị đắng của caffe",
+        "Món ngon vị caffe thì món nào ngon"
       ],
       "responses": [
-        "",
-        ""
+        "Có rất nhiều loại caffe ạ, Ví dụ như : Hồng trà ngũ cốc kem Cafe bạn có thể thưởng thức thử",
+        "Bạn dùng thử Choco Ngũ Cốc Kem Caffe nhé",
+        "Choco Ngũ Cốc Kem Caffe mang đến điểm nhấn mới lạ từ mùi vị "
       ]
     },
     {
-      "tag": "",
+      "tag": "tuvankemphomai",
       "patterns": [
-        "",
-        ""
+        "Món phô mai ngon",
+        "Có phomai không",
+        "Món phômai đặc biệt",
+        "Món Phô mai được ưu chuộc nhiều nhất",
+        "phomai kem có không",
+        "tôi muốn mua trà sữa phô mai",
+        "Có trà phô mai không nhỉ"
       ],
       "responses": [
-        "",
-        ""
+        "Bạn thử thương thức \" Dâu tằm kem phô mai\" nhé ",
+        "Bạn thử thương thức \" Hồng Trà Kem Phô Mai\" nhé ",
+        "Bạn thử thương thức \" MatCha Kem Phô Mai\" nhé ",
+        "Bạn thử thương thức \" Trà Xanh kem phô mai\" nhé ",
+        "Bạn thử thương thức \" Trà Xoài bưởi kem phô mai\" nhé "
       ]
     },
     {
-      "tag": "",
+      "tag": "hongtra",
       "patterns": [
-        "",
-        ""
+        "Có hồng trà không ạ",
+        "Có hồng trà giá bao nhiêu",
+        "Có các hồng trà nào",
+        "Tôi muốn mua hồng trà"
       ],
       "responses": [
-        "",
-        ""
+        "Có hồng trà nguyên chất với giá chỉ 23.000đ nè. ",
+        "Mời bạn dùng thử Hồng trà kem phô mai",
+        "Nếu muốn ngọt ngào bạn hãy dùng thử hồng trà bưởi mật ông",
+        "Nếu muốn một chút vị đắng, bạn hãy dùng thử hồng trà ngũ cốc kem cafe nhé",
+        "Bạn hãy tìm kiếm với từ khoas \" Hồng Trà\" xem chi tiết nhiều món hơn bạn nhé "
       ]
     },
     {
