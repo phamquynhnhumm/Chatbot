@@ -11,7 +11,18 @@
         "Bạn có khỏe không",
         "Có ai ở đó không?",
         "Xin chào",
-        "Chúc một ngày tốt lành"
+        "Chúc một ngày tốt lành",
+        "Có ai ở đó không",
+        "Chào shop, tôi muốn mua hàng",
+        "Đồ uống ở đây ngon nhỉ",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "responses": [
         "Xin chào, cảm ơn bạn đã ghé thăm",
@@ -507,6 +518,82 @@
         "Cảm ơn bạn! \nMình có thư tiền hộ nha bạn yên tâm nhé!"
       ],
       "context_set": ""
+    },
+    {
+      "tag": "trochuyenvediawn",
+      "patterns": [
+        "Tôi đói quá, có gì ngon không ạ",
+        "Trà sữa không",
+        "Món gì đặt biệt không nhỉ",
+        "Món nào ngon nhất",
+        "Ngon nhất",
+        "Đặc biết nhất",
+        "Mình nên uống gì",
+        "Có gì ngon nào",
+        "Món nào đặt biệt của cửa hàng",
+        "Tôi nên ăn gì"
+      ],
+      "responses": [
+        "Đặc biệt bên mình có SỮA TƯƠI TRÂN CHÂU BABY KEM CAFÉ nhé "
+      ]
+    },
+    {
+      "tag": "dulich",
+      "patterns": [
+        "Mông lung",
+        "Cô đơn",
+        "Thành công",
+        "Thất bại",
+        "Chênh Vênh",
+        "Hạnh phúc",
+        "Tết này bạn đi đâu chơi",
+        "Hè này mình đi đâu",
+        "Hè này mình đi đâu",
+        "bạn có định đi du lịch đâu trong tương lai không?",
+        "Cậu tính đi đâu",
+        "Đi đâu",
+        "Thời tiết này nên đi đâu",
+        "Nóng như này đến đâu",
+        "Thứ bay đi chơi",
+        "Ở đâu đẹp",
+        "LÀm chuyến cuối năm đi",
+        "Học bài ở đâu",
+        "Dắt bạn đi chơi",
+        "Đi trà sữa ở đâu ngon nhất"
+      ],
+      "responses": [
+        "Đi về nhà! Hoặc là ghé tiệm trà AMAI bạn nhé!"
+      ]
+    },
+    {
+      "tag": "trochuyenvediawn",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "trochuyenvediawn",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "trochuyenvediawn",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
     }
   ]
 }
