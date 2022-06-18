@@ -296,12 +296,62 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "thontincanhan",
       "patterns": [
+        "họ và tên của bạn là gì "
+      ],
+      "responses": [
+        "mình là phạm thị quỳnh như"
+      ]
+    },
+    {
+      "tag": "lienlac",
+      "patterns": [
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "Tôi muốn liên lạc",
+        "Tôi muốn liên lạc với của hàng",
+        "sao để liên hệ",
+        "Tôi muốn gặp cửa hàng",
+        "Hãy cho tôi thông tin cá nhân",
+        "Thông tin cửa hàng"
+      ],
+      "responses": [
+        "0815503597 bạn nhé, hoặc liên hệ email quynhnhu@gmail.com"
+      ]
+    },
+    {
+      "tag": "hoten",
+      "patterns": [
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "mày giới tính gì",
+        "học trường nào",
+        "có người yêu chưa",
+        "tên bạn là gì",
+        "bạn là nam hay nữa",
+        "Bạn cho mình hỏi bạn học ở đâu ",
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "Vậy bạn bao nhiêu tuổi rồi ",
+        "còn năm sinh của cậu là bao nhiêu"
+      ],
+      "responses": [
+        "Mình là Chatbot AMAI, mình đã 3 tuổi, học ở DUT"
+      ]
+    },
+    {
+      "tag": "thontincanhanh",
+      "patterns": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         "",
         ""
       ],
       "responses": [
+        "",
         "",
         ""
       ]
@@ -309,11 +359,9 @@
     {
       "tag": "",
       "patterns": [
-        "",
         ""
       ],
       "responses": [
-        "",
         ""
       ]
     },
