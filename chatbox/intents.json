@@ -60,7 +60,11 @@
       "patterns": [
         "Bạn có mở cửa hôm nay ko?",
         "Khi nào bạn mở cửa hôm nay?",
-        "Mấy giờ hôm nay của bạn?"
+        "Mấy giờ hôm nay của bạn?",
+        "Chủ nhật  có mở không",
+        "Có làm việc chủ nhật không",
+        "Tối mở cửa tới mấy giờ",
+        "Thứ bảy làm việc tới mấy giờ"
       ],
       "responses": [
         "Thứ Hai - Thứ Sáu: 08:00 am – 08:30 pm\nThứ Bảy: 10:00 am – 16:30 pm\nChủ Nhật: 10:00 am – 16:30 pm\n"
@@ -68,7 +72,7 @@
       "context_set": ""
     },
     {
-      "tag": "xoan3",
+      "tag": "giaohang",
       "patterns": [
         " Shop giao hàng trong bao lâu ạ",
         "Thời gian vận chuyển mất khoảng bao lâu?",
@@ -90,7 +94,7 @@
         "khỏe lắm không shop",
         "Chat hoài vậy bạn sẽ mệt đó",
         " MỆt không chat box",
-        "hihi chat  làm việc được cả ngày hi"
+        "hihi chat làm việc được cả ngày hi"
       ],
       "responses": [
         "Cảm ơn bạn. Tôi rất khỏe."
@@ -214,7 +218,19 @@
         "Shop ở đâu",
         "Địa chỉ ở đâu",
         "Tôi không thấy quán",
-        "địa chỉ ở đâu"
+        "Khu bạn sống có gì vui không",
+        "bạn ơi, nhà bạn ở đâu thế",
+        "Nhà cậu ở đâu thế ",
+        "Gia đình cậu ở đâu",
+        "Nông trại của cậu ở tỉnh nào ",
+        "bạn sinh ở đâu",
+        "cho mình hỏi hiện tại bạn sống ở đâu",
+        "bạn còn ở chung với bố, mẹ không",
+        "bạn tùng đi du lịch ở đâu",
+        "Nhà bạn ở đâu",
+        "Cho mình hỏi bạn đang ở đâu",
+        "địa chỉ ở đâu",
+        "nhà bạn ở đường nào"
       ],
       "responses": [
         "52 Nguyễn Lương Bằng,Hòa khánh Nam, Liên chiểu, ĐN bạn nhé!"
@@ -250,6 +266,9 @@
       "patterns": [
         "Cửa hàng có caffe không nhỉ",
         "Tôi muốn mua caffe",
+        "có cà phê không",
+        "có cafe không",
+        "có cafffe không",
         "Uống caffe",
         "Uống chút vị đắng của caffe",
         "Món ngon vị caffe thì món nào ngon"
@@ -265,18 +284,36 @@
       "patterns": [
         "Món phô mai ngon",
         "Có phomai không",
+        "bất cứ thứ gì đặc biệt",
         "Món phômai đặc biệt",
         "Món Phô mai được ưu chuộc nhiều nhất",
         "phomai kem có không",
         "tôi muốn mua trà sữa phô mai",
-        "Có trà phô mai không nhỉ"
+        "Có trà phô mai không nhỉ",
+        "đề nghị một cái gì đó",
+        "gợi ý một cái",
+        "gì đó bạn nghĩ chúng ta nên có",
+        "gì đặc biệt bạn có",
+        "bạn có gì đặc biệt bạn có",
+        "gì đặc biệt bạn có gì đặc biệt bạn có",
+        "gợi ý cho",
+        "gợi ý điều gì đó",
+        "có gì đặc biệt trong menu",
+        "gợi ý",
+        "dùng thử",
+        "trải nghiệm thử",
+        " đặc biệt không? bạn có",
+        "những gì bạn có",
+        "gợi ý cho tôi một cái gì đó"
       ],
       "responses": [
         "Bạn thử thương thức \" Dâu tằm kem phô mai\" nhé ",
         "Bạn thử thương thức \" Hồng Trà Kem Phô Mai\" nhé ",
         "Bạn thử thương thức \" MatCha Kem Phô Mai\" nhé ",
         "Bạn thử thương thức \" Trà Xanh kem phô mai\" nhé ",
-        "Bạn thử thương thức \" Trà Xoài bưởi kem phô mai\" nhé "
+        "Bạn thử thương thức \" Trà Xoài bưởi kem phô mai\" nhé ",
+        "Xin lỗi, tôi có thể gợi ý cho bạn một Sô cô la trắng bạc hà",
+        "Tôi có thể gợi ý cho bạn Dâu tằm kem phô mai"
       ]
     },
     {
@@ -298,7 +335,11 @@
     {
       "tag": "thontincanhan",
       "patterns": [
-        "họ và tên của bạn là gì "
+        "họ và tên của bạn là gì ",
+        "chủ cửa hàng là ai",
+        "Ai là chủ của hàng",
+        "làm ra cửa hàng",
+        "Giám đốc của hàng"
       ],
       "responses": [
         "mình là phạm thị quỳnh như"
@@ -331,82 +372,461 @@
         "Bạn cho mình hỏi bạn học ở đâu ",
         "Bạn cho mình hỏi bạn SDT của bạn ",
         "Vậy bạn bao nhiêu tuổi rồi ",
-        "còn năm sinh của cậu là bao nhiêu"
+        "còn năm sinh của cậu là bao nhiêu",
+        "bạn làm nghề gì",
+        "Tên ạn là gì , nhiêu tuôi",
+        "Cân nặng bao nhiêu kg"
       ],
       "responses": [
         "Mình là Chatbot AMAI, mình đã 3 tuổi, học ở DUT"
       ]
     },
     {
-      "tag": "thontincanhanh",
+      "tag": "dkylammon",
       "patterns": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Tôi muốn làm món tự chính tay mình",
+        "Tôi chưa bao giờ tự làm món, liệu có làm được không",
+        "tự mình chế biến món được sao",
+        "Có ai hướng dẫn tôi tự làm món không",
+        "Nên đăng ký thời gian làm món nào là phù hợp",
+        "Có thể tự làm món cả nhóm  không",
+        "Chi phí tự làm món có đắt hơn không",
+        "làm món sao nhỉ",
+        "tự làm món lạ ha"
       ],
       "responses": [
-        "",
-        "",
-        ""
+        "Bạn muốn trải nghiệm hãy đăng ký để được nhân viên tư vấn cụ thể hơn nhé",
+        "Bạn hãy đăng ký, chúng tôi sẽ giúp bạn chọn món và chuẩn bị nguyên liệu và tư vấn cụ thể nhé",
+        "Bạn hãy đăng ký, nếu chưa biết làm món thì sẽ có nhân viên phụ giúp bạn nhé"
+      ]
+    },
+    {
+      "tag": "datban",
+      "patterns": [
+        "Tôi muốn đặt bàn",
+        "cho tôi một bàn",
+        "Tôi chuẩn bị đến, hãy đặt bàn",
+        "Có thể đặt bàn không",
+        "Liên hệ với ai",
+        "Tôi muốn được tư vấn",
+        "Tư vấn trực tiếp",
+        "Tôi có câu hỏi, hỏi ai",
+        "Ai nói chuyện với tôi",
+        "Tôi muốn hỏi việc"
+      ],
+      "responses": [
+        "có thể liên hệ 0815502607 gặp nhân viên tư vấn bạn nhé!",
+        "quý khách liên hệ sdt: 0816970456 để đặt bàn ạ"
+      ]
+    },
+    {
+      "tag": "trochuyenvedian",
+      "patterns": [
+        "trưa nay cậu muốn đi ăn không ",
+        "bạn nghĩ sao khi chúng ta đi ăn gà",
+        "chúng ta sẽ đi ăn ở đâu ",
+        "trưa nay cậu muốn đi ăn không",
+        "bạn có muốn đi ăn gì vào cuối tuần không",
+        "bạn định đi ăn món gì",
+        "bạn định đi ăn ở đâu",
+        "Hôm nay ăn ở đâu",
+        "đi ăn không",
+        "Bạn hay ăn tại đâu",
+        "cậu có muốn đi ăn không "
+      ],
+      "responses": [
+        "Hãy đến quán trà sữa AMAI để tận hưởng những món ngon bạn nhé",
+        "Chúng tôi rất hoang nghênh được đón tiếp bạn"
+      ]
+    },
+    {
+      "tag": "giaca",
+      "patterns": [
+        "giá cả của quán nó như thế nào",
+        "Caffe "
+      ],
+      "responses": [
+        "Giá giao động từ 21k -40k phù hợp với mọi người ạ",
+        "Giá chỉ 21k-40k để thưởng thức những món rất ngon"
+      ]
+    },
+    {
+      "tag": "camnhavedoan",
+      "patterns": [
+        "Đồ có ngon không",
+        "nhân viên phục vụ ở đó như thế nào",
+        "bạn cảm nhận thế nào về đồ ăn ở đó",
+        "tớ thấy ở đây cũng tàm tạm á",
+        "Người khách thường phản ánh thế nào về đồ ăn",
+        "nhận xét về đồ uống",
+        "nhận xét nhân viên",
+        "thái độ nhân viên"
+      ],
+      "responses": [
+        "Khẩu vị ở đây rất dễ phù hợp với tất cả mọi người, nhân viên rất chuyên nghiệp, nhiệt tình",
+        "Đồ uống đảm bảo chất lượng và rất ngon ,nhân viên rất chuyên nghiệp",
+        "Đồ uống rất tuyệt vời, bạn muốn dùng món có vị như thế nào,nhân viên rất chuyên nghiệp"
+      ]
+    },
+    {
+      "tag": "hongtrakemphomai",
+      "patterns": [
+        "Hồng Trà Kem Phô Mai nhiêu tiền",
+        "hồng trà kem phô mai bao nhiêu",
+        "Hồng Trà KEm Phô Mai ngon không",
+        "Hồng Trà KEm Phô Mai vị như thế nào",
+        "hồng trà kem phô mai có những gì",
+        "hồng trà kem phô mai chất lượng ra sao",
+        "hồng trà kem phô mai có đặc điểm gì",
+        "Hồng trà có đặc điểm gì",
+        "hồng trà kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 36,000d ạ,đặc trưng là lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ",
+        "Lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ,Giá chỉ với 36.000d",
+        "Kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu, gia chỉ 36.000đ"
+      ]
+    },
+    {
+      "tag": "dautamkemphomai",
+      "patterns": [
+        "Dâu tằm Kem Phô Mai nhiêu tiền",
+        "Dâu tằm kem phô mai bao nhiêu",
+        "Dâu tằm KEm Phô Mai ngon không",
+        "Dâu tằm KEm Phô Mai vị như thế nào",
+        "Dâu tằm kem phô mai có những gì",
+        "Dâu tằm kem phô mai chất lượng ra sao",
+        "Dâu tằm kem phô mai có đặc điểm gì",
+        "Dâu tằm có đặc điểm gì",
+        "Dâu tằm kem phô mai là gì",
+        "Dâu tằm kem phô mai có nhiều người mua không"
+      ],
+      "responses": [
+        "Có giá 34,000d ạ,đặc trưng vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu chuộng",
+        "Kem phô mai Anchor nức tiếng New Zealand.,Giá chỉ với 34.000d, rất được khách hàng ưu thích",
+        "Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu thích, SỮA CHUA DÂU TẰM HOÀNG KIMgia chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "MatChakemphomai",
+      "patterns": [
+        "Matcha Kem Phô Mai nhiêu tiền",
+        "Matcha kem phô mai bao nhiêu",
+        "Matcha KEm Phô Mai ngon không",
+        "Matcha KEm Phô Mai vị như thế nào",
+        "Matcha kem phô mai có những gì",
+        "Matcha kem phô mai chất lượng ra sao",
+        "Matcha kem phô mai có đặc điểm gì",
+        "Matcha có đặc điểm gì",
+        "Matcha kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 24,000d ạ,đặc trưng vị  vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha",
+        "Kem phô mai Anchor nức tiếng New Zealand.,Giá chỉ với 24.000d",
+        " vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha  Giá chỉ 24.000đ"
+      ]
+    },
+    {
+      "tag": "suachuadautamhoangkim",
+      "patterns": [
+        "Sữa chua dâu tằm hoàng kim nhiêu tiền",
+        "Sữa chua dâu tằm hoàng kim  bao nhiêu",
+        "Sữa chua dâu tằm hoàng kim  ngon không",
+        "Sữa chua dâu tằm hoàng kim  vị như thế nào",
+        "Sữa chua dâu tằm hoàng kim  có những gì",
+        "Sữa chua dâu tằm hoàng kim  chất lượng ra sao",
+        "Sữa chua dâu tằm hoàng kim có đặc điểm gì",
+        "Sữa chua dâu tằm hoàng kim  có đặc điểm gì",
+        "Sữa chua dâu tằm hoàng kim là gì"
+      ],
+      "responses": [
+        " Có giá 29.000d ạ, hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát",
+        " hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mátGiá chỉ với 29.000d, rất được khách hàng ưu chuộng",
+        "  hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát, Chất lượng tốt,Giá chỉ 29.000đ"
+      ]
+    },
+    {
+      "tag": "suachadautamhatde",
+      "patterns": [
+        "Sữa Chua Dâu Tằm Hạt Dẻ nhiêu tiền",
+        "Sữa Chua Dâu Tằm Hạt Dẻ bao nhiêu",
+        "Sữa Chua Dâu Tằm Hạt Dẻ ngon không",
+        "Sữa Chua Dâu Tằm Hạt Dẻ vị như thế nào",
+        "Sữa Chua Dâu Tằm Hạt Dẻ có những gì",
+        "Sữa Chua Dâu Tằm Hạt Dẻ chất lượng ra sao",
+        "Sữa Chua Dâu Tằm Hạt Dẻ có đặc điểm gì",
+        "Sữa Chua Dâu Tằm Hạt Dẻ là gì"
+      ],
+      "responses": [
+       "Có giá 34.000d ạ,Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt !",
+        "Giá chỉ với 34.000d, rất được khách hàng ưu chuộng",
+        " Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt,Giá chỉ 34.000đ"
+      ]
+    }, {
+      "tag": "suachuatrang",
+      "patterns": [
+        "Sữa chua trắng nhiêu tiền",
+        "Sữa chua trắng bao nhiêu",
+        "Sữa chua trắng ngon không",
+        "Sữa chua trắng vị như thế nào",
+        "Sữa chua trắng có những gì",
+        "Sữa chua trắng chất lượng ra sao",
+        "Sữa chua trắng có đặc điểm gì",
+        "Sữa chua trắng được nhiều người mua không",
+        "Sữa chua trắng là gì"
+      ],
+      "responses": [
+       "Có giá 35.000d ạ,bởi sự lên men lactic sữa. Men lactic là loại lợi khuẩn cần thiết cho cơ thể của con người",
+        "Giá chỉ với 35.000d, rất được khách hàng ưu chuộng có tác dụng kích thích tiêu hóa, tăng cường chức năng đường ruột.",
+        "Sữa chua màu trắng, dẻo, sánh và có vị chua ngọt và hương thơm đặc trưng Giá chỉ 35.000đ"
+      ]
+    }, {
+      "tag": "hongtra",
+      "patterns": [
+        " Hồng trà nhiêu tiền",
+        "Hồng trà bao nhiêu",
+        "Hồng trà ngon không",
+        "Hồng trà vị như thế nào",
+        "Hồng trà có những gì",
+        "Hồng trà chất lượng ra sao",
+        "Hồng trà có đặc điểm gì",
+        "Hồng trà có được ưu chuộng không",
+        "Hồng trà là gì"
+      ],
+      "responses": [
+       "Có giá 23.000d ạ,Hồng trà là cách gọi của Trung Quốc, xuất phát từ màu hồng ngọc hoặc nâu đỏ của nước trà sau khi hãm.",
+        "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng,Tên gọi trà đen xuất phát từ phương Tây dựa vào màu sắc của lá trà sau khi sấy khô.",
+        "Hương vị của hồng trà có vị thơm nhẹ, ít chát và phù hợp với khẩu vị của người Việt hiện nay. Giá chỉ 23.000đ"
+      ]
+    }, {
+      "tag": "matchadaudo",
+      "patterns": [
+        "Matcha đậu đỏ nhiêu tiền",
+        " Matcha đậu đỏ bao nhiêu",
+        " Matcha đậu đỏ ngon không",
+        " Matcha đậu đỏ vị như thế nào",
+        " Matcha đậu đỏ có những gì",
+        " Matcha đậu đỏ chất lượng ra sao",
+        " Matcha đậu đỏ có đặc điểm gì",
+        " Matcha đậu đỏ có được nhiều người mua không",
+        " Matcha đậu đỏ là gì"
+      ],
+      "responses": [
+       "Có giá 24.000d ạ, Có giá 24.000d ạ Được pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản\",\n",
+        "Giá chỉ với 24.000d, rất được khách hàng ưu chuộng, Trà Nhật đậu đỏ có mùi thơm đặc trưng ",
+        " pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản, Trà Nhật đậu đỏ có mùi thơm đặc trưng  Giá chỉ 24.000đ"
+      ]
+    }, {
+      "tag": "suatuoitranchababykem",
+      "patterns": [
+        "Trân Châu",
+        "Trà Sữa Trân Châu",
+        "Trân Châu Có món nào ngon",
+        "Sưa Tươi Trân Châu Baby Kem Caffe nhiêu tiền",
+        "Sưa Tươi Trân Châu Baby Kem Caffe bao nhiêu",
+        "Sưa Tươi Trân Châu Baby Kem Caffe ngon không",
+        "Sưa Tươi Trân Châu Baby Kem Caffe vị như thế nào",
+        "Sưa Tươi Trân Châu có những gì",
+        "Sưa Tươi Trân Châu  Baby Kem Caffe chất lượng ra sao",
+        "Sưa Tươi Trân Châu có đặc điểm gì",
+        "Sưa Tươi Trân Châu có được mua nhiều, ưu chuộc không",
+        "Sưa Tươi Trân Châu là gì"
+      ],
+      "responses": [
+       "Có giá 25.000d ạ,Thơm, béo, đắng nhẹ, mềm dịu là cảm nhận đầu tiên khi nếm lớp kem cà phê sánh mịn",
+        "Giá chỉ với 25.000d, rất được khách hàng ưu chuộng, được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ",
+        "Được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn , Giá chỉ 25.000đ"
+      ]
+    },
+    {
+      "tag": "trasuabacha",
+      "patterns": [
+        "Món vị bạc hà",
+        "Gợi ý món vị bạc hà ",
+        "Tôi muốn món có bạc hà",
+        "Trà sữa bạc hà nhiêu tiền",
+        "Trà sữa bạc hà không",
+        "Trà sữa bạc hà bao nhiêu",
+        "Trà sữa bạc hà ngon không",
+        "Trà sữa bạc hà vị như thế nào",
+        "Trà sữa bạc hà chất lượng ra sao",
+        " Trà sữa bạc hà có đặc điểm gì",
+        "Trà sữa bạc hà có được mua nhiều, ưu chuộc không",
+        " Trà sữa bạc hà là gì"
+      ],
+      "responses": [
+       "Có giá 26.000d ạ,Trà sữa bạc hà có màu xanh tươi mát, đẹp mắt, không bị ngả màu trắng hay màu nâu.",
+        "Giá chỉ với 26.000d, rất được khách hàng ưu chuộng,Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà",
+        "Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà, Giá chỉ 26.000đ"
+      ]
+    },
+    {
+      "tag": "trasuadautay",
+      "patterns": [
+        "Trà sữa dâu tây nhiêu tiền",
+        "Trà sữa dâu tây bao nhiêu",
+        "Trà sữa dâu tây ngon không",
+        " Trà sữa dâu tây vị như thế nào",
+        "Trà sữa dâu tây có những gì",
+        "Trà sữa dâu tây chất lượng ra sao",
+        "Trà sữa dâu tây có đặc điểm gì",
+        "Trà sữa dâu tây có được mua nhiều, ưu chuộc không",
+        "Trà sữa dâu tây là gì",
+        "Dâu tây",
+        "Món có dâu tây",
+        "gợi ý tôi món có dâu tây",
+        "Món nào có dâu tây không",
+        "Có trà sữa dâu tây không"
+      ],
+      "responses": [
+       "Có giá 27.000d ạ,",
+        "Giá chỉ với 27.000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ 27.000đ"
+      ]
+    },  {
+      "tag": "",
+      "patterns": [
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
+      ],
+      "responses": [
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
+      ]
+    },  {
+      "tag": "",
+      "patterns": [
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
+      ],
+      "responses": [
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
+      ]
+    },  {
+      "tag": "",
+      "patterns": [
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
+      ],
+      "responses": [
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
+      ]
+    },  {
+      "tag": "",
+      "patterns": [
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
+      ],
+      "responses": [
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
       ]
     },
     {
       "tag": "",
       "patterns": [
-        ""
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
       ],
       "responses": [
-        ""
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
       ]
-    },
-    {
+    },  {
       "tag": "",
       "patterns": [
-        "",
-        ""
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
       ],
       "responses": [
-        "",
-        ""
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
       ]
-    },
-    {
+    },  {
       "tag": "",
       "patterns": [
-        "",
-        ""
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
       ],
       "responses": [
-        "",
-        ""
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
       ]
-    },
-    {
+    },  {
       "tag": "",
       "patterns": [
-        "",
-        ""
+        " nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
       ],
       "responses": [
-        "",
-        ""
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        ""
+       "Có giá .000d ạ,",
+        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
+        " Giá chỉ .000đ"
       ]
     },
     {
