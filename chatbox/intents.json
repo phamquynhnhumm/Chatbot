@@ -404,7 +404,10 @@
         "Có thể tự làm món cả nhóm  không",
         "Chi phí tự làm món có đắt hơn không",
         "làm món sao nhỉ",
-        "tự làm món lạ ha"
+        "tự làm món lạ ha",
+        "Đăng ký tự làm món tôi có cần đem theo vật liệu không",
+        "Cần đem theo vật dụng không",
+        "Giá cả có cao hơn không"
       ],
       "responses": [
         "Bạn muốn trải nghiệm hãy đăng ký để được nhân viên tư vấn cụ thể hơn nhé",
@@ -1132,6 +1135,41 @@
       ]
     },
     {
+      "tag": "conmonkhong",
+      "patterns": [
+        "món này còn không",
+        "Còn món không",
+        "còn không"
+      ],
+      "responses": [
+        "Còn bạn nhé",
+        "Tất cả các món hiển thị trên website vẫn còn hàng "
+      ]
+    },
+    {
+      "tag": "hoivan",
+      "patterns": [
+        "bạn có biết tôi hỏi món gì không",
+        "món tôi hỏiq"
+      ],
+      "responses": [
+        "quý khách cứ an tâm, Tất cả các món hiển thị trên website vẫn còn hàng nhé",
+        " "
+      ]
+    }, {
+      "tag": "tambiet",
+      "patterns": [
+        "Tạm biệt",
+        "Goodby",
+        "Xin chào, tạm biệt",
+        "Hẹn gặp lại",
+        "bái bai"
+      ],
+      "responses": [
+        "Cảm ơn quý khách",
+        "Hẹn gặp lại "
+      ]
+    }, {
       "tag": "",
       "patterns": [
         "",
@@ -1139,7 +1177,187 @@
       ],
       "responses": [
         "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
         ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    }, {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
       ]
     }
   ]
