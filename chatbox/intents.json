@@ -75,14 +75,20 @@
       "tag": "giaohang",
       "patterns": [
         " Shop giao hàng trong bao lâu ạ",
+        "Giao hàng lâu không",
         "Thời gian vận chuyển mất khoảng bao lâu?",
         " Nhanh nhất khi nào nhận được hàng ạ",
         " bao lâu thì có hàng vậy",
         " Nào mình nhận được hàng",
-        " Giao hàng trong khoảng bao lâu"
+        " Giao hàng trong khoảng bao lâu",
+        "Sao lâu vậy chưa thấy có món",
+        "Vận chuyển món",
+        "vận chuyển nhanh",
+        "hình thức vận chuyểnq"
       ],
       "responses": [
-        "Trong vòng bán kinh 4km shop giao trong 10-15p bạn nhé!"
+        "Trong vòng bán kính 4km shop giao trong 10-15p bạn nhé!",
+        "Chúng tôi sẽ giao tới bạn sớm nhất 5-15p bạn nhé"
       ],
       "context_set": ""
     },
@@ -155,10 +161,16 @@
         "Mình nên uống gì",
         "Có gì ngon nào",
         "Món nào đặt biệt của cửa hàng",
-        "Tôi nên ăn gì"
+        "Tôi nên ăn gì",
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân châu uống ngon không"
       ],
       "responses": [
-        "Đặc biệt bên mình có SỮA TƯƠI TRÂN CHÂU BABY KEM CAFÉ nhé "
+        "Đặc biệt bên mình có \"SỮA TƯƠI TRÂN CHÂU BABY KEM CAFÉ\" nhé ",
+        "Đặc biệt bên mình có \"PROBI BƯỞI TRÂN CHÂU SƯƠNG MAI\" nhé ",
+        "Đặc biệt bên mình có \"PRO XOÀI TRÂN CHÂU SƯƠNG MAI\" nhé "
       ]
     },
     {
@@ -558,11 +570,12 @@
         "Sữa Chua Dâu Tằm Hạt Dẻ là gì"
       ],
       "responses": [
-       "Có giá 34.000d ạ,Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt !",
+        "Có giá 34.000d ạ,Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt !",
         "Giá chỉ với 34.000d, rất được khách hàng ưu chuộng",
         " Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt,Giá chỉ 34.000đ"
       ]
-    }, {
+    },
+    {
       "tag": "suachuatrang",
       "patterns": [
         "Sữa chua trắng nhiêu tiền",
@@ -576,11 +589,12 @@
         "Sữa chua trắng là gì"
       ],
       "responses": [
-       "Có giá 35.000d ạ,bởi sự lên men lactic sữa. Men lactic là loại lợi khuẩn cần thiết cho cơ thể của con người",
+        "Có giá 35.000d ạ,bởi sự lên men lactic sữa. Men lactic là loại lợi khuẩn cần thiết cho cơ thể của con người",
         "Giá chỉ với 35.000d, rất được khách hàng ưu chuộng có tác dụng kích thích tiêu hóa, tăng cường chức năng đường ruột.",
         "Sữa chua màu trắng, dẻo, sánh và có vị chua ngọt và hương thơm đặc trưng Giá chỉ 35.000đ"
       ]
-    }, {
+    },
+    {
       "tag": "hongtra",
       "patterns": [
         " Hồng trà nhiêu tiền",
@@ -594,11 +608,12 @@
         "Hồng trà là gì"
       ],
       "responses": [
-       "Có giá 23.000d ạ,Hồng trà là cách gọi của Trung Quốc, xuất phát từ màu hồng ngọc hoặc nâu đỏ của nước trà sau khi hãm.",
+        "Có giá 23.000d ạ,Hồng trà là cách gọi của Trung Quốc, xuất phát từ màu hồng ngọc hoặc nâu đỏ của nước trà sau khi hãm.",
         "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng,Tên gọi trà đen xuất phát từ phương Tây dựa vào màu sắc của lá trà sau khi sấy khô.",
         "Hương vị của hồng trà có vị thơm nhẹ, ít chát và phù hợp với khẩu vị của người Việt hiện nay. Giá chỉ 23.000đ"
       ]
-    }, {
+    },
+    {
       "tag": "matchadaudo",
       "patterns": [
         "Matcha đậu đỏ nhiêu tiền",
@@ -612,13 +627,17 @@
         " Matcha đậu đỏ là gì"
       ],
       "responses": [
-       "Có giá 24.000d ạ, Có giá 24.000d ạ Được pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản\",\n",
+        "Có giá 24.000d ạ, Có giá 24.000d ạ Được pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản\",\n",
         "Giá chỉ với 24.000d, rất được khách hàng ưu chuộng, Trà Nhật đậu đỏ có mùi thơm đặc trưng ",
         " pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản, Trà Nhật đậu đỏ có mùi thơm đặc trưng  Giá chỉ 24.000đ"
       ]
-    }, {
+    },
+    {
       "tag": "suatuoitranchababykem",
       "patterns": [
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
         "Trân Châu",
         "Trà Sữa Trân Châu",
         "Trân Châu Có món nào ngon",
@@ -633,9 +652,9 @@
         "Sưa Tươi Trân Châu là gì"
       ],
       "responses": [
-       "Có giá 25.000d ạ,Thơm, béo, đắng nhẹ, mềm dịu là cảm nhận đầu tiên khi nếm lớp kem cà phê sánh mịn",
-        "Giá chỉ với 25.000d, rất được khách hàng ưu chuộng, được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ",
-        "Được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn , Giá chỉ 25.000đ"
+        "Sưa Tươi Trân Châu Baby Kem Caffe,Có giá 25.000d ạ,Thơm, béo, đắng nhẹ, mềm dịu là cảm nhận đầu tiên khi nếm lớp kem cà phê sánh mịn",
+        "Giá chỉ với 25.000d,Sưa Tươi Trân Châu Baby Kem Caffe rất được khách hàng ưu chuộng, được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ",
+        "Được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ,Sưa Tươi Trân Châu Baby Kem Caffe Giá chỉ 25.000đ"
       ]
     },
     {
@@ -655,9 +674,9 @@
         " Trà sữa bạc hà là gì"
       ],
       "responses": [
-       "Có giá 26.000d ạ,Trà sữa bạc hà có màu xanh tươi mát, đẹp mắt, không bị ngả màu trắng hay màu nâu.",
-        "Giá chỉ với 26.000d, rất được khách hàng ưu chuộng,Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà",
-        "Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà, Giá chỉ 26.000đ"
+        "Có giá 26.000d ạ,Trà sữa bạc hà có màu xanh tươi mát, đẹp mắt, không bị ngả màu trắng hay màu nâu.",
+        "Giá chỉ với 26.000d,Trà sữa bạc hà rất được khách hàng ưu chuộng,Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà",
+        "Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà,Trà sữa bạc hà Giá chỉ 26.000đ"
       ]
     },
     {
@@ -679,14 +698,279 @@
         "Có trà sữa dâu tây không"
       ],
       "responses": [
-       "Có giá 27.000d ạ,",
-        "Giá chỉ với 27.000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ 27.000đ"
+        "Trà sữa dâu tây Có giá 27.000d ạ,Hương vị dâu tây trong trà sữa dịu nhẹ, nhưng vẫn đủ để bạn cảm nhận được mùi và vị đặc trưng. Trà sữa vị dâu",
+        "Giá chỉ với 27.000d,Trà sữa dâu tây rất được khách hàng ưu chuộng,Hương vị dâu tây trong trà sữa dịu nhẹ",
+        " Trà sữa dâu tây Hương vị dâu tây trong trà sữa dịu nhẹ. Giá chỉ 27.000đ"
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "trasuamatcha",
       "patterns": [
-        " nhiêu tiền",
+        "Trà sữa matcha nhiêu tiền",
+        "Trà sữa matcha  bao nhiêu",
+        "Trà sữa matcha  ngon không",
+        "Trà sữa matcha  vị như thế nào",
+        "Trà sữa matcha  có những gì",
+        "Trà sữa matcha  chất lượng ra sao",
+        "Trà sữa matcha  có đặc điểm gì",
+        "Trà sữa matcha  có được mua nhiều, ưu chuộc không",
+        "Trà sữa matcha  là gì",
+        "Món nào có matchat không",
+        "Món có vị matcha",
+        "matcha"
+      ],
+      "responses": [
+        "Có giá 23.000d ạ,mùi thơm đặc trưng là vị thơm mát của lá trà xanh",
+        "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng.Màu xanh tươi và vị đắng nhẹ hậu thanh của matcha",
+        "Màu xanh tươi và vị đắng nhẹ hậu thanh của matcha giúp các món ăn, thức uống trở nên bắt mắt, ngon miệng hơn, Giá chỉ 23.000đ"
+      ]
+    },
+    {
+      "tag": "trasuasocola",
+      "patterns": [
+        "Socola",
+        "Món nào có socola",
+        "Hãy gợi ý tôi món có socola",
+        "Tôi muốn mua mốn có socola",
+        "Trà sữa Socola nhiêu tiền",
+        "Trà sữa Socola bao nhiêu",
+        "Trà sữa Socola ngon không",
+        "Trà sữa Socola vị như thế nào",
+        " Trà sữa Socolacó những gì",
+        "Trà sữa Socola chất lượng ra sao",
+        "Trà sữa Socola có đặc điểm gì",
+        "Trà sữa Socola có được mua nhiều, ưu chuộc không",
+        "Trà sữa Socola là gì"
+      ],
+      "responses": [
+        "Có giá 29.000d ạ, trà sữa socola Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc",
+        "Giá chỉ với 29.000d, rất được khách hàng ưu chuộng,Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc",
+        "Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc Giá chỉ 29.000đ"
+      ]
+    },
+    {
+      "tag": "trasuaolong",
+      "patterns": [
+        "Món nào ló olong",
+        "Olong",
+        "olong",
+        "Ô long",
+        "Gợi ý món Ô long",
+        "Trà Sữa Olong Ô long nhiêu tiền",
+        "Trà Sữa Olong Ô long bao nhiêu",
+        "Trà Sữa Olong Ô long ngon không",
+        "Trà Sữa Olong Ô long  vị như thế nào",
+        "Trà Sữa Olong Ô long có những gì",
+        "Trà Sữa olong Ô long chất lượng ra sao",
+        "Trà Sữa olong Ô long có đặc điểm gì",
+        "Trà Sữa olong Ô long có được mua nhiều, ưu chuộc không",
+        "Trà Sữa olong Ô long là gì"
+      ],
+      "responses": [
+        "Có giá 42.000d ạ, Trà sữa olong Đây là loại trà bán oxy hóa, mức độ oxy hóa của trà dao động từ 8-80%",
+        "Giá chỉ với 42.000d, rất được khách hàng ưu chuộng, Trà ô long có hương vị phong phú, màu sắc vàng nhạt, hương vị chát vừa và ngọt hậu.",
+        " Trà ô long có hình dáng của cuốn lá cuộn tròn, có nguồn gốc xuất xứ từ Trung Quốc. ! Giá chỉ 42.000đ"
+      ]
+    },
+    {
+      "tag": "traxanhsuavinhai",
+      "patterns": [
+        "Hoa nhài",
+        "Trà Xanh hoa nhài",
+        "trà ướp nhài",
+        "Trà xanh sữa vị nhài ",
+        "Trà xanh sữa vị nhài bao nhiêu",
+        "Trà xanh sữa vị nhài ngon không",
+        "Trà xanh sữa vị nhài vị như thế nào",
+        "Trà xanh sữa vị nhài có những gì",
+        "Trà xanh sữa vị nhài chất lượng ra sao",
+        "Trà xanh sữa vị nhài có đặc điểm gì",
+        "Trà xanh sữa vị nhài có được mua nhiều, ưu chuộc không",
+        "Trà xanh sữa vị nhài là gì"
+      ],
+      "responses": [
+        "Có giá 45.000d ạ,Trà xanh sữa vị nhài,Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát",
+        "Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát.Giá chỉ với 45.000d,Trà xanh sữa vị nhài rất được khách hàng ưu chuộng",
+        "Trà xanh sữa vị nhài, Giá chỉ 45.000đ,Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát"
+      ]
+    },
+    {
+      "tag": "traxanh",
+      "patterns": [
+        "Có trà xanh không",
+        "Tôi muốn mua trà xanh",
+        "Bán trà xanh không",
+        " trà xanh nhiêu tiền",
+        " trà xanh bao nhiêu",
+        " trà xanh ngon không",
+        " trà xanh vị như thế nào",
+        " trà xanh có những gì",
+        " trà xanh chất lượng ra sao",
+        " trà xanh có đặc điểm gì",
+        " trà xanh có được mua nhiều, ưu chuộc không",
+        " trà xanh là gì"
+      ],
+      "responses": [
+        "Có giá 37.000d ạ, trà xanh Đặc điểm cây trà xanhLà loại cây xanh lâu năm mọc thành bụi hoặc các cây nhỏ, có nhiều tán lá",
+        "Giá chỉ với 37.000d, trà xanh rất được khách hàng ưu chuộng, lá non hay búp có màu xanh lục nhạt, mặt dưới lá có lông tơ ngắn màu trắng. ",
+        " Giá chỉ 37.000đ, Cây trà xanh  lá non hay búp có màu xanh lục nhạt, mặt dưới lá có lông tơ ngắn màu trắng. "
+      ]
+    },
+    {
+      "tag": "olongthaicuc",
+      "patterns": [
+        "Có trà olong không",
+        "Thái cực",
+        "Có ô long thái cực",
+        "Ô Long thái cực nhiêu tiền",
+        " Ô Long thái cực bao nhiêu",
+        "Ô Long thái cực ngon không",
+        "Ô Long thái cực vị như thế nào",
+        "Ô Long thái cực có những gì",
+        "Ô Long thái cực chất lượng ra sao",
+        " Ô Long thái cực có đặc điểm gì",
+        "Ô Long thái cực có được mua nhiều, ưu chuộc không",
+        "Ô Long thái cực là gì"
+      ],
+      "responses": [
+        "Có giá 38.000d ạ, Olong Thái cực Kết hợp giữa trà ô long cùng 2 loại topping: trân châu đen và kim cương trắng",
+        "Giá chỉ với 38.000d, Olong Thái cực rất được khách hàng ưu chuộng, Màu sắc trắng - đen của 2 loại topping tượng trưng cho 2 thái cực rõ ràng, vừa tương phản, vừa bổ sung cho nhau.",
+        " Olong Thái cực,  Giá chỉ 38.000đ, Màu sắc trắng - đen của 2 loại topping tượng trưng cho 2 thái cực rõ ràng, vừa tương phản, vừa bổ sung cho nhau."
+      ]
+    },
+    {
+      "tag": "probibuitrangchaysuongmai",
+      "patterns": [
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân châu uống ngon không",
+        "probi bưởi trân châu sương mai nhiêu tiền",
+        "probi bưởi trân châu sương mai bao nhiêu",
+        "probi bưởi trân châu sương mai ngon không",
+        "probi bưởi trân châu sương mai vị như thế nào",
+        "probi bưởi trân châu sương mai có những gì",
+        "probi bưởi trân châu sương mai chất lượng ra sao",
+        "probi bưởi trân châu sương mai có đặc điểm gì",
+        "probi bưởi trân châu sương mai có được mua nhiều, ưu chuộc không",
+        "probi bưởi trân châu sương mai là gì"
+      ],
+      "responses": [
+        "Có giá 40.000d ạ,probi bưởi trân châu sương mai có topping dừa nướng ",
+        "Giá chỉ với 40.000d,probi bưởi trân châu sương mai  có topping dừa nướng  rất được khách hàng ưu chuộng",
+        "probi bưởi trân châu sương mai có topping dừa nướng , Giá chỉ 40.000đ"
+      ]
+    },
+    {
+      "tag": "Chocongucockemcaffe",
+      "patterns": [
+        " Choco Ngũ Cốc Kem Caffe nhiêu tiền",
+        " Choco Ngũ Cốc Kem Caffe bao nhiêu",
+        " Choco Ngũ Cốc Kem Caffe ngon không",
+        " Choco Ngũ Cốc Kem Caffe vị như thế nào",
+        " Choco Ngũ Cốc Kem Caffe có những gì",
+        " Choco Ngũ Cốc Kem Caffe chất lượng ra sao",
+        " Choco Ngũ Cốc Kem Caffe có đặc điểm gì",
+        " Choco Ngũ Cốc Kem Caffe có được mua nhiều, ưu chuộc không",
+        " Choco Ngũ Cốc Kem Caffe là gì"
+      ],
+      "responses": [
+        "Có giá 32.000d ạ, Choco Ngũ Cốc Kem Caffe sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê, mang đến điểm nhấn mới lạ từ mùi vị và hương thơm riêng biệt như một trải nghiệm độc đáo",
+        "Giá chỉ với 32.000d,Choco Ngũ Cốc Kem Caffe rất được khách hàng ưu chuộng,sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê",
+        "Choco Ngũ Cốc Kem Caffe sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê, mang đến điểm nhấn mới lạ từ mùi vị và hương thơm riêng biệt như một trải nghiệm độc đáo Giá chỉ 32.000đ"
+      ]
+    },
+    {
+      "tag": "dautamkemphomai",
+      "patterns": [
+        "Phô mai",
+        "Dâu tằm",
+        "Dâu tằm kem phô mai nhiêu tiền",
+        "Dâu tằm kem phô mai bao nhiêu",
+        "Dâu tằm kem phô mai ngon không",
+        "Dâu tằm kem phô mai vị như thế nào",
+        "Dâu tằm kem phô mai có những gì",
+        "Dâu tằm kem phô mai chất lượng ra sao",
+        "Dâu tằm kem phô mai có đặc điểm gì",
+        "Dâu tằm kem phô mai có được mua nhiều, ưu chuộc không",
+        "Dâu tằm kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 34.000d ạ,Dâu tằm kem phô mai, Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằmq",
+        " Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm,Giá chỉ với 34.000d,Dâu tằm kem phô mai rất được khách hàng ưu chuộng",
+        " Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm,Dâu tằm kem phô mai Giá chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrakemphomai",
+      "patterns": [
+        "Hồng trà kem phô mai nhiêu tiền",
+        "Hồng trà kem phô mai bao nhiêu",
+        "Hồng trà kem phô mai ngon không",
+        "Hồng trà kem phô mai vị như thế nào",
+        "Hồng trà kem phô mai có những gì",
+        "Hồng trà kem phô mai chất lượng ra sao",
+        "Hồng trà kem phô mai có đặc điểm gì",
+        "Hồng trà kem phô mai có được mua nhiều, ưu chuộc không",
+        "Hồng trà kem phô mai là gì",
+        "Hồng trà",
+        "Kem phô mai"
+      ],
+      "responses": [
+        "Có giá 36.000d ạ,Hồng trà kem phô mai,kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu",
+        "Giá chỉ với 36.000d,Hồng trà kem phô mai rất được khách hàng ưu chuộng,kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu",
+        "kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu .Hồng trà kem phô mai Giá chỉ 36.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrangucockemcaffe",
+      "patterns": [
+        "Hồng trà",
+        "Ngũ Cốc",
+        "Kem Caffe",
+        "Hồng trà ngũ cốc kem caffe nhiêu tiền",
+        "Hồng trà ngũ cốc kem caffe bao nhiêu",
+        "Hồng trà ngũ cốc kem caffe ngon không",
+        "Hồng trà ngũ cốc kem caffe vị như thế nào",
+        "Hồng trà ngũ cốc kem caffe có những gì",
+        "Hồng trà ngũ cốc kem caffe chất lượng ra sao",
+        "Hồng trà ngũ cốc kem caffe có đặc điểm gì",
+        "Hồng trà ngũ cốc kem caffe có được mua nhiều, ưu chuộc không",
+        "Hồng trà ngũ cốc kem caffe là gì"
+      ],
+      "responses": [
+        "Có giá 32.000d ạ,Hồng trà ngũ cốc kem caffe,sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê",
+        "sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê Giá chỉ với 32q.000d,Hồng trà ngũ cốc kem caffe rất được khách hàng ưu chuộng",
+        "sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê,Hồng trà ngũ cốc kem caffe Giá chỉ 32.000đ"
+      ]
+    },
+    {
+      "tag": "matchakemphomai",
+      "patterns": [
+        "Matchaq",
+        "Kem phô mai",
+        "Matcha kem pho mai nhiêu tiền",
+        "Matcha kem pho mai  bao nhiêu",
+        " Matcha kem pho mai ngon không",
+        "Matcha kem pho mai  vị như thế nào",
+        "Matcha kem pho mai  có những gì",
+        " Matcha kem pho mai chất lượng ra sao",
+        " Matcha kem pho mai có đặc điểm gì",
+        " Matcha kem pho mai có được mua nhiều, ưu chuộc không",
+        " Matcha kem pho mai là gì"
+      ],
+      "responses": [
+        "Có giá 24.000d ạ,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai",
+        "Giá chỉ với 24.000d,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai rất được khách hàng ưu chuộng",
+        "Matcha kem pho mai Giá chỉ 24.000đ, hòa quyện tinh tế giữa trà và phô mai"
+      ]
+    },
+    {
+      "tag": "traxanhkemphomai",
+      "patterns": [
+        "trà xanh kem",
+        "kem phô mai, trà xanh",
+        "Trà xanh kem phô mai nhiêu tiền",
         " bao nhiêu",
         " ngon không",
         " vị như thế nào",
@@ -697,63 +981,96 @@
         " là gì"
       ],
       "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
+        "Có giá 27.000d ạ,Trà xanh kem phô mai hòa quyện tinh tế giữa trà và phô mai béo ngậy.",
+        "Giá chỉ với 27.000d,Trà xanh kem phô mai rất được khách hàng ưu chuộng hòa quyện tinh tế giữa trà và phô mai béo ngậy.",
+        " Trà xanh kem phô mai Giá chỉ 27.000đ,hòa quyện tinh tế giữa trà và phô mai béo ngậy."
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "traxoaibuoihongkemphomai",
       "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
+        "trà xoài",
+        "Bưởi hồng",
+        "Kem phô mai",
+        "kem phô mai nhiêu tiền",
+        "Trà xoài bưởi hồng kem phô mai bao nhiêu",
+        "Trà xoài bưởi hồng kem phô mai ngon không",
+        "Trà xoài bưởi hồng kem phô mai vị như thế nào",
+        "Trà xoài bưởi hồng kem phô mai có những gì",
+        "Trà xoài bưởi hồng kem phô mai chất lượng ra sao",
+        "Trà xoài bưởi hồng kem phô mai có đặc điểm gì",
+        "Trà xoài bưởi hồng kem phô mai có được mua nhiều, ưu chuộc không",
+        "Trà xoài bưởi hồng kem phô mai là gì"
       ],
       "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
+        "Có giá 28.000d ạ,Trà xoài bưởi hồng kem phô mai,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
+        "Giá chỉ với 28.000d,Trà xoài bưởi hồng kem phô mai rất được khách hàng ưu chuộng hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
+        "Trà xoài bưởi hồng kem phô mai Giá chỉ 28.000đ ,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài"
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "traxanhxoai",
       "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
+        "Xoài",
+        "Trà Xanh xoài",
+        "Trà xanh xoài nhiêu tiền",
+        "Trà xanh xoài bao nhiêu",
+        "Trà xanh xoài ngon không",
+        "Trà xanh xoài vị như thế nào",
+        "Trà xanh xoài có những gì",
+        "Trà xanh xoài chất lượng ra sao",
+        "Trà xanh xoài có đặc điểm gì",
+        "Trà xanh xoài có được mua nhiều, ưu chuộc không",
+        "Trà xanh xoài là gì"
       ],
       "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
+        "Có giá 27.000d ạ,Trà xanh xoài trà xanh kết hợp với zombie cô đặc xoài tươi",
+        "Giá chỉ với 27.000d,Trà xanh xoài rất được khách hàng ưu chuộng trà xanh kết hợp với zombie cô đặc xoài tươi",
+        "Trà xanh xoài Giá chỉ 27.000đ trà xanh kết hợp với zombie cô đặc xoài tươi"
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "traxanhxoai",
       "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
+        "Trà xanh xoài",
+        "Trà xanh",
+        "Xoài",
+        "Trà xanh xoài nhiêu tiền",
+        "Trà xanh xoài bao nhiêu",
+        "Trà xanh xoài ngon không",
+        "Trà xanh xoài vị như thế nào",
+        "Trà xanh xoài có những gì",
+        "Trà xanh xoài chất lượng ra sao",
+        "Trà xanh xoài có đặc điểm gì",
+        "Trà xanh xoài có được mua nhiều, ưu chuộc không",
+        "Trà xanh xoài là gì"
       ],
       "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
+        "Có giá 27.000d ạ,Trà xanh xoà mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh",
+        "Giá chỉ với 27.000d,Trà xanh xoài rất được khách hàng ưu chuộng mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh",
+        "Trà xanh xoài Giá chỉ 27.000đ mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh"
+      ]
+    },
+    {
+      "tag": "traxoaibuoihong",
+      "patterns": [
+        "Trà xoài bưởi ",
+        "Bưởi",
+        "Bưởi hồng",
+        "Trà xoài bưởi hồng nhiêu tiền",
+        "Trà xoài bưởi hồng bao nhiêu",
+        "Trà xoài bưởi hồng ngon không",
+        "Trà xoài bưởi hồng vị như thế nào",
+        "Trà xoài bưởi hồng có những gì",
+        "Trà xoài bưởi hồng chất lượng ra sao",
+        "Trà xoài bưởi hồng có đặc điểm gì",
+        "Trà xoài bưởi hồng có được mua nhiều, ưu chuộc không",
+        "Trà xoài bưởi hồng là gì"
+      ],
+      "responses": [
+        "Có giá 35.000d ạ,Trà xoài bưởi hồng,vị chua chua ngọt ngọt của mứt bưởi và xoài",
+        "Giá chỉ với 35.000d,Trà xoài bưởi hồng rất được khách hàng ưu chuộng,vị chua chua ngọt ngọt của mứt bưởi và xoàiq",
+        "Trà xoài bưởi hồng Giá chỉ 35.000đ, vị chua chua ngọt ngọt của mứt bưởi và xoài"
       ]
     },
     {
@@ -770,74 +1087,22 @@
         " là gì"
       ],
       "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
-      ]
-    },  {
-      "tag": "",
-      "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
-      ],
-      "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
-      ]
-    },  {
-      "tag": "",
-      "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
-      ],
-      "responses": [
-       "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
-      ]
-    },  {
-      "tag": "",
-      "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
-      ],
-      "responses": [
-       "Có giá .000d ạ,",
+        "Có giá .000d ạ,",
         "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
         " Giá chỉ .000đ"
       ]
     },
     {
-      "tag": "",
+      "tag": "phamvidathang",
       "patterns": [
-        "",
-        ""
+        "Tôi ở xa có giao món không",
+        "7km có giao hàng không",
+        "4km giao không",
+        "bao nhiêu km thì không giao hàng nhỉ"
       ],
       "responses": [
-        "",
-        ""
+        "Cảm ơn quý khách đã quan tâm,quán nhận giao hàng trong vòng bán kính 7km",
+        "Giao hàng trong phạm vi 7km ạ"
       ]
     },
     {
