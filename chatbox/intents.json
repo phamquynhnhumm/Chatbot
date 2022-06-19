@@ -1106,25 +1106,29 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "tuyennhanvien",
       "patterns": [
-        "",
-        ""
+        "Cửa hàng có tuyển nhân  viên không",
+        "tuyển nhân viên",
+        "nhân viên làm việc",
+        "người làm việc",
+        "đăng ký làm việc",
+        "tôi muốn phục vụ"
       ],
       "responses": [
-        "",
-        ""
+        "Cảm ơn bạn, Của hàng đã đủ nhân viên rồi bạn nhé",
+        "Cảm ơn bạn, Nếu tuyển nhân viên của hàng sẽ đăng trên trang facebook bn nhé.qq"
       ]
     },
     {
-      "tag": "",
+      "tag": "phivanchuye",
       "patterns": [
-        "",
-        ""
+        "Phí vận chuyển bao nhiêu",
+        "2km vận chuyển hết bao nhiêu tiền",
+        "7km nhiêu tiền vận chuyển"
       ],
       "responses": [
-        "",
-        ""
+        "Phí vận chuyển chung trong phạm vi 7km là 25k / 1 đơn hàng "
       ]
     },
     {
