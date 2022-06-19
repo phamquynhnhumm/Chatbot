@@ -368,6 +368,7 @@
         "học trường nào",
         "có người yêu chưa",
         "tên bạn là gì",
+        "em tên gì",
         "bạn là nam hay nữa",
         "Bạn cho mình hỏi bạn học ở đâu ",
         "Bạn cho mình hỏi bạn SDT của bạn ",
@@ -375,7 +376,8 @@
         "còn năm sinh của cậu là bao nhiêu",
         "bạn làm nghề gì",
         "Tên ạn là gì , nhiêu tuôi",
-        "Cân nặng bao nhiêu kg"
+        "Cân nặng bao nhiêu kg",
+        "em bao nhiêu tuổi, để tiện xưng hô"
       ],
       "responses": [
         "Mình là Chatbot AMAI, mình đã 3 tuổi, học ở DUT"
@@ -1357,11 +1359,55 @@
         "Mua như thế nào"
       ],
       "responses": [
-        "Quý khách vui lòng vào của hàng, sau đó có thể thêm món vào giỏ hàng hoặc kích vào món để xem thông tin món chọn số lượng và chọn thêm vào giỏ hàng",
-        " "
+        "Quý khách vui lòng vào của hàng, sau đó có thể thêm món vào giỏ hàng hoặc kích vào món để xem thông tin món -> số lượng -> chọn thêm vào giỏ hàng tới giỏ hàng, cập nhật số lượng -> Tiến hành thanh toán -> nhập thông tin và hình tức thanh toán  ->ấn đặt hàng",
+        "Quý khách hay chọn món->thêm vào giỏ hàng ->Đi tới giỏ hàng và thực hiện thanh toán nhé"
       ]
     },
     {
+      "tag": "hinhthucthanhtoan",
+      "patterns": [
+        "Có những hình thức thanh toán nào",
+        "Có thanh toán khi nhận hàng không",
+        "Có thanh toán bằng thẻ không",
+        "Thanh toán như thế nào",
+        "nhận món mới gửi tiền được không",
+        "Có thanh toán chuyển khoản không",
+        "chuyển khoản được không"
+      ],
+      "responses": [
+        "Có 1.thanh toán khi nhận hàng \n 2. thanh toán bằng paypal \n 3. thanh toán chuyển khoản \n 4. thanh toán tại của hàng ạ"
+      ]
+    },
+    {
+      "tag": "chuyenkhoan",
+      "patterns": [
+        "Thông tin chuyển khoản là gì",
+        "Tên ngân hàng là gì",
+        "Tôi chuyển khoản cho ai",
+        "Số tài khoản",
+        "Có số tài khoản khách không",
+        "Chuyển tiền cho ai đây",
+        "Ngân hàng, chi nhánh nào nhỉ"
+      ],
+      "responses": [
+        "Thông tin chuyển khoản: Tên ngân hàng ACB Sơn Trà, Pham Thị Quỳnh Như ; Số tài khoản: 12365456.Cảm ơn quý khách"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "Cho mình một ly",
+        "Tôi muốn đặt hàng",
+        "Cho tôi món này",
+        "Tôi mua cái này",
+        "Mua cái này",
+        "món này còn không, tôi mua"
+      ],
+      "responses": [
+        "Quý khách vui lòng chọn món và order trên weebsite",
+        " "
+      ]
+    },  {
       "tag": "",
       "patterns": [
         "",
@@ -1371,8 +1417,7 @@
         "",
         " "
       ]
-    },
-    {
+    },  {
       "tag": "",
       "patterns": [
         "",
@@ -1382,8 +1427,17 @@
         "",
         " "
       ]
-    },
-    {
+    },  {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
+    },  {
       "tag": "",
       "patterns": [
         "",
