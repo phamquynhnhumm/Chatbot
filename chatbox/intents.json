@@ -124,18 +124,6 @@
       "context_set": ""
     },
     {
-      "tag": "noanswer",
-      "patterns": [],
-      "responses": [
-        "Sorry, can't understand you",
-        "Please give me more info",
-        "Not sure I understand"
-      ],
-      "context": [
-        ""
-      ]
-    },
-    {
       "tag": "thuhotien",
       "patterns": [
         "Phí dịch vụ thu hộ?",
@@ -447,7 +435,7 @@
         "Hôm nay ăn ở đâu",
         "đi ăn không",
         "Bạn hay ăn tại đâu",
-        "cậu có muốn đi ăn không "
+        "cậu có muốn đi ăn không"
       ],
       "responses": [
         "Hãy đến quán trà sữa AMAI để tận hưởng những món ngon bạn nhé",
@@ -537,7 +525,7 @@
       ],
       "responses": [
         "Có giá 24,000d ạ,đặc trưng vị  vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha",
-        "Kem phô mai Anchor nức tiếng New Zealand.,Giá chỉ với 24.000d",
+        "Kem phô mai Anchor nức tiếng New Zealand,Giá chỉ với 24.000d",
         " vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha  Giá chỉ 24.000đ"
       ]
     },
@@ -557,7 +545,7 @@
       "responses": [
         " Có giá 29.000d ạ, hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát",
         " hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mátGiá chỉ với 29.000d, rất được khách hàng ưu chuộng",
-        "  hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát, Chất lượng tốt,Giá chỉ 29.000đ"
+        "  hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát,Chất lượng tốt,Giá chỉ 29.000đ"
       ]
     },
     {
@@ -1077,25 +1065,6 @@
       ]
     },
     {
-      "tag": "",
-      "patterns": [
-        " nhiêu tiền",
-        " bao nhiêu",
-        " ngon không",
-        " vị như thế nào",
-        " có những gì",
-        " chất lượng ra sao",
-        " có đặc điểm gì",
-        " có được mua nhiều, ưu chuộc không",
-        " là gì"
-      ],
-      "responses": [
-        "Có giá .000d ạ,",
-        "Giá chỉ với .000d, rất được khách hàng ưu chuộng",
-        " Giá chỉ .000đ"
-      ]
-    },
-    {
       "tag": "phamvidathang",
       "patterns": [
         "Tôi ở xa có giao món không",
@@ -1267,101 +1236,128 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "metmoi",
       "patterns": [
-        "",
-        ""
+        "Hôm nay tôi mệt moi quá",
+        "Tôi mệt",
+        "Nay buồn",
+        "Tôi không vui",
+        "Chán quá ạ"
       ],
       "responses": [
-        "",
+        "Bạn ơi, cố gắng lên nhé, rồi mọi chuyển cũng sẽ qua",
+        "Cố gắng lên nhé bạn, Hãy ghé chúng tôi để cảm nhận được sự ấm áp "
+      ]
+    },
+    {
+      "tag": "ngonkhonog",
+      "patterns": [
+        "Ngon không",
+        "Món ngày có ngon không",
+        "Ngon không",
+        "Ngọt không"
+      ],
+      "responses": [
+        "Rất ngon bạn nhé,Hãy thử thưởng thức"
+      ]
+    },
+    {
+      "tag": "monkhonogcotrongmenu",
+      "patterns": [
+        "Có nước chanh không",
+        "Có nước trà tắc không",
+        "Cho ly caffe không đường",
+        "Có bibim không",
+        "Có món khác ngoài menu không",
+        "Có mì tôm không",
+        "Có trà đã không"
+      ],
+      "responses": [
+        "Xin lỗi bạn. Món đó hiện không có trong menu của của hàng."
+      ]
+    },
+    {
+      "tag": "vuive",
+      "patterns": [
+        "Hôm nay trời đẹp nhỉ",
+        "Vui nhỉ",
+        "Vui không bạn",
+        "Trời trong xanh",
+        "Nay thật mát mẻ",
+        "Trời đẹp quá"
+      ],
+      "responses": [
+        "Nay thời tiết tốt đẹp.chúc bạn vui vẻ  ",
+        "Thật tuyệt vời,chỉ cần bạn vui, chúng tôi cũng vui"
+      ]
+    },
+    {
+      "tag": "tulammonlagif",
+      "patterns": [
+        "Tự làm món là như thế nào",
+        "Tự làm món là gì",
+        "Làm sao để Tự làm món",
+        "Đăng ký tự làm món để làm gì",
+        "Làm tự tay của chính bạn là ntn",
+        "Làm tự tay của chính bạn là sao"
+      ],
+      "responses": [
+        "Đây là một dịch vụ của của hàng, quý khách có thể đăng ký và chọn món để nhân viên chúng tôi chuẩn bị nguyên liệu, quý khách sẽ tự tay làm và tự thưởng thưởng chính món đó",
+        "Tự làm món nhằm mục dích giúp khách hàng có thể trải nghiệm cách thức làm món"
+      ]
+    },
+    {
+      "tag": "dịch vụ",
+      "patterns": [
+        "Có dịch vụ gì không",
+        "Có gì đặc biệt không",
+        "Giới thiệu dịch vụ",
+        "Có gì hay không"
+      ],
+      "responses": [
+        "Bên mình có dịch vụ \"Làm món từ chính tay khách hàng \"",
+        "Khách hàng có thể tự tay làm món"
+      ]
+    },
+    {
+      "tag": "chatluong",
+      "patterns": [
+        "Món được làm từ ai",
+        "Đảm bảo chất lượng không của hàng",
+        "Liệu có tốt cho sức khỏe"
+      ],
+      "responses": [
+        "Món được chế biến từ những vân viên chuyên nghiệp và đảm bảo chất lượng 100% ạ",
+        "Quý khách hãy yên tâm, chế biến từ những vân viên chuyên nghiệp và đảm bảo chất lượng 100% ạ "
+      ]
+    },
+    {
+      "tag": "thanhlap",
+      "patterns": [
+        "Của hàng được thành lập khi nào",
+        "Có lâu chưa",
+        "Của hàng có lâu chưa",
+        "Được mấy năm rồi",
+        "Mới mở hay sao giờ tôi mới biết tới bạn",
+        "khai trương hôm nào"
+      ],
+      "responses": [
+        "Của hàng chúng tôi thành lập vào 19/6/2000",
         " "
       ]
     },
     {
-      "tag": "",
+      "tag": "huongdanmuahang",
       "patterns": [
-        "",
-        ""
+        "Làm sao để mua hàng",
+        "Tôi không rõ hình thức mua hàng",
+        "Mua sao ta",
+        "Hướng dẫn tôi cách để mua hàng",
+        "Mua trà sữa như thế nào",
+        "Mua như thế nào"
       ],
       "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
+        "Quý khách vui lòng vào của hàng, sau đó có thể thêm món vào giỏ hàng hoặc kích vào món để xem thông tin món chọn số lượng và chọn thêm vào giỏ hàng",
         " "
       ]
     },
