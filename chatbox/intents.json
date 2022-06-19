@@ -1156,7 +1156,8 @@
         "quý khách cứ an tâm, Tất cả các món hiển thị trên website vẫn còn hàng nhé",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "tambiet",
       "patterns": [
         "Tạm biệt",
@@ -1169,7 +1170,103 @@
         "Cảm ơn quý khách",
         "Hẹn gặp lại "
       ]
-    }, {
+    },
+    {
+      "tag": "noidungtuvan",
+      "patterns": [
+        "nội dung tư vấn là gì",
+        "điền gì vào nội dung tư vấn",
+        "điền gì vào chỗ đăng ký tự làm"
+      ],
+      "responses": [
+        "bạn hãy điền món muốn làm hoặc thời gian có thể tới của hàng",
+        "bạn có thể hỏi món A nào đó có thể làm không "
+      ]
+    },
+    {
+      "tag": "baolauthilienhelaij",
+      "patterns": [
+        "Bao lâu thì đơn hàng của tôi có thể được xác nhận",
+        "Bao lâu thì đăng ký tự làm món của tôi có thể được xác nhận",
+        "Được xác nhận trong bao lâu",
+        "Khi nào mới được xác nhận",
+        "Khi nào đơn hàng tôi mới được duyệt"
+      ],
+      "responses": [
+        "Chúng tôi sẽ cố gắng nhất có thể",
+        "Sẽ nhanh thôi quý khách nhé, hãy chờ chúng tôi chút nữa"
+      ]
+    },
+    {
+      "tag": "soluongmon",
+      "patterns": [
+        "Số lượng mua tối đa là bao nhiêu",
+        "Mua nhiều nhất được nhiêu món"
+      ],
+      "responses": [
+        "Mõi món mua 1 lần được nhiều nhất 51 xuất",
+        "Nhiều nhất 51ly/ 1 sản phẩm"
+      ]
+    },
+    {
+      "tag": "giohang",
+      "patterns": [
+        "Sao giỏ hàng chỗ trên cùng không cập nhật nhỉ",
+        "Giỏ hàng không đùng",
+        "Tổng tiền không đúng",
+        "Giỏ hàng sai lệch tiền rồi "
+      ],
+      "responses": [
+        "Xin lỗi bạn, phiền bạn F5 hoặc load lại web bạn nhé",
+        "phiền load lại web, Cảm ơn bạn nhé "
+      ]
+    },
+    {
+      "tag": "dkyntn",
+      "patterns": [
+        "Tôi muốn tự làm món",
+        "Đăng ký tự làm món ntn",
+        "Đăng ký tự làm món như thế nào",
+        "tự làm món ra sao"
+      ],
+      "responses": [
+        "Hãy để lại thông tin đăng ký để được tư vấn bạn nhé",
+        "Hãy điền thông tin đăng ký để được tư vấn bạn nhé",
+        "Ở gần cuối cùng trang chủ có form đăng ký tự làm món,Quý khách vui lòng để lại thông tin"
+      ]
+    },
+    {
+      "tag": "camon",
+      "patterns": [
+        "Cảm ơn bạn",
+        "Cám ơn chatbot",
+        "Chat rất nhiệt tình",
+        "hihi, Rất vui",
+        "Quá tốt rồi",
+        "Xin cảm ơn",
+        "Vui nhỉ"
+      ],
+      "responses": [
+        "hi. Rất vui được giúp đỡ bạn",
+        "hi. Giúp đỡ bạn là niềm hạnh phúc của tôi"
+      ]
+    },
+    {
+      "tag": "chamcham",
+      "patterns": [
+        "Sao chậm chạp vật",
+        "quá tệ",
+        "Sao lâu qúa nhỉ",
+        "chậm qúa shop ơi",
+        "Không tốt",
+        "Chưa tốt"
+      ],
+      "responses": [
+        "xin lỗi quý khách, tôi có thể  giúp gì được cho bạn",
+        " Rất xin lỗi, chúng tôi sẽ cố gắng khắc phục"
+      ]
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1179,7 +1276,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1189,7 +1287,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1199,7 +1298,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1209,7 +1309,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1219,7 +1320,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1229,7 +1331,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1239,7 +1342,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1249,7 +1353,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1259,7 +1364,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1269,7 +1375,8 @@
         "",
         " "
       ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
@@ -1279,77 +1386,8 @@
         "",
         " "
       ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
-      ]
-    }, {
+    },
+    {
       "tag": "",
       "patterns": [
         "",
