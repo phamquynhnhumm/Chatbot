@@ -1591,14 +1591,15 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "maorr",
       "patterns": [
-        "",
-        ""
+        "Mã or để làm gì",
+        "Tôi đặt món trước thì phải làm ntn",
+        "Tôi đặt món trước thì phải làm như thế nào",
+        "Sao khi đặt món tôi nhận được email, nó dùng để làm gì vậy"
       ],
       "responses": [
-        "",
-        " "
+        "Quý khách dùng mã Or được gửi qua email, khi đến của hàng hãy gửi cho nhân viên để nhân viên làm việc nhanh hơn, quý khách sẽ không phải chờ lâu nhé"
       ]
     },
     {
