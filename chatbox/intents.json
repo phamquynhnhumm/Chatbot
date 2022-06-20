@@ -87,6 +87,8 @@
         "Sao lâu vậy chưa thấy có món",
         "Vận chuyển món",
         "vận chuyển nhanh",
+        "ship mất bao lâu",
+        "tiền ship ntn",
         "hình thức vận chuyểnq"
       ],
       "responses": [
@@ -157,6 +159,7 @@
         "Gợi ý món trân châu",
         "Món nào có trân châu",
         "Trân châu uống ngon không",
+        "hãy giúp tôi tìm món ngon",
         "món khác đi",
         "Món khác"
       ],
@@ -311,8 +314,9 @@
         "Hãy cho tôi xem món khác",
         "Có đồ uống khác không",
         "trải nghiệm thử",
-        " đặc biệt không? bạn có",
+        "đặc biệt không? bạn có",
         "những gì bạn có",
+        "hãy giúp tôi tìm món ngon",
         "gợi ý cho tôi một cái gì đó"
       ],
       "responses": [
@@ -1432,7 +1436,8 @@
         "bao nhiêu tiền vậy",
         "món này này",
         "món đó nhiêu tiền",
-        "món đó giá nhiêu"
+        "món đó giá nhiêu",
+        "giá bao nhiêu"
       ],
       "responses": [
         "bạn vui lòng nhập tên món ",
@@ -1547,6 +1552,46 @@
       ],
       "responses": [
         "Quý khách có thể hủy đơn hàng nhé chọn \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là sẽ hủy được đơn hàng nhé "
+      ]
+    },
+    {
+      "tag": "ittiennhat",
+      "patterns": [
+        "món nào ít tiền nhất",
+        "Gợi ý có cho tôi món rẻ nhất",
+        "Gợi ý có cho tôi món ít tiền nhất",
+        "Gợi ý có cho tôi món ít tiết kiệm nhất",
+        "Rẻ nhất",
+        "Ít tiền nhất"
+      ],
+      "responses": [
+        "Món có giá cả ít nhất là \"Hồng Trà \" hoặc  \"Trà Sữa MatCha \" với giá chỉ 23.000đ "
+      ]
+    },
+    {
+      "tag": "datnhat",
+      "patterns": [
+        "món nào nhiều tiền nhất",
+        "Gợi ý có cho tôi món đắt nhất",
+        "Gợi ý có cho tôi món nhiều tiền nhất",
+        "Gợi ý có cho tôi món đắt nhất",
+        "mắc tiền nhất",
+        "đắt nhất",
+        "nhiều tiền nhất"
+      ],
+      "responses": [
+        "Món có giá cả ít nhất là \"Trà Xanh sữa Vị Nhài \" hoặc  \"Trà Sữa MatCha \" với giá 45.000đ "
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
       ]
     },
     {
