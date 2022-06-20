@@ -11,6 +11,7 @@
         "Bạn có khỏe không",
         "Có ai ở đó không?",
         "Xin chào",
+        "Ai nói chuyện với tôi",
         "Chúc một ngày tốt lành",
         "Có ai ở đó không",
         "Chào shop, tôi muốn mua hàng",
@@ -59,6 +60,8 @@
       "tag": "opentoday",
       "patterns": [
         "Bạn có mở cửa hôm nay ko?",
+        "bây giờ tôi tới được không",
+        "Khi nào tôi có thể tới",
         "Khi nào bạn mở cửa hôm nay?",
         "Mấy giờ hôm nay của bạn?",
         "Chủ nhật  có mở không",
@@ -153,7 +156,9 @@
         "Món có Trân Châu",
         "Gợi ý món trân châu",
         "Món nào có trân châu",
-        "Trân châu uống ngon không"
+        "Trân châu uống ngon không",
+        "món khác đi",
+        "Món khác"
       ],
       "responses": [
         "Đặc biệt bên mình có \"SỮA TƯƠI TRÂN CHÂU BABY KEM CAFÉ\" nhé ",
@@ -301,6 +306,10 @@
         "có gì đặc biệt trong menu",
         "gợi ý",
         "dùng thử",
+        "có món khác không",
+        "Tôi muốn món khác",
+        "Hãy cho tôi xem món khác",
+        "Có đồ uống khác không",
         "trải nghiệm thử",
         " đặc biệt không? bạn có",
         "những gì bạn có",
@@ -377,7 +386,9 @@
         "bạn làm nghề gì",
         "Tên ạn là gì , nhiêu tuôi",
         "Cân nặng bao nhiêu kg",
-        "em bao nhiêu tuổi, để tiện xưng hô"
+        "em bao nhiêu tuổi, để tiện xưng hô",
+        "bạn tên gì, để tiện nói chuyện",
+        "bạn tên gì"
       ],
       "responses": [
         "Mình là Chatbot AMAI, mình đã 3 tuổi, học ở DUT"
@@ -410,13 +421,11 @@
       "patterns": [
         "Tôi muốn đặt bàn",
         "cho tôi một bàn",
-        "Tôi chuẩn bị đến, hãy đặt bàn",
         "Có thể đặt bàn không",
         "Liên hệ với ai",
-        "Tôi muốn được tư vấn",
+        "Tôi muốn được tư vấn trực tiếp",
         "Tư vấn trực tiếp",
         "Tôi có câu hỏi, hỏi ai",
-        "Ai nói chuyện với tôi",
         "Tôi muốn hỏi việc"
       ],
       "responses": [
@@ -507,9 +516,9 @@
         "Dâu tằm kem phô mai có nhiều người mua không"
       ],
       "responses": [
-        "Có giá 34,000d ạ,đặc trưng vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu chuộng",
-        "Kem phô mai Anchor nức tiếng New Zealand.,Giá chỉ với 34.000d, rất được khách hàng ưu thích",
-        "Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu thích, SỮA CHUA DÂU TẰM HOÀNG KIMgia chỉ 34.000đ"
+        "Dâu tằm kem phô mai Có giá 34,000d ạ,đặc trưng vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu chuộng",
+        "Kem phô mai Anchor nức tiếng New Zealand, Dâu tằm kem phô mai Giá chỉ với 34.000d, rất được khách hàng ưu thích",
+        "Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu thích, Dâu tằm kem phô mai gia chỉ 34.000đ"
       ]
     },
     {
@@ -1196,6 +1205,7 @@
       "tag": "dkyntn",
       "patterns": [
         "Tôi muốn tự làm món",
+        "đăng ký như thế nào",
         "Đăng ký tự làm món ntn",
         "Đăng ký tự làm món như thế nào",
         "tự làm món ra sao"
@@ -1215,7 +1225,10 @@
         "hihi, Rất vui",
         "Quá tốt rồi",
         "Xin cảm ơn",
-        "Vui nhỉ"
+        "Vui nhỉ",
+        "tôi hiểu rồi, cảm ơn bạn",
+        "Tôi hiểu rồi",
+        "Cảm ơn bạn"
       ],
       "responses": [
         "hi. Rất vui được giúp đỡ bạn",
@@ -1267,6 +1280,8 @@
       "tag": "monkhonogcotrongmenu",
       "patterns": [
         "Có nước chanh không",
+        "Có đồ ăn vặt không",
+        "Có pizza không",
         "Có nước trà tắc không",
         "Cho ly caffe không đường",
         "Có bibim không",
@@ -1318,7 +1333,7 @@
       ],
       "responses": [
         "Bên mình có dịch vụ \"Làm món từ chính tay khách hàng \"",
-        "Khách hàng có thể tự tay làm món"
+        "Đặc biệt, dịch vụ Khách hàng có thể tự tay làm món, quý khách có thể đăng ký"
       ]
     },
     {
@@ -1406,37 +1421,135 @@
       "responses": [
         "Quý khách vui lòng chọn món và order trên weebsite"
       ]
-    },  {
+    },
+    {
       "tag": "",
+      "patterns": [
+        "Món này bao nhiêu tiền",
+        "Món này bán giá bao nhiêu",
+        "Món này có nhiều người mua không",
+        "Món này là gì",
+        "bao nhiêu tiền vậy",
+        "món này này",
+        "món đó nhiêu tiền",
+        "món đó giá nhiêu"
+      ],
+      "responses": [
+        "bạn vui lòng nhập tên món ",
+        "món đó tên gì bạn nhỉ"
+      ]
+    },
+    {
+      "tag": "kotimdcudataa",
       "patterns": [
         "",
         ""
       ],
       "responses": [
-        "",
+        "Tôi chưa hiểu ý bạn lắm, bạn có thể nói rõ hơn được không",
         " "
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "theodoidonhang",
       "patterns": [
-        "",
-        ""
+        "Theo dõi đơn hàng ntn",
+        "Theo dõi đơn hàng như thế nào",
+        "Theo dõi đơn hàng thế nào",
+        "Làm sao để theo dõi đơn hàng",
+        "Tôi đã đặt món xong, làm sao tôi biết món đã được chấp nhận",
+        "Làm sao tôi biết, đơn hàng của tôi đã được chấp nhận",
+        "Làm sao tôi biết đơn hàng của tôi đang được làm, vận chuyển",
+        "Xem lịch sử đơn hàng như thế nào",
+        "Lịch sử đơn hàng ở đâu",
+        "Có xem được lịch sử đơn hàng không",
+        "Có xem được trạng thái đơn hàng không",
+        "Xem trạng thái đơn hàng ntn",
+        "Xem trạng thái đơn hàng như thế nào",
+        "lịch sử đơn hàng"
       ],
       "responses": [
-        "",
-        " "
+        "Quý khách vui vào  \"Tài Khoản\" -> \"Đơn hàng\" (nếu muốn xem đơn hàng hiện tại) Hoặc chọn   \"Lịch sử đơn hàng\"(Nếu muốn xem các đơn hàng bạn đã đặt) -> Và xem chi tiết, trang thái đơn hàng tại đây "
       ]
-    },  {
-      "tag": "",
+    },
+    {
+      "tag": "xemthongtincanhan",
       "patterns": [
-        "",
-        ""
+        "xem thông tin cá nhân ở đâu",
+        "Tôi muốn xem thông tin cá nhân của tôi",
+        "có thể thay đổi thông tin tài khoản tôi không",
+        "Có thể thay ảnh đại diện thông",
+        "Chỉnh sửa thông tin cá nhân",
+        "Sửa thông tin tài khoản"
       ],
       "responses": [
-        "",
-        " "
+        "Để xem thông tin tài khoản, quý khách chọn  \"Tài Khoản\" -> \"Thông tin cá nhân\"(để thay ảnh đại diện hoặc chỉnh sửa thông tin) hoặc chọn \"Đỏi mật khẩu\" (nếu có nhu cầu đổi mật khẩu)"
       ]
-    },  {
+    },
+    {
+      "tag": "mucdoantoan",
+      "patterns": [
+        "Mức độ an toàn của món ở đây là như thế nào",
+        "món có đạt chất lượng an toàn không",
+        "Chất lượng có đảm bảo không",
+        "Có tốt không",
+        "Liệu có AN TOÀN KHÔNGH"
+      ],
+      "responses": [
+        "Quý khách hãy yên tâm khi sử dụng món, 100% chất lượng sản phẩm đạt chuẩn ạ"
+      ]
+    },
+    {
+      "tag": "kodlydatmonduoc",
+      "patterns": [
+        "Sao tôi không đăng ký tự làm món được nhỉ",
+        "Tôi thay đổi tài khoản được",
+        "Tôi không hủy đặt món được",
+        "Không đặt món được",
+        "Không  xem lịch sử được"
+      ],
+      "responses": [
+        "Xin lỗi bạn, bạn có thể thực hiện thao tác lại lần nữa không ạ"
+      ]
+    },
+    {
+      "tag": "huymon",
+      "patterns": [
+        "Mua món xong có hủy được không",
+        "Hủy đơn được không",
+        "Hủy được không",
+        "Hủy được đơn hàng không",
+        "Tôi muốn hủy đơn hàng",
+        "Làm sao để hủy đơn hàng nhỉ",
+        "Tôi đặt sai địa chỉ, làm sao để hủy đơn",
+        "đặt món xong có hủy được không"
+      ],
+      "responses": [
+        "Quý khách vui vào  \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là được ạ "
+      ]
+    },
+    {
+      "tag": "saithongtinkhidathang",
+      "patterns": [
+        "Lỡ sia thông tin khi đặt hàng, tôi phải làm sao nhỉ",
+        "Lỡ sia thông tin khi đặt hàng, phải làm sao đây ",
+        "Lỡ sia thông tin khi đặt hàng, phải làm ntn đây",
+        "tôi sai thông tin đặt hàng rồi, hủy đơn hàng giúp tôi",
+        "Sai địa chỉ rồi, hủy đơn hàng",
+        "Sai tên người nhận rồi",
+        "Nhầm số điện thoại rồi",
+        "Tôi ",
+        "Sai địa chỉ rồi, làm sao nhỉ",
+        "Sai tên người nhận rồi, chỉnh sửa thông tin đặt hàng được không",
+        "nhầm địa chỉ, tên người nhận, số điện thoai, chỉnh sửa thông tin đặt hàng được không",
+        "Nhầm số điện thoại rồi",
+        "Hãy cho tôi hủy đơn hàng"
+      ],
+      "responses": [
+        "Quý khách có thể hủy đơn hàng nhé chọn \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là sẽ hủy được đơn hàng nhé "
+      ]
+    },
+    {
       "tag": "",
       "patterns": [
         "",
