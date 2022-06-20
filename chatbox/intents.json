@@ -15,7 +15,10 @@
         "Chúc một ngày tốt lành",
         "Có ai ở đó không",
         "Chào shop, tôi muốn mua hàng",
-        "Đồ uống ở đây ngon nhỉ"
+        "Đồ uống ở đây ngon nhỉ",
+        "chúc ngày mới tốt lành",
+        "Chúc bạn thành công",
+        "Chúc buổi snag vui vẻ"
       ],
       "responses": [
         "Xin chào, cảm ơn bạn đã ghé thăm",
@@ -1084,7 +1087,7 @@
       "patterns": [
         "Tôi ở xa có giao món không",
         "7km có giao hàng không",
-        "4km giao không",
+        "4km giao hàng không",
         "bao nhiêu km thì không giao hàng nhỉ"
       ],
       "responses": [
@@ -1112,7 +1115,9 @@
       "patterns": [
         "Phí vận chuyển bao nhiêu",
         "2km vận chuyển hết bao nhiêu tiền",
-        "7km nhiêu tiền vận chuyển"
+        "7km nhiêu tiền vận chuyển",
+        "Phí ship",
+        "Phí gioa hàng là bao nhiêu"
       ],
       "responses": [
         "Phí vận chuyển chung trong phạm vi 7km là 25k / 1 đơn hàng "
@@ -1232,7 +1237,8 @@
         "Vui nhỉ",
         "tôi hiểu rồi, cảm ơn bạn",
         "Tôi hiểu rồi",
-        "Cảm ơn bạn"
+        "Cảm ơn bạn",
+        "oke. Cảm ơn bn"
       ],
       "responses": [
         "hi. Rất vui được giúp đỡ bạn",
@@ -1242,12 +1248,13 @@
     {
       "tag": "chamcham",
       "patterns": [
-        "Sao chậm chạp vật",
+        "7Sao chậm chạp vật",
         "quá tệ",
         "Sao lâu qúa nhỉ",
         "chậm qúa shop ơi",
         "Không tốt",
-        "Chưa tốt"
+        "Chưa tốt",
+        "phiền ghê"
       ],
       "responses": [
         "xin lỗi quý khách,tôi có thể  giúp gì được cho bạn",
