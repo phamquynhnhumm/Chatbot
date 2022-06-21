@@ -67,6 +67,7 @@
         "Khi nào tôi có thể tới",
         "Khi nào bạn mở cửa hôm nay?",
         "Mấy giờ hôm nay của bạn?",
+        "cửa hàng mở cửa từ mấy giờ ",
         "Chủ nhật  có mở không",
         "Có làm việc chủ nhật không",
         "Tối mở cửa tới mấy giờ",
@@ -371,7 +372,8 @@
         "sao để liên hệ",
         "Tôi muốn gặp cửa hàng",
         "Hãy cho tôi thông tin cá nhân",
-        "Thông tin cửa hàng"
+        "Thông tin cửa hàng",
+        "cho tôi xin số điện thoại hoặc email"
       ],
       "responses": [
         "0815503597 bạn nhé, hoặc liên hệ email quynhnhu@gmail.com"
@@ -416,7 +418,8 @@
         "tự làm món lạ ha",
         "Đăng ký tự làm món tôi có cần đem theo vật liệu không",
         "Cần đem theo vật dụng không",
-        "Giá cả có cao hơn không"
+        "Giá cả có cao hơn không",
+        "để lại thông tin ở chỗ nào nhỉ"
       ],
       "responses": [
         "Bạn muốn trải nghiệm hãy đăng ký để được nhân viên tư vấn cụ thể hơn nhé",
