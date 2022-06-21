@@ -11,7 +11,14 @@
         "Bạn có khỏe không",
         "Có ai ở đó không?",
         "Xin chào",
-        "Chúc một ngày tốt lành"
+        "Ai nói chuyện với tôi",
+        "Chúc một ngày tốt lành",
+        "Có ai ở đó không",
+        "Chào shop, tôi muốn mua hàng",
+        "Đồ uống ở đây ngon nhỉ",
+        "chúc ngày mới tốt lành",
+        "Chúc bạn thành công",
+        "Chúc buổi snag vui vẻ"
       ],
       "responses": [
         "Xin chào, cảm ơn bạn đã ghé thăm",
@@ -21,38 +28,14 @@
       "context_set": ""
     },
     {
-      "tag": "intents1",
-      "patterns": [
-        "mình cần mua một cái điện thoại mới",
-        "mình chưa biết, bạn có thể tư vấn mình không ?",
-        "shop còn hàng ạ",
-        "Anh ơi shop mình có bán Iphone 12 không ạ"
-      ],
-      "responses": [
-        "còn bạn nhé,bên mình nhiều mẫu xịn với đẹp lắm nhé"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "xoan2",
-      "patterns": [
-        "Phí dịch vụ thu hộ?",
-        "Có thu tiền hộ không?",
-        "ship thu tiền hộp được không?",
-        " mình không có sử dùng chuyên tiền, mình thu tiền khi nhận hàng được không ạ",
-        " Mình chỉ có tiền mặt thôi, thu hộ nha shop"
-      ],
-      "responses": [
-        "Cảm ơn bạn! \nMình có thư tiền hộ nha bạn yên tâm nhé!"
-      ],
-      "context_set": ""
-    },
-    {
       "tag": "goodbye",
       "patterns": [
         "Hẹn gặp lại",
         "Tạm biệt",
-        "bye"
+        "Bái bai shop hihi",
+        "bye",
+        "Tộm biệt",
+        "Hôm sao tui ghé"
       ],
       "responses": [
         "Hẹn gặp lại, cảm ơn đã ghé thăm",
@@ -77,283 +60,45 @@
       "context_set": ""
     },
     {
-      "tag": "hours",
-      "patterns": [
-        "Shop mở cửa mấy giờ?",
-        "giờ của bạn là gì?",
-        "Khi nào mở cửa?"
-      ],
-      "responses": [
-        " giờ làm việc của chúng tôi từ  9h sáng-9h tối mỗi ngày",
-        "Chúng tôi mở cửa từ 9h sáng đến 9h tối"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Bạn có muốn nhận thẻ tín dụng ko",
-        "Bạn có chấp nhận thẻ Mastercard không?",
-        "Bạn chỉ có tiền mặt?"
-      ],
-      "responses": [
-        "Chúng tôi chấp nhận VISA, Mastercard và AMEX",
-        "Chúng tôi chấp nhận thẻ tín dụng"
-      ],
-      "context_set": ""
-    },
-    {
       "tag": "opentoday",
       "patterns": [
         "Bạn có mở cửa hôm nay ko?",
+        "bây giờ tôi tới được không",
+        "Khi nào tôi có thể tới",
         "Khi nào bạn mở cửa hôm nay?",
-        "Mấy giờ hôm nay của bạn?"
+        "Mấy giờ hôm nay của bạn?",
+        "Chủ nhật  có mở không",
+        "Có làm việc chủ nhật không",
+        "Tối mở cửa tới mấy giờ",
+        "Thứ bảy làm việc tới mấy giờ"
       ],
       "responses": [
-        "Chúng tôi mở cửa hàng ngày từ 9 giờ sáng - 9 giờ tối",
-        "Giờ làm việc của chúng tôi là 9 giờ sáng - 9 giờ tối hàng ngày"
+        "Thứ Hai - Thứ Sáu: 08:00 am – 08:30 pm\nThứ Bảy: 10:00 am – 16:30 pm\nChủ Nhật: 10:00 am – 16:30 pm\n"
       ],
       "context_set": ""
     },
     {
-      "tag": "xoan3",
+      "tag": "giaohang",
       "patterns": [
         " Shop giao hàng trong bao lâu ạ",
+        "Giao hàng lâu không",
         "Thời gian vận chuyển mất khoảng bao lâu?",
         " Nhanh nhất khi nào nhận được hàng ạ",
-        " Giao trong mấy ngày",
         " bao lâu thì có hàng vậy",
         " Nào mình nhận được hàng",
-        " Giao hàng trong khoảng bao lâu"
+        " Giao hàng trong khoảng bao lâu",
+        "Sao lâu vậy chưa thấy có món",
+        "Vận chuyển món",
+        "vận chuyển nhanh",
+        "ship mất bao lâu",
+        "tiền ship ntn",
+        "hình thức vận chuyểnq"
       ],
       "responses": [
-        "Shop giao hàng 3-7 ngày bạn nhé!"
+        "Trong vòng bán kính 4km shop giao trong 10-15p bạn nhé!",
+        "Chúng tôi sẽ giao tới bạn sớm nhất 5-15p bạn nhé"
       ],
       "context_set": ""
-    },
-    {
-      "tag": "xoan1",
-      "patterns": [
-        "Có những hình thức vận chuyển nào shop nhỉ",
-        "có nhứng phương thức vận chuyển như thế nào vậy",
-        "Bên shop có những hình thức vận chuyển nào",
-        "Vận chuyển như thế nào shop nhỉ",
-        " Shop có những hình thức giao hàng nào",
-        " Hình thức vận chuyển"
-      ],
-      "responses": [
-        "Cảm ơn bạn đã liên hệ shop! \ncó 3 hình thức vận chuyênt! Vận chuyển nhanh, vận chuyển xtra và vận chuyển cấp tốc bạn nhé"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "sanphamhoodie",
-      "patterns": [
-        "còn áo hoodie ko ạ",
-        "hoodie cặp có không ạ",
-        "Mình có hoodie cho trẻ em không shop nhỉ"
-      ],
-      "responses": [
-        "còn bạn nhé. bên mình còn nhiều mẫu hoodie đẹp lắm.\n"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "giahoodie",
-      "patterns": [
-        "giá áo hoodie bao nhiêu ạ ",
-        "mẫu hoodie giá bao nhiêu 1 cái "
-      ],
-      "responses": [
-        "áo này giá 320k bạn nhé. bạn cho mình chiều cao cân nặng để mình tư vấn ạ"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "hotro",
-      "patterns": [
-        "Ai đó có thể hỗ trợ cho tôi không? ",
-        "hỗ trợ giúp tôi được không ",
-        "có ai ở đây không "
-      ],
-      "responses": [
-        "Cảm ơn bạn đã quan tâm đến sản phẩm của UniShop\nNhân viên sẽ trả lời trong ít phút nữa!"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "mauhoodie",
-      "patterns": [
-        "Cho em xin hỏi bên mình áo hoodie trắng còn mẫu nào khác không ạ ",
-        "hoodie trắng còn mẫu khác ko  "
-      ],
-      "responses": [
-        "còn bạn nhé. bên mình còn nhiều mẫu hoodie đẹp và chất lượng lắm"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "khuyenmai",
-      "patterns": [
-        "khi nào có chương trình khuyến mãi ",
-        "có chương trình ưu đãi không"
-      ],
-      "responses": [
-        "dạ có khuyến mãi,ưu đãi  vào những dịp lễ ạ"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "ưudai",
-      "patterns": [
-        "tôi mua nhiều có được khuyến mãi không",
-        "mua nhiều sản phẩm được ưu đãi không"
-      ],
-      "responses": [
-        "Dạ khi khách hàng mua trên 10 thì được giảm ạ"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "sizeao",
-      "patterns": [
-        "Áo này mình có mấy size ạ",
-        "áo này có size S không ạ"
-      ],
-      "responses": [
-        "Áo có đầy đủ size nhé bạn( s,m,l,xl, xxl, xxxl).Bạn gửi số đo để mình tư vấn nhé "
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "giamgia",
-      "patterns": [
-        "cho em hỏi áo này có giảm giá không",
-        "sản phẩm này có giảm giá không ạ "
-      ],
-      "responses": [
-        "sản phẩm này hiện tại không giảm giá á bạn "
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "baohanhlaptop",
-      "patterns": [
-        "laptop bảo hành bao nhiêu năm vậy ạ ",
-        " laptop có bảo hành không"
-      ],
-      "responses": [
-        "laptop bảo hành 2 năm bạn nhé. bạn muốn mua hãng nào để mình tư vấn ạ"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "tuvanlaptop",
-      "patterns": [
-        "Shop ơi, cho em hỏi em muốn mua một con máy tính để học lập trình thì nên chọn con nào vậy"
-      ],
-      "responses": [
-        "Chào anh, bên em có cung cấp nhiều dòng máy hỗ trợ nhiều nhu cầu khác nhau, có cả việc lập trình, không biết anh muốn mua dòng của hãng nào ?"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hanglaptop",
-      "patterns": [
-        "Bên mình có hãng nào vậy ?",
-        " có hãng laptop nào vậy"
-      ],
-      "responses": [
-        " Bên em phân phối các dòng máy của các hãng: Asus, Acer, MSI, Dell, HP... nha chị"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "tuvanthem",
-      "patterns": [
-        "Ngoài việc lập trình anh còn thích chơi game nữa, vậy nên chọn con nào em.",
-        " thích chơi game nên chọn máy nào nữa"
-      ],
-      "responses": [
-        "Bên em hiện có máy laptop Asus TUF Gaming vừa nhập về, giá 19tr, cấu hình hấp dẫn, phù hợp với nhu cầu của anh"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hoivedongho",
-      "patterns": [
-        "còn đồng hồ không nhỉ ",
-        "đồng hồ giá dưới 100 có không shop ",
-        "đồng hồ nam còn không ",
-        "đồng hồ nữ có không shop nhỉ",
-        "mình muốn xem đồng hồ đôi",
-        "shop có đồng hồ Gucci không ",
-        "Đồ đeo tay"
-      ],
-      "responses": [
-        "Đồng hồ còn rất nhiều mẫu bạn nhé!"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hoivegiay",
-      "patterns": [
-        "còn giày không nhỉ ",
-        " giày giá dưới 100 có không shop ",
-        " Giày nam còn không ",
-        " Giày nữ có không shop nhỉ",
-        "mình muốn xem  Giày đôi",
-        "shop có  Giày Gucci không "
-      ],
-      "responses": [
-        " Giày còn rất nhiều mẫu bạn nhé!"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hoiadmin",
-      "patterns": [
-        "admin ơi. Mình muốn mở shop trên web thì làm như thế nào nhỉ",
-        "admin ơi. Mình muốn đăng ký shop",
-        "Shop muốn thêm danh mục sản phẩm admin hỗ trợ không",
-        "Làm cách nào để liên hệ với admin nhỉ",
-        "admin có thể cấp quyền shop cho mình được không",
-        "mình muốn bán hàng làm sao admin nhỉ",
-        " tôi muốn bán hàng thì như thế nào admin nhỉ"
-      ],
-      "responses": [
-        "Bạn muốn có tài khoản để đăng sản phẩm đấu giá.\n Hãy liên hệ với chúng tôi \nSDT :0815502607\n Email : daugia@gmail.com \ngặp Bạn: Như !\n để được tư vấn rõ hơn nhé"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hoivesach",
-      "patterns": [
-        "còn sách không nhỉ ",
-        "sách giá dưới 100 có không shop ",
-        "sách cho em bé có không ",
-        "sách Tranh thiếu nhi có không shop nhỉ",
-        "có sách tiếng nhật không ",
-        "có sách hội thoại không"
-      ],
-      "responses": [
-        "bạn hãy tìm kiếm theo danh mục Sách để xem thông tin sách nhé!"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "hoivehinhthuc",
-      "patterns": [
-        "hình thức đấu giá sao nhỉ ",
-        "đấu giá hình thức như nào ta",
-        "hình thức như nào nhỉ",
-        "sau  mỗi lần đấu giá, hình thức tiền có tăng lên không",
-        "làm sao để đấu giá thắng ta"
-      ],
-      "responses": [
-        "Sản phẩm sẽ có thời gian đấu giá cụ thể!Hết giờ đấu giá bạn là người đấu giá cuối cùng thì bạn là người chiến thắng"
-      ],
-      "context set": ""
     },
     {
       "tag": "hoivesuckhoe",
@@ -362,8 +107,8 @@
         "Khỏe không chatbox",
         "khỏe lắm không shop",
         "Chat hoài vậy bạn sẽ mệt đó",
-        " MỆt không chat box",
-        "hihi chat  làm việc được cả ngày hi"
+        "khẻo không chat box",
+        "hihi chat làm việc được cả ngày hi"
       ],
       "responses": [
         "Cảm ơn bạn. Tôi rất khỏe."
@@ -371,111 +116,15 @@
       "context set": ""
     },
     {
-      "tag": "hoivehopdungcom",
+      "tag": "giamgia",
       "patterns": [
-        "có đồ đựng cơm đi làm không",
-        "Nồi cơm điện shop có không",
-        "tôi muốn mua đồ đựng cơm đi làm",
-        "hộp cơm giữ nhiệt còn không shop",
-        "đồ đựng cơm có không",
-        "shop có nồi cơm điện không"
-      ],
-      "responses": [
-        "ồ. Shop hết rồi bạn ạ."
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "giahoivehopdungcom",
-      "patterns": [
-        "giá nồi cơm điện bao nhiêu",
-        "bao nhiêu một cái nồi cơm điện"
-      ],
-      "responses": [
-        "1tr bạn nhé.nồi chất lượng và okela lắm"
-      ],
-      "context set": ""
-    },
-    {
-      "tag": "xoan4",
-      "patterns": [
-        "Ad ơi, cho mình xin giá mẫu này với ạ?",
-        "mẫu này có giá bao nhiêu ạ?"
-      ],
-      "responses": [
-        "Chào bạn, mẫu bạn quan tâm có giá là 120k bạn ạ"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "cauhinh",
-      "patterns": [
-        "Cấu hình máy tính như thế nào",
-        "Máy cấu hình như thế nào"
-      ],
-      "responses": [
-        " Cấu hình là RAM 8G, Core i5"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "gialaptop",
-      "patterns": [
-        "Giá máy tính như thế nào",
-        "Laptop có giá bao nhiêu ",
-        "Giá Laptop bao nhiêu"
-      ],
-      "responses": [
-        "Máy tính này có giá 15 triệu bạn nhé"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "HangLaptop",
-      "patterns": [
-        "Hãng Asus có những máy nào em",
-        "Cho chị xem máy hãng Asus với em  "
-      ],
-      "responses": [
-        "Bên em có nhiều máy tùy phân khúc: thấp, trung, cao.Chị muốn xem giá như nào"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "Giá tầm trung dao động nhiêu em "
-      ],
-      "responses": [
-        "Dạ từ 15-20 triệu ạ ?"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "xoan5",
-      "patterns": [
-        "Có khuyến mãi gì không ạ"
-      ],
-      "responses": [
-        "Được giảm giá với freeship bạn nhé"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "xoan5",
-      "patterns": [
-        "Đợt này shop có chương trình khuyến mãi gì không ạ ",
-        "Có chương trình khuyễn mãi gì ko"
-      ],
-      "responses": [
-        "Mua với hoá đơn trên 5 triệu sẽ được giảm giá 500k và còn nhiều phần quà hấp dẫn khác ạ"
-      ],
-      "context_set": ""
-    },
-    {
-      "tag": "xoan6",
-      "patterns": [
-        "Khi nào cửa hàng còn khuyễn mãi ạ"
+        "Khi nào cửa hàng còn khuyễn mãi ạ",
+        "Giảm giá không shop",
+        "Khi nào giảm giá",
+        "Khách hàng mới có giảm giá, khuyến mãi không",
+        "Nào giảm giá mua",
+        "Giảm giá đi ạ",
+        "Dịp nào cửa hàng sẽ giảm giá ạ"
       ],
       "responses": [
         "Dạ khuyến mãi vào trong những dịp lễ ạ"
@@ -483,19 +132,7 @@
       "context_set": ""
     },
     {
-      "tag": "noanswer",
-      "patterns": [],
-      "responses": [
-        "Sorry, can't understand you",
-        "Please give me more info",
-        "Not sure I understand"
-      ],
-      "context": [
-        ""
-      ]
-    },
-    {
-      "tag": "xoan2",
+      "tag": "thuhotien",
       "patterns": [
         "Phí dịch vụ thu hộ?",
         "Có thu tiền hộ không?",
@@ -504,9 +141,1478 @@
         " Mình chỉ có tiền mặt thôi, thu hộ nha shop"
       ],
       "responses": [
-        "Cảm ơn bạn! \nMình có thư tiền hộ nha bạn yên tâm nhé!"
+        "Cảm ơn bạn! \nMình có thu tiền hộ nha bạn yên tâm nhé!"
       ],
       "context_set": ""
+    },
+    {
+      "tag": "trochuyenvediawn",
+      "patterns": [
+        "Tôi đói quá, có gì ngon không ạ",
+        "Trà sữa không",
+        "Món gì đặt biệt không nhỉ",
+        "Món nào ngon nhất",
+        "Ngon nhất",
+        "Đặc biết nhất",
+        "Mình nên uống gì",
+        "Có gì ngon nào",
+        "Món nào đặt biệt của cửa hàng",
+        "Tôi nên ăn gì",
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân châu uống ngon không",
+        "hãy giúp tôi tìm món ngon",
+        "món khác đi",
+        "Món khác"
+      ],
+      "responses": [
+        "Đặc biệt bên mình có \"SỮA TƯƠI TRÂN CHÂU BABY KEM CAFÉ\" nhé ",
+        "Đặc biệt bên mình có \"PROBI BƯỞI TRÂN CHÂU SƯƠNG MAI\" nhé ",
+        "Đặc biệt bên mình có \"PRO XOÀI TRÂN CHÂU SƯƠNG MAI\" nhé "
+      ]
+    },
+    {
+      "tag": "dulich",
+      "patterns": [
+        "Mông lung",
+        "Cô đơn",
+        "Thành công",
+        "Thất bại",
+        "Chênh Vênh",
+        "Hạnh phúc",
+        "Tết này bạn đi đâu chơi",
+        "Hè này mình đi đâu",
+        "Hè này mình đi đâu",
+        "bạn có định đi du lịch đâu trong tương lai không?",
+        "Cậu tính đi đâu",
+        "Đi đâu",
+        "Thời tiết này nên đi đâu",
+        "Nóng như này đến đâu",
+        "Thứ bay đi chơi",
+        "Ở đâu đẹp",
+        "LÀm chuyến cuối năm đi",
+        "Học bài ở đâu",
+        "Dắt bạn đi chơi",
+        "Đi trà sữa ở đâu ngon nhất"
+      ],
+      "responses": [
+        "Đi về nhà! Hoặc là ghé tiệm trà AMAI bạn nhé!"
+      ]
+    },
+    {
+      "tag": "monmuanhieunhat",
+      "patterns": [
+        "Món được mua nhiều nhất là món nào",
+        "mua nhiều nhất",
+        "nhiều nhất",
+        "bán nhiều nhất",
+        "bán hàng ngày",
+        "món nào khách hàng mua nhiều nhất",
+        "món nào bán được nhiều nhát shop nhỉ",
+        "Món thích nhất",
+        "món bán chạy nhất",
+        "Làm từ sữa chua",
+        "món nào có vị thanh mát",
+        "Món có số lượng tiêu thụ nhiều , nhanh nhất"
+      ],
+      "responses": [
+        "SỮA CHUA DÂU TẰM HOÀNG KIM được khách hàng rất ưu chuộng "
+      ]
+    },
+    {
+      "tag": "diachi",
+      "patterns": [
+        "địa chỉ quán ở đâu ạ",
+        "Cho mình xin địa chỉ cửa hàng",
+        "Địa chỉ gần đây không bạn",
+        "Shop ở đâu",
+        "Địa chỉ ở đâu",
+        "Tôi không thấy quán",
+        "Khu bạn sống có gì vui không",
+        "bạn ơi, nhà bạn ở đâu thế",
+        "Nhà cậu ở đâu thế ",
+        "Gia đình cậu ở đâu",
+        "Nông trại của cậu ở tỉnh nào ",
+        "bạn sinh ở đâu",
+        "cho mình hỏi hiện tại bạn sống ở đâu",
+        "bạn còn ở chung với bố, mẹ không",
+        "bạn tùng đi du lịch ở đâu",
+        "Nhà bạn ở đâu",
+        "Cho mình hỏi bạn đang ở đâu",
+        "địa chỉ ở đâu",
+        "nhà bạn ở đường nào"
+      ],
+      "responses": [
+        "52 Nguyễn Lương Bằng,Hòa khánh Nam, Liên chiểu, ĐN bạn nhé!"
+      ]
+    },
+    {
+      "tag": "dangky",
+      "patterns": [
+        "một email đăng ký được mấy tài khoản",
+        "Một mail mấy tài khoản"
+      ],
+      "responses": [
+        " Chỉ một tài khoản thôi bạn nhé."
+      ]
+    },
+    {
+      "tag": "tuvanmoncosuachua",
+      "patterns": [
+        "Món nào chưa nhiều sữa chua nhỉ",
+        "Tôi muốn tư vấn món có sữa chua",
+        "Sữa chua có không nhỉ",
+        "Tìm kiếm món mát mà có sưaz chua"
+      ],
+      "responses": [
+        "Bạn vào danh mục sưaz chua nhé",
+        "Có món sữa chua dâu tằm hoàng kim đó quý khách",
+        "Có món sữa chua dâu tằm hạt dẻ đó quý khách",
+        "Có món sữa chua trắng đó quý khách"
+      ]
+    },
+    {
+      "tag": "tuvancaffe",
+      "patterns": [
+        "Cửa hàng có caffe không nhỉ",
+        "Tôi muốn mua caffe",
+        "có cà phê không",
+        "có cafe không",
+        "có cafffe không",
+        "Caffe khác có không",
+        "Uống caffe",
+        "Uống chút vị đắng của caffe",
+        "Món ngon vị caffe thì món nào ngon"
+      ],
+      "responses": [
+        "Có rất nhiều loại caffe ạ, Ví dụ như : Hồng trà ngũ cốc kem Cafe bạn có thể thưởng thức thử",
+        "Bạn dùng thử Choco Ngũ Cốc Kem Caffe nhé",
+        "Choco Ngũ Cốc Kem Caffe mang đến điểm nhấn mới lạ từ mùi vị "
+      ]
+    },
+    {
+      "tag": "tuvankemphomai",
+      "patterns": [
+        "Món phô mai ngon",
+        "Có phomai không",
+        "bất cứ thứ gì đặc biệt",
+        "Món phômai đặc biệt",
+        "Món Phô mai được ưu chuộc nhiều nhất",
+        "phomai kem có không",
+        "tôi muốn mua trà sữa phô mai",
+        "Có trà phô mai không nhỉ",
+        "đề nghị một cái gì đó",
+        "gợi ý một cái",
+        "gì đó bạn nghĩ chúng ta nên có",
+        "gì đặc biệt bạn có",
+        "bạn có gì đặc biệt bạn có",
+        "gì đặc biệt bạn có gì đặc biệt bạn có",
+        "gợi ý cho",
+        "gợi ý điều gì đó",
+        "có gì đặc biệt trong menu",
+        "gợi ý",
+        "dùng thử",
+        "có món khác không",
+        "Tôi muốn món khác",
+        "Hãy cho tôi xem món khác",
+        "Có đồ uống khác không",
+        "trải nghiệm thử",
+        "đặc biệt không? bạn có",
+        "những gì bạn có",
+        "hãy giúp tôi tìm món ngon",
+        "gợi ý cho tôi một cái gì đó"
+      ],
+      "responses": [
+        "Bạn thử thương thức \" Dâu tằm kem phô mai\" nhé ",
+        "Bạn thử thương thức \" Hồng Trà Kem Phô Mai\" nhé ",
+        "Bạn thử thương thức \" MatCha Kem Phô Mai\" nhé ",
+        "Bạn thử thương thức \" Trà Xanh kem phô mai\" nhé ",
+        "Bạn thử thương thức \" Trà Xoài bưởi kem phô mai\" nhé ",
+        "Xin lỗi, tôi có thể gợi ý cho bạn một Sô cô la trắng bạc hà",
+        "Tôi có thể gợi ý cho bạn Dâu tằm kem phô mai"
+      ]
+    },
+    {
+      "tag": "hongtra",
+      "patterns": [
+        "Có hồng trà không ạ",
+        "Có hồng trà giá bao nhiêu",
+        "Có các hồng trà nào",
+        "Tôi muốn mua hồng trà"
+      ],
+      "responses": [
+        "Có hồng trà nguyên chất với giá chỉ 23.000đ nè. ",
+        "Mời bạn dùng thử Hồng trà kem phô mai",
+        "Nếu muốn ngọt ngào bạn hãy dùng thử hồng trà bưởi mật ông",
+        "Nếu muốn một chút vị đắng, bạn hãy dùng thử hồng trà ngũ cốc kem cafe nhé",
+        "Bạn hãy tìm kiếm với từ khoas \" Hồng Trà\" xem chi tiết nhiều món hơn bạn nhé "
+      ]
+    },
+    {
+      "tag": "thontincanhan",
+      "patterns": [
+        "họ và tên của bạn là gì ",
+        "chủ cửa hàng là ai",
+        "Ai là chủ của hàng",
+        "làm ra cửa hàng",
+        "Giám đốc của hàng"
+      ],
+      "responses": [
+        "mình là phạm thị quỳnh như"
+      ]
+    },
+    {
+      "tag": "lienlac",
+      "patterns": [
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "Tôi muốn liên lạc",
+        "Tôi muốn liên lạc với của hàng",
+        "sao để liên hệ",
+        "Tôi muốn gặp cửa hàng",
+        "Hãy cho tôi thông tin cá nhân",
+        "Thông tin cửa hàng"
+      ],
+      "responses": [
+        "0815503597 bạn nhé, hoặc liên hệ email quynhnhu@gmail.com"
+      ]
+    },
+    {
+      "tag": "hoten",
+      "patterns": [
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "mày giới tính gì",
+        "học trường nào",
+        "có người yêu chưa",
+        "tên bạn là gì",
+        "em tên gì",
+        "bạn là nam hay nữa",
+        "Bạn cho mình hỏi bạn học ở đâu ",
+        "Bạn cho mình hỏi bạn SDT của bạn ",
+        "Vậy bạn bao nhiêu tuổi rồi ",
+        "còn năm sinh của cậu là bao nhiêu",
+        "bạn làm nghề gì",
+        "Tên ạn là gì , nhiêu tuôi",
+        "Cân nặng bao nhiêu kg",
+        "em bao nhiêu tuổi, để tiện xưng hô",
+        "bạn tên gì, để tiện nói chuyện",
+        "bạn tên gì"
+      ],
+      "responses": [
+        "Mình là Chatbot AMAI, mình đã 3 tuổi, học ở DUT"
+      ]
+    },
+    {
+      "tag": "dkylammon",
+      "patterns": [
+        "Tôi muốn làm món tự chính tay mình",
+        "Tôi chưa bao giờ tự làm món, liệu có làm được không",
+        "tự mình chế biến món được sao",
+        "Có ai hướng dẫn tôi tự làm món không",
+        "Nên đăng ký thời gian làm món nào là phù hợp",
+        "Có thể tự làm món cả nhóm  không",
+        "Chi phí tự làm món có đắt hơn không",
+        "làm món sao nhỉ",
+        "tự làm món lạ ha",
+        "Đăng ký tự làm món tôi có cần đem theo vật liệu không",
+        "Cần đem theo vật dụng không",
+        "Giá cả có cao hơn không"
+      ],
+      "responses": [
+        "Bạn muốn trải nghiệm hãy đăng ký để được nhân viên tư vấn cụ thể hơn nhé",
+        "Bạn hãy đăng ký, chúng tôi sẽ giúp bạn chọn món và chuẩn bị nguyên liệu và tư vấn cụ thể nhé",
+        "Bạn hãy đăng ký, nếu chưa biết làm món thì sẽ có nhân viên phụ giúp bạn nhé"
+      ]
+    },
+    {
+      "tag": "datban",
+      "patterns": [
+        "Tôi muốn đặt bàn",
+        "cho tôi một bàn",
+        "Có thể đặt bàn không",
+        "Liên hệ với ai",
+        "Tôi muốn được tư vấn trực tiếp",
+        "Tư vấn trực tiếp",
+        "Tôi có câu hỏi, hỏi ai",
+        "Tôi muốn hỏi việc"
+      ],
+      "responses": [
+        "có thể liên hệ 0815502607 gặp nhân viên tư vấn bạn nhé!",
+        "quý khách liên hệ sdt: 0816970456 để đặt bàn ạ"
+      ]
+    },
+    {
+      "tag": "trochuyenvedian",
+      "patterns": [
+        "trưa nay cậu muốn đi ăn không ",
+        "bạn nghĩ sao khi chúng ta đi ăn gà",
+        "chúng ta sẽ đi ăn ở đâu ",
+        "trưa nay cậu muốn đi ăn không",
+        "bạn có muốn đi ăn gì vào cuối tuần không",
+        "bạn định đi ăn món gì",
+        "bạn định đi ăn ở đâu",
+        "Hôm nay ăn ở đâu",
+        "đi ăn không",
+        "Bạn hay ăn tại đâu",
+        "cậu có muốn đi ăn không"
+      ],
+      "responses": [
+        "Hãy đến quán trà sữa AMAI để tận hưởng những món ngon bạn nhé",
+        "Chúng tôi rất hoang nghênh được đón tiếp bạn"
+      ]
+    },
+    {
+      "tag": "giaca",
+      "patterns": [
+        "giá cả của quán nó như thế nào",
+        "Caffe "
+      ],
+      "responses": [
+        "Giá giao động từ 21k -40k phù hợp với mọi người ạ",
+        "Giá chỉ 21k-40k để thưởng thức những món rất ngon"
+      ]
+    },
+    {
+      "tag": "camnhavedoan",
+      "patterns": [
+        "Đồ có ngon không",
+        "nhân viên phục vụ ở đó như thế nào",
+        "bạn cảm nhận thế nào về đồ ăn ở đó",
+        "tớ thấy ở đây cũng tàm tạm á",
+        "Người khách thường phản ánh thế nào về đồ ăn",
+        "nhận xét về đồ uống",
+        "nhận xét nhân viên",
+        "thái độ nhân viên"
+      ],
+      "responses": [
+        "Khẩu vị ở đây rất dễ phù hợp với tất cả mọi người, nhân viên rất chuyên nghiệp, nhiệt tình",
+        "Đồ uống đảm bảo chất lượng và rất ngon ,nhân viên rất chuyên nghiệp",
+        "Đồ uống rất tuyệt vời, bạn muốn dùng món có vị như thế nào,nhân viên rất chuyên nghiệp"
+      ]
+    },
+    {
+      "tag": "hongtrakemphomai",
+      "patterns": [
+        "Hồng Trà Kem Phô Mai nhiêu tiền",
+        "hồng trà kem phô mai bao nhiêu",
+        "Hồng Trà KEm Phô Mai ngon không",
+        "Hồng Trà KEm Phô Mai vị như thế nào",
+        "hồng trà kem phô mai có những gì",
+        "hồng trà kem phô mai chất lượng ra sao",
+        "hồng trà kem phô mai có đặc điểm gì",
+        "Hồng trà có đặc điểm gì",
+        "hồng trà kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 36,000d ạ,đặc trưng là lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ",
+        "Lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ,Giá chỉ với 36.000d",
+        "Kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu, gia chỉ 36.000đ"
+      ]
+    },
+    {
+      "tag": "dautamkemphomai",
+      "patterns": [
+        "Dâu tằm Kem Phô Mai nhiêu tiền",
+        "Dâu tằm kem phô mai bao nhiêu",
+        "Dâu tằm KEm Phô Mai ngon không",
+        "Dâu tằm KEm Phô Mai vị như thế nào",
+        "Dâu tằm kem phô mai có những gì",
+        "Dâu tằm kem phô mai chất lượng ra sao",
+        "Dâu tằm kem phô mai có đặc điểm gì",
+        "Dâu tằm có đặc điểm gì",
+        "Dâu tằm kem phô mai là gì",
+        "Dâu tằm kem phô mai có nhiều người mua không"
+      ],
+      "responses": [
+        "Dâu tằm kem phô mai Có giá 34,000d ạ,đặc trưng vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu chuộng",
+        "Kem phô mai Anchor nức tiếng New Zealand, Dâu tằm kem phô mai Giá chỉ với 34.000d, rất được khách hàng ưu thích",
+        "Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm, hoà quyện cùng một chút ngậy ngậy của kem phô mai, rất được khách hàng ưu thích, Dâu tằm kem phô mai gia chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "MatChakemphomai",
+      "patterns": [
+        "Matcha Kem Phô Mai nhiêu tiền",
+        "Matcha kem phô mai bao nhiêu",
+        "Matcha KEm Phô Mai ngon không",
+        "Matcha KEm Phô Mai vị như thế nào",
+        "Matcha kem phô mai có những gì",
+        "Matcha kem phô mai chất lượng ra sao",
+        "Matcha kem phô mai có đặc điểm gì",
+        "Matcha có đặc điểm gì",
+        "Matcha kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 24,000d ạ,đặc trưng vị  vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha",
+        "Kem phô mai Anchor nức tiếng New Zealand,Giá chỉ với 24.000d",
+        " vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha  Giá chỉ 24.000đ"
+      ]
+    },
+    {
+      "tag": "suachuadautamhoangkim",
+      "patterns": [
+        "Sữa chua dâu tằm hoàng kim nhiêu tiền",
+        "Sữa chua dâu tằm hoàng kim  bao nhiêu",
+        "Sữa chua dâu tằm hoàng kim  ngon không",
+        "Sữa chua dâu tằm hoàng kim  vị như thế nào",
+        "Sữa chua dâu tằm hoàng kim  có những gì",
+        "Sữa chua dâu tằm hoàng kim  chất lượng ra sao",
+        "Sữa chua dâu tằm hoàng kim có đặc điểm gì",
+        "Sữa chua dâu tằm hoàng kim  có đặc điểm gì",
+        "Sữa chua dâu tằm hoàng kim là gì"
+      ],
+      "responses": [
+        " Có giá 29.000d ạ, hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát",
+        " hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mátGiá chỉ với 29.000d, rất được khách hàng ưu chuộng",
+        "  hoà quyện giữa vị chua ngọt từ mứt dâu tằm xen lẫn vị thanh mát,Chất lượng tốt,Giá chỉ 29.000đ"
+      ]
+    },
+    {
+      "tag": "suachadautamhatde",
+      "patterns": [
+        "Sữa Chua Dâu Tằm Hạt Dẻ nhiêu tiền",
+        "Sữa Chua Dâu Tằm Hạt Dẻ bao nhiêu",
+        "Sữa Chua Dâu Tằm Hạt Dẻ ngon không",
+        "Sữa Chua Dâu Tằm Hạt Dẻ vị như thế nào",
+        "Sữa Chua Dâu Tằm Hạt Dẻ có những gì",
+        "Sữa Chua Dâu Tằm Hạt Dẻ chất lượng ra sao",
+        "Sữa Chua Dâu Tằm Hạt Dẻ có đặc điểm gì",
+        "Sữa Chua Dâu Tằm Hạt Dẻ là gì"
+      ],
+      "responses": [
+        "Có giá 34.000d ạ,Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt !",
+        "Giá chỉ với 34.000d, rất được khách hàng ưu chuộng",
+        " Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt,Giá chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "suachuatrang",
+      "patterns": [
+        "Sữa chua trắng nhiêu tiền",
+        "Sữa chua trắng bao nhiêu",
+        "Sữa chua trắng ngon không",
+        "Sữa chua trắng vị như thế nào",
+        "Sữa chua trắng có những gì",
+        "Sữa chua trắng chất lượng ra sao",
+        "Sữa chua trắng có đặc điểm gì",
+        "Sữa chua trắng được nhiều người mua không",
+        "Sữa chua trắng là gì"
+      ],
+      "responses": [
+        "Có giá 35.000d ạ,bởi sự lên men lactic sữa. Men lactic là loại lợi khuẩn cần thiết cho cơ thể của con người",
+        "Giá chỉ với 35.000d, rất được khách hàng ưu chuộng có tác dụng kích thích tiêu hóa, tăng cường chức năng đường ruột.",
+        "Sữa chua màu trắng, dẻo, sánh và có vị chua ngọt và hương thơm đặc trưng Giá chỉ 35.000đ"
+      ]
+    },
+    {
+      "tag": "hongtra",
+      "patterns": [
+        " Hồng trà nhiêu tiền",
+        "Hồng trà bao nhiêu",
+        "Hồng trà ngon không",
+        "Hồng trà vị như thế nào",
+        "Hồng trà có những gì",
+        "Hồng trà chất lượng ra sao",
+        "Hồng trà có đặc điểm gì",
+        "Hồng trà có được ưu chuộng không",
+        "Hồng trà là gì"
+      ],
+      "responses": [
+        "Có giá 23.000d ạ,Hồng trà là cách gọi của Trung Quốc, xuất phát từ màu hồng ngọc hoặc nâu đỏ của nước trà sau khi hãm.",
+        "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng,Tên gọi trà đen xuất phát từ phương Tây dựa vào màu sắc của lá trà sau khi sấy khô.",
+        "Hương vị của hồng trà có vị thơm nhẹ, ít chát và phù hợp với khẩu vị của người Việt hiện nay. Giá chỉ 23.000đ"
+      ]
+    },
+    {
+      "tag": "matchadaudo",
+      "patterns": [
+        "Matcha đậu đỏ nhiêu tiền",
+        " Matcha đậu đỏ bao nhiêu",
+        " Matcha đậu đỏ ngon không",
+        " Matcha đậu đỏ vị như thế nào",
+        " Matcha đậu đỏ có những gì",
+        " Matcha đậu đỏ chất lượng ra sao",
+        " Matcha đậu đỏ có đặc điểm gì",
+        " Matcha đậu đỏ có được nhiều người mua không",
+        " Matcha đậu đỏ là gì"
+      ],
+      "responses": [
+        "Có giá 24.000d ạ, Có giá 24.000d ạ Được pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản\",\n",
+        "Giá chỉ với 24.000d, rất được khách hàng ưu chuộng, Trà Nhật đậu đỏ có mùi thơm đặc trưng ",
+        " pha chế theo công thức riêng biệt với bột matcha 100% Nhật Bản, Trà Nhật đậu đỏ có mùi thơm đặc trưng  Giá chỉ 24.000đ"
+      ]
+    },
+    {
+      "tag": "suatuoitranchababykem",
+      "patterns": [
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân Châu",
+        "Trà Sữa Trân Châu",
+        "Trân Châu Có món nào ngon",
+        "Sưa Tươi Trân Châu Baby Kem Caffe nhiêu tiền",
+        "Sưa Tươi Trân Châu Baby Kem Caffe bao nhiêu",
+        "Sưa Tươi Trân Châu Baby Kem Caffe ngon không",
+        "Sưa Tươi Trân Châu Baby Kem Caffe vị như thế nào",
+        "Sưa Tươi Trân Châu có những gì",
+        "Sưa Tươi Trân Châu  Baby Kem Caffe chất lượng ra sao",
+        "Sưa Tươi Trân Châu có đặc điểm gì",
+        "Sưa Tươi Trân Châu có được mua nhiều, ưu chuộc không",
+        "Sưa Tươi Trân Châu là gì"
+      ],
+      "responses": [
+        "Sưa Tươi Trân Châu Baby Kem Caffe,Có giá 25.000d ạ,Thơm, béo, đắng nhẹ, mềm dịu là cảm nhận đầu tiên khi nếm lớp kem cà phê sánh mịn",
+        "Giá chỉ với 25.000d,Sưa Tươi Trân Châu Baby Kem Caffe rất được khách hàng ưu chuộng, được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ",
+        "Được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ,Sưa Tươi Trân Châu Baby Kem Caffe Giá chỉ 25.000đ"
+      ]
+    },
+    {
+      "tag": "trasuabacha",
+      "patterns": [
+        "Món vị bạc hà",
+        "Gợi ý món vị bạc hà ",
+        "Tôi muốn món có bạc hà",
+        "Trà sữa bạc hà nhiêu tiền",
+        "Trà sữa bạc hà không",
+        "Trà sữa bạc hà bao nhiêu",
+        "Trà sữa bạc hà ngon không",
+        "Trà sữa bạc hà vị như thế nào",
+        "Trà sữa bạc hà chất lượng ra sao",
+        " Trà sữa bạc hà có đặc điểm gì",
+        "Trà sữa bạc hà có được mua nhiều, ưu chuộc không",
+        " Trà sữa bạc hà là gì"
+      ],
+      "responses": [
+        "Có giá 26.000d ạ,Trà sữa bạc hà có màu xanh tươi mát, đẹp mắt, không bị ngả màu trắng hay màu nâu.",
+        "Giá chỉ với 26.000d,Trà sữa bạc hà rất được khách hàng ưu chuộng,Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà",
+        "Vị trà thanh thanh, ngọt dịu, hơi the mát, vẫn giữ được vị chát nhẹ của trà,Trà sữa bạc hà Giá chỉ 26.000đ"
+      ]
+    },
+    {
+      "tag": "trasuadautay",
+      "patterns": [
+        "Trà sữa dâu tây nhiêu tiền",
+        "Trà sữa dâu tây bao nhiêu",
+        "Trà sữa dâu tây ngon không",
+        " Trà sữa dâu tây vị như thế nào",
+        "Trà sữa dâu tây có những gì",
+        "Trà sữa dâu tây chất lượng ra sao",
+        "Trà sữa dâu tây có đặc điểm gì",
+        "Trà sữa dâu tây có được mua nhiều, ưu chuộc không",
+        "Trà sữa dâu tây là gì",
+        "Dâu tây",
+        "Món có dâu tây",
+        "gợi ý tôi món có dâu tây",
+        "Món nào có dâu tây không",
+        "Có trà sữa dâu tây không"
+      ],
+      "responses": [
+        "Trà sữa dâu tây Có giá 27.000d ạ,Hương vị dâu tây trong trà sữa dịu nhẹ, nhưng vẫn đủ để bạn cảm nhận được mùi và vị đặc trưng. Trà sữa vị dâu",
+        "Giá chỉ với 27.000d,Trà sữa dâu tây rất được khách hàng ưu chuộng,Hương vị dâu tây trong trà sữa dịu nhẹ",
+        " Trà sữa dâu tây Hương vị dâu tây trong trà sữa dịu nhẹ. Giá chỉ 27.000đ"
+      ]
+    },
+    {
+      "tag": "trasuamatcha",
+      "patterns": [
+        "Trà sữa matcha nhiêu tiền",
+        "Trà sữa matcha  bao nhiêu",
+        "Trà sữa matcha  ngon không",
+        "Trà sữa matcha  vị như thế nào",
+        "Trà sữa matcha  có những gì",
+        "Trà sữa matcha  chất lượng ra sao",
+        "Trà sữa matcha  có đặc điểm gì",
+        "Trà sữa matcha  có được mua nhiều, ưu chuộc không",
+        "Trà sữa matcha  là gì",
+        "Món nào có matchat không",
+        "Món có vị matcha",
+        "matcha"
+      ],
+      "responses": [
+        "Có giá 23.000d ạ,mùi thơm đặc trưng là vị thơm mát của lá trà xanh",
+        "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng.Màu xanh tươi và vị đắng nhẹ hậu thanh của matcha",
+        "Màu xanh tươi và vị đắng nhẹ hậu thanh của matcha giúp các món ăn, thức uống trở nên bắt mắt, ngon miệng hơn, Giá chỉ 23.000đ"
+      ]
+    },
+    {
+      "tag": "trasuasocola",
+      "patterns": [
+        "Socola",
+        "Món nào có socola",
+        "Hãy gợi ý tôi món có socola",
+        "Tôi muốn mua mốn có socola",
+        "Trà sữa Socola nhiêu tiền",
+        "Trà sữa Socola bao nhiêu",
+        "Trà sữa Socola ngon không",
+        "Trà sữa Socola vị như thế nào",
+        " Trà sữa Socolacó những gì",
+        "Trà sữa Socola chất lượng ra sao",
+        "Trà sữa Socola có đặc điểm gì",
+        "Trà sữa Socola có được mua nhiều, ưu chuộc không",
+        "Trà sữa Socola là gì"
+      ],
+      "responses": [
+        "Có giá 29.000d ạ, trà sữa socola Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc",
+        "Giá chỉ với 29.000d, rất được khách hàng ưu chuộng,Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc",
+        "Từ lâu Sô Cô La đã được biết đến là hương vị của tình yêu, của sự hạnh phúc Giá chỉ 29.000đ"
+      ]
+    },
+    {
+      "tag": "trasuaolong",
+      "patterns": [
+        "Món nào ló olong",
+        "Olong",
+        "olong",
+        "Ô long",
+        "Gợi ý món Ô long",
+        "Trà Sữa Olong Ô long nhiêu tiền",
+        "Trà Sữa Olong Ô long bao nhiêu",
+        "Trà Sữa Olong Ô long ngon không",
+        "Trà Sữa Olong Ô long  vị như thế nào",
+        "Trà Sữa Olong Ô long có những gì",
+        "Trà Sữa olong Ô long chất lượng ra sao",
+        "Trà Sữa olong Ô long có đặc điểm gì",
+        "Trà Sữa olong Ô long có được mua nhiều, ưu chuộc không",
+        "Trà Sữa olong Ô long là gì"
+      ],
+      "responses": [
+        "Có giá 42.000d ạ, Trà sữa olong Đây là loại trà bán oxy hóa, mức độ oxy hóa của trà dao động từ 8-80%",
+        "Giá chỉ với 42.000d, rất được khách hàng ưu chuộng, Trà ô long có hương vị phong phú, màu sắc vàng nhạt, hương vị chát vừa và ngọt hậu.",
+        " Trà ô long có hình dáng của cuốn lá cuộn tròn, có nguồn gốc xuất xứ từ Trung Quốc. ! Giá chỉ 42.000đ"
+      ]
+    },
+    {
+      "tag": "traxanhsuavinhai",
+      "patterns": [
+        "Hoa nhài",
+        "Trà Xanh hoa nhài",
+        "trà ướp nhài",
+        "Trà xanh sữa vị nhài ",
+        "Trà xanh sữa vị nhài bao nhiêu",
+        "Trà xanh sữa vị nhài ngon không",
+        "Trà xanh sữa vị nhài vị như thế nào",
+        "Trà xanh sữa vị nhài có những gì",
+        "Trà xanh sữa vị nhài chất lượng ra sao",
+        "Trà xanh sữa vị nhài có đặc điểm gì",
+        "Trà xanh sữa vị nhài có được mua nhiều, ưu chuộc không",
+        "Trà xanh sữa vị nhài là gì"
+      ],
+      "responses": [
+        "Có giá 45.000d ạ,Trà xanh sữa vị nhài,Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát",
+        "Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát.Giá chỉ với 45.000d,Trà xanh sữa vị nhài rất được khách hàng ưu chuộng",
+        "Trà xanh sữa vị nhài, Giá chỉ 45.000đ,Mùi thơm của trà ướp nhài kết hợp với vị ngọt của đường, khi mới uống thì có vị chua nhẹ hơi chát"
+      ]
+    },
+    {
+      "tag": "traxanh",
+      "patterns": [
+        "Có trà xanh không",
+        "Tôi muốn mua trà xanh",
+        "Bán trà xanh không",
+        " trà xanh nhiêu tiền",
+        " trà xanh bao nhiêu",
+        " trà xanh ngon không",
+        " trà xanh vị như thế nào",
+        " trà xanh có những gì",
+        " trà xanh chất lượng ra sao",
+        " trà xanh có đặc điểm gì",
+        " trà xanh có được mua nhiều, ưu chuộc không",
+        " trà xanh là gì"
+      ],
+      "responses": [
+        "Có giá 37.000d ạ, trà xanh Đặc điểm cây trà xanhLà loại cây xanh lâu năm mọc thành bụi hoặc các cây nhỏ, có nhiều tán lá",
+        "Giá chỉ với 37.000d, trà xanh rất được khách hàng ưu chuộng, lá non hay búp có màu xanh lục nhạt, mặt dưới lá có lông tơ ngắn màu trắng. ",
+        " Giá chỉ 37.000đ, Cây trà xanh  lá non hay búp có màu xanh lục nhạt, mặt dưới lá có lông tơ ngắn màu trắng. "
+      ]
+    },
+    {
+      "tag": "olongthaicuc",
+      "patterns": [
+        "Có trà olong không",
+        "Thái cực",
+        "Có ô long thái cực",
+        "Ô Long thái cực nhiêu tiền",
+        " Ô Long thái cực bao nhiêu",
+        "Ô Long thái cực ngon không",
+        "Ô Long thái cực vị như thế nào",
+        "Ô Long thái cực có những gì",
+        "Ô Long thái cực chất lượng ra sao",
+        " Ô Long thái cực có đặc điểm gì",
+        "Ô Long thái cực có được mua nhiều, ưu chuộc không",
+        "Ô Long thái cực là gì"
+      ],
+      "responses": [
+        "Có giá 38.000d ạ, Olong Thái cực Kết hợp giữa trà ô long cùng 2 loại topping: trân châu đen và kim cương trắng",
+        "Giá chỉ với 38.000d, Olong Thái cực rất được khách hàng ưu chuộng, Màu sắc trắng - đen của 2 loại topping tượng trưng cho 2 thái cực rõ ràng, vừa tương phản, vừa bổ sung cho nhau.",
+        " Olong Thái cực,  Giá chỉ 38.000đ, Màu sắc trắng - đen của 2 loại topping tượng trưng cho 2 thái cực rõ ràng, vừa tương phản, vừa bổ sung cho nhau."
+      ]
+    },
+    {
+      "tag": "probibuitrangchaysuongmai",
+      "patterns": [
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân châu uống ngon không",
+        "probi bưởi trân châu sương mai nhiêu tiền",
+        "probi bưởi trân châu sương mai bao nhiêu",
+        "probi bưởi trân châu sương mai ngon không",
+        "probi bưởi trân châu sương mai vị như thế nào",
+        "probi bưởi trân châu sương mai có những gì",
+        "probi bưởi trân châu sương mai chất lượng ra sao",
+        "probi bưởi trân châu sương mai có đặc điểm gì",
+        "probi bưởi trân châu sương mai có được mua nhiều, ưu chuộc không",
+        "probi bưởi trân châu sương mai là gì"
+      ],
+      "responses": [
+        "Có giá 40.000d ạ,probi bưởi trân châu sương mai có topping dừa nướng ",
+        "Giá chỉ với 40.000d,probi bưởi trân châu sương mai  có topping dừa nướng  rất được khách hàng ưu chuộng",
+        "probi bưởi trân châu sương mai có topping dừa nướng , Giá chỉ 40.000đ"
+      ]
+    },
+    {
+      "tag": "Chocongucockemcaffe",
+      "patterns": [
+        " Choco Ngũ Cốc Kem Caffe nhiêu tiền",
+        " Choco Ngũ Cốc Kem Caffe bao nhiêu",
+        " Choco Ngũ Cốc Kem Caffe ngon không",
+        " Choco Ngũ Cốc Kem Caffe vị như thế nào",
+        " Choco Ngũ Cốc Kem Caffe có những gì",
+        " Choco Ngũ Cốc Kem Caffe chất lượng ra sao",
+        " Choco Ngũ Cốc Kem Caffe có đặc điểm gì",
+        " Choco Ngũ Cốc Kem Caffe có được mua nhiều, ưu chuộc không",
+        " Choco Ngũ Cốc Kem Caffe là gì"
+      ],
+      "responses": [
+        "Có giá 32.000d ạ, Choco Ngũ Cốc Kem Caffe sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê, mang đến điểm nhấn mới lạ từ mùi vị và hương thơm riêng biệt như một trải nghiệm độc đáo",
+        "Giá chỉ với 32.000d,Choco Ngũ Cốc Kem Caffe rất được khách hàng ưu chuộng,sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê",
+        "Choco Ngũ Cốc Kem Caffe sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê, mang đến điểm nhấn mới lạ từ mùi vị và hương thơm riêng biệt như một trải nghiệm độc đáo Giá chỉ 32.000đ"
+      ]
+    },
+    {
+      "tag": "dautamkemphomai",
+      "patterns": [
+        "Phô mai",
+        "Dâu tằm",
+        "Dâu tằm kem phô mai nhiêu tiền",
+        "Dâu tằm kem phô mai bao nhiêu",
+        "Dâu tằm kem phô mai ngon không",
+        "Dâu tằm kem phô mai vị như thế nào",
+        "Dâu tằm kem phô mai có những gì",
+        "Dâu tằm kem phô mai chất lượng ra sao",
+        "Dâu tằm kem phô mai có đặc điểm gì",
+        "Dâu tằm kem phô mai có được mua nhiều, ưu chuộc không",
+        "Dâu tằm kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 34.000d ạ,Dâu tằm kem phô mai, Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằmq",
+        " Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm,Giá chỉ với 34.000d,Dâu tằm kem phô mai rất được khách hàng ưu chuộng",
+        " Vị chát ngọt của trà kết hợp với vị chua ngọt từ mứt dâu tằm,Dâu tằm kem phô mai Giá chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrakemphomai",
+      "patterns": [
+        "Hồng trà kem phô mai nhiêu tiền",
+        "Hồng trà kem phô mai bao nhiêu",
+        "Hồng trà kem phô mai ngon không",
+        "Hồng trà kem phô mai vị như thế nào",
+        "Hồng trà kem phô mai có những gì",
+        "Hồng trà kem phô mai chất lượng ra sao",
+        "Hồng trà kem phô mai có đặc điểm gì",
+        "Hồng trà kem phô mai có được mua nhiều, ưu chuộc không",
+        "Hồng trà kem phô mai là gì",
+        "Hồng trà",
+        "Kem phô mai"
+      ],
+      "responses": [
+        "Có giá 36.000d ạ,Hồng trà kem phô mai,kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu",
+        "Giá chỉ với 36.000d,Hồng trà kem phô mai rất được khách hàng ưu chuộng,kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu",
+        "kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu .Hồng trà kem phô mai Giá chỉ 36.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrangucockemcaffe",
+      "patterns": [
+        "Hồng trà",
+        "Ngũ Cốc",
+        "Kem Caffe",
+        "Hồng trà ngũ cốc kem caffe nhiêu tiền",
+        "Hồng trà ngũ cốc kem caffe bao nhiêu",
+        "Hồng trà ngũ cốc kem caffe ngon không",
+        "Hồng trà ngũ cốc kem caffe vị như thế nào",
+        "Hồng trà ngũ cốc kem caffe có những gì",
+        "Hồng trà ngũ cốc kem caffe chất lượng ra sao",
+        "Hồng trà ngũ cốc kem caffe có đặc điểm gì",
+        "Hồng trà ngũ cốc kem caffe có được mua nhiều, ưu chuộc không",
+        "Hồng trà ngũ cốc kem caffe là gì"
+      ],
+      "responses": [
+        "Có giá 32.000d ạ,Hồng trà ngũ cốc kem caffe,sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê",
+        "sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê Giá chỉ với 32q.000d,Hồng trà ngũ cốc kem caffe rất được khách hàng ưu chuộng",
+        "sự giao thoa tinh tế giữa hương vị ngọt ngào của socola, hương hồng trà thơm mát xen lẫn vị thơm béo của macchiato kem cà phê,Hồng trà ngũ cốc kem caffe Giá chỉ 32.000đ"
+      ]
+    },
+    {
+      "tag": "matchakemphomai",
+      "patterns": [
+        "Matchaq",
+        "Kem phô mai",
+        "Matcha kem pho mai nhiêu tiền",
+        "Matcha kem pho mai  bao nhiêu",
+        " Matcha kem pho mai ngon không",
+        "Matcha kem pho mai  vị như thế nào",
+        "Matcha kem pho mai  có những gì",
+        " Matcha kem pho mai chất lượng ra sao",
+        " Matcha kem pho mai có đặc điểm gì",
+        " Matcha kem pho mai có được mua nhiều, ưu chuộc không",
+        " Matcha kem pho mai là gì"
+      ],
+      "responses": [
+        "Có giá 24.000d ạ,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai",
+        "Giá chỉ với 24.000d,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai rất được khách hàng ưu chuộng",
+        "Matcha kem pho mai Giá chỉ 24.000đ, hòa quyện tinh tế giữa trà và phô mai"
+      ]
+    },
+    {
+      "tag": "traxanhkemphomai",
+      "patterns": [
+        "trà xanh kem",
+        "kem phô mai, trà xanh",
+        "Trà xanh kem phô mai nhiêu tiền",
+        " bao nhiêu",
+        " ngon không",
+        " vị như thế nào",
+        " có những gì",
+        " chất lượng ra sao",
+        " có đặc điểm gì",
+        " có được mua nhiều, ưu chuộc không",
+        " là gì"
+      ],
+      "responses": [
+        "Có giá 27.000d ạ,Trà xanh kem phô mai hòa quyện tinh tế giữa trà và phô mai béo ngậy.",
+        "Giá chỉ với 27.000d,Trà xanh kem phô mai rất được khách hàng ưu chuộng hòa quyện tinh tế giữa trà và phô mai béo ngậy.",
+        " Trà xanh kem phô mai Giá chỉ 27.000đ,hòa quyện tinh tế giữa trà và phô mai béo ngậy."
+      ]
+    },
+    {
+      "tag": "traxoaibuoihongkemphomai",
+      "patterns": [
+        "trà xoài",
+        "Bưởi hồng",
+        "Kem phô mai",
+        "kem phô mai nhiêu tiền",
+        "Trà xoài bưởi hồng kem phô mai bao nhiêu",
+        "Trà xoài bưởi hồng kem phô mai ngon không",
+        "Trà xoài bưởi hồng kem phô mai vị như thế nào",
+        "Trà xoài bưởi hồng kem phô mai có những gì",
+        "Trà xoài bưởi hồng kem phô mai chất lượng ra sao",
+        "Trà xoài bưởi hồng kem phô mai có đặc điểm gì",
+        "Trà xoài bưởi hồng kem phô mai có được mua nhiều, ưu chuộc không",
+        "Trà xoài bưởi hồng kem phô mai là gì"
+      ],
+      "responses": [
+        "Có giá 28.000d ạ,Trà xoài bưởi hồng kem phô mai,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
+        "Giá chỉ với 28.000d,Trà xoài bưởi hồng kem phô mai rất được khách hàng ưu chuộng hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
+        "Trà xoài bưởi hồng kem phô mai Giá chỉ 28.000đ ,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài"
+      ]
+    },
+    {
+      "tag": "traxanhxoai",
+      "patterns": [
+        "Xoài",
+        "Trà Xanh xoài",
+        "Trà xanh xoài nhiêu tiền",
+        "Trà xanh xoài bao nhiêu",
+        "Trà xanh xoài ngon không",
+        "Trà xanh xoài vị như thế nào",
+        "Trà xanh xoài có những gì",
+        "Trà xanh xoài chất lượng ra sao",
+        "Trà xanh xoài có đặc điểm gì",
+        "Trà xanh xoài có được mua nhiều, ưu chuộc không",
+        "Trà xanh xoài là gì"
+      ],
+      "responses": [
+        "Có giá 27.000d ạ,Trà xanh xoài trà xanh kết hợp với zombie cô đặc xoài tươi",
+        "Giá chỉ với 27.000d,Trà xanh xoài rất được khách hàng ưu chuộng trà xanh kết hợp với zombie cô đặc xoài tươi",
+        "Trà xanh xoài Giá chỉ 27.000đ trà xanh kết hợp với zombie cô đặc xoài tươi"
+      ]
+    },
+    {
+      "tag": "traxanhxoai",
+      "patterns": [
+        "Trà xanh xoài",
+        "Trà xanh",
+        "Xoài",
+        "Trà xanh xoài nhiêu tiền",
+        "Trà xanh xoài bao nhiêu",
+        "Trà xanh xoài ngon không",
+        "Trà xanh xoài vị như thế nào",
+        "Trà xanh xoài có những gì",
+        "Trà xanh xoài chất lượng ra sao",
+        "Trà xanh xoài có đặc điểm gì",
+        "Trà xanh xoài có được mua nhiều, ưu chuộc không",
+        "Trà xanh xoài là gì"
+      ],
+      "responses": [
+        "Có giá 27.000d ạ,Trà xanh xoà mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh",
+        "Giá chỉ với 27.000d,Trà xanh xoài rất được khách hàng ưu chuộng mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh",
+        "Trà xanh xoài Giá chỉ 27.000đ mang hương thơm nhẹ nhàng của trà xanh kết hợp với zombie cô đặc xoài tươi tạo cảm giác mát lạnh"
+      ]
+    },
+    {
+      "tag": "traxoaibuoihong",
+      "patterns": [
+        "Trà xoài bưởi ",
+        "Bưởi",
+        "Bưởi hồng",
+        "Trà xoài bưởi hồng nhiêu tiền",
+        "Trà xoài bưởi hồng bao nhiêu",
+        "Trà xoài bưởi hồng ngon không",
+        "Trà xoài bưởi hồng vị như thế nào",
+        "Trà xoài bưởi hồng có những gì",
+        "Trà xoài bưởi hồng chất lượng ra sao",
+        "Trà xoài bưởi hồng có đặc điểm gì",
+        "Trà xoài bưởi hồng có được mua nhiều, ưu chuộc không",
+        "Trà xoài bưởi hồng là gì"
+      ],
+      "responses": [
+        "Có giá 35.000d ạ,Trà xoài bưởi hồng,vị chua chua ngọt ngọt của mứt bưởi và xoài",
+        "Giá chỉ với 35.000d,Trà xoài bưởi hồng rất được khách hàng ưu chuộng,vị chua chua ngọt ngọt của mứt bưởi và xoàiq",
+        "Trà xoài bưởi hồng Giá chỉ 35.000đ, vị chua chua ngọt ngọt của mứt bưởi và xoài"
+      ]
+    },
+    {
+      "tag": "phamvidathang",
+      "patterns": [
+        "Tôi ở xa có giao món không",
+        "7km có giao hàng không",
+        "4km giao hàng không",
+        "bao nhiêu km thì không giao hàng nhỉ"
+      ],
+      "responses": [
+        "Cảm ơn quý khách đã quan tâm,quán nhận giao hàng trong vòng bán kính 7km",
+        "Giao hàng trong phạm vi 7km ạ"
+      ]
+    },
+    {
+      "tag": "tuyennhanvien",
+      "patterns": [
+        "Cửa hàng có tuyển nhân  viên không",
+        "tuyển nhân viên",
+        "nhân viên làm việc",
+        "người làm việc",
+        "đăng ký làm việc",
+        "tôi muốn phục vụ"
+      ],
+      "responses": [
+        "Cảm ơn bạn, Của hàng đã đủ nhân viên rồi bạn nhé",
+        "Cảm ơn bạn, Nếu tuyển nhân viên của hàng sẽ đăng trên trang facebook bn nhé.qq"
+      ]
+    },
+    {
+      "tag": "phivanchuye",
+      "patterns": [
+        "Phí vận chuyển bao nhiêu",
+        "2km vận chuyển hết bao nhiêu tiền",
+        "7km nhiêu tiền vận chuyển",
+        "Phí ship",
+        "Phí gioa hàng là bao nhiêu"
+      ],
+      "responses": [
+        "Phí vận chuyển chung trong phạm vi 7km là 25k / 1 đơn hàng "
+      ]
+    },
+    {
+      "tag": "conmonkhong",
+      "patterns": [
+        "món này còn không",
+        "Còn món không",
+        "còn không"
+      ],
+      "responses": [
+        "Còn bạn nhé",
+        "Tất cả các món hiển thị trên website vẫn còn hàng "
+      ]
+    },
+    {
+      "tag": "hoivan",
+      "patterns": [
+        "bạn có biết tôi hỏi món gì không",
+        "món tôi hỏiq"
+      ],
+      "responses": [
+        "quý khách cứ an tâm, Tất cả các món hiển thị trên website vẫn còn hàng nhé",
+        " "
+      ]
+    },
+    {
+      "tag": "tambiet",
+      "patterns": [
+        "Tạm biệt",
+        "Goodby",
+        "Xin chào, tạm biệt",
+        "Hẹn gặp lại",
+        "bái bai"
+      ],
+      "responses": [
+        "Cảm ơn quý khách",
+        "Hẹn gặp lại "
+      ]
+    },
+    {
+      "tag": "noidungtuvan",
+      "patterns": [
+        "nội dung tư vấn là gì",
+        "điền gì vào nội dung tư vấn",
+        "điền gì vào chỗ đăng ký tự làm"
+      ],
+      "responses": [
+        "bạn hãy điền món muốn làm hoặc thời gian có thể tới của hàng",
+        "bạn có thể hỏi món A nào đó có thể làm không "
+      ]
+    },
+    {
+      "tag": "baolauthilienhelaij",
+      "patterns": [
+        "Bao lâu thì đơn hàng của tôi có thể được xác nhận",
+        "Bao lâu thì đăng ký tự làm món của tôi có thể được xác nhận",
+        "Được xác nhận trong bao lâu",
+        "Khi nào mới được xác nhận",
+        "Khi nào đơn hàng tôi mới được duyệt"
+      ],
+      "responses": [
+        "Chúng tôi sẽ cố gắng nhất có thể",
+        "Sẽ nhanh thôi quý khách nhé, hãy chờ chúng tôi chút nữa"
+      ]
+    },
+    {
+      "tag": "soluongmon",
+      "patterns": [
+        "Số lượng mua tối đa là bao nhiêu",
+        "Mua nhiều nhất được nhiêu món"
+      ],
+      "responses": [
+        "Mõi món mua 1 lần được nhiều nhất 51 xuất",
+        "Nhiều nhất 51ly/ 1 sản phẩm"
+      ]
+    },
+    {
+      "tag": "giohang",
+      "patterns": [
+        "Sao giỏ hàng chỗ trên cùng không cập nhật nhỉ",
+        "Giỏ hàng không đùng",
+        "Tổng tiền không đúng",
+        "Giỏ hàng sai lệch tiền rồi "
+      ],
+      "responses": [
+        "Xin lỗi bạn, phiền bạn F5 hoặc load lại web bạn nhé",
+        "phiền load lại web, Cảm ơn bạn nhé "
+      ]
+    },
+    {
+      "tag": "dkyntn",
+      "patterns": [
+        "Tôi muốn tự làm món",
+        "đăng ký như thế nào",
+        "Đăng ký tự làm món ntn",
+        "Đăng ký tự làm món như thế nào",
+        "tự làm món ra sao"
+      ],
+      "responses": [
+        "Hãy để lại thông tin đăng ký để được tư vấn bạn nhé",
+        "Hãy điền thông tin đăng ký để được tư vấn bạn nhé",
+        "Ở gần cuối cùng trang chủ có form đăng ký tự làm món,Quý khách vui lòng để lại thông tin"
+      ]
+    },
+    {
+      "tag": "camon",
+      "patterns": [
+        "Cảm ơn bạn",
+        "Cám ơn chatbot",
+        "Chat rất nhiệt tình",
+        "hihi, Rất vui",
+        "Quá tốt rồi",
+        "Xin cảm ơn",
+        "Vui nhỉ",
+        "tôi hiểu rồi, cảm ơn bạn",
+        "Tôi hiểu rồi",
+        "Cảm ơn bạn",
+        "oke. Cảm ơn bn"
+      ],
+      "responses": [
+        "hi. Rất vui được giúp đỡ bạn",
+        "hi. Giúp đỡ bạn là niềm hạnh phúc của tôi"
+      ]
+    },
+    {
+      "tag": "chamcham",
+      "patterns": [
+        "7Sao chậm chạp vật",
+        "quá tệ",
+        "Sao lâu qúa nhỉ",
+        "chậm qúa shop ơi",
+        "Không tốt",
+        "Chưa tốt",
+        "phiền ghê"
+      ],
+      "responses": [
+        "xin lỗi quý khách,tôi có thể  giúp gì được cho bạn",
+        " Rất xin lỗi, chúng tôi sẽ cố gắng khắc phục"
+      ]
+    },
+    {
+      "tag": "metmoi",
+      "patterns": [
+        "Hôm nay tôi mệt moi quá",
+        "Tôi mệt",
+        "Nay buồn",
+        "Tôi không vui",
+        "Chán quá ạ"
+      ],
+      "responses": [
+        "Bạn ơi, cố gắng lên nhé, rồi mọi chuyển cũng sẽ qua",
+        "Cố gắng lên nhé bạn, Hãy ghé chúng tôi để cảm nhận được sự ấm áp "
+      ]
+    },
+    {
+      "tag": "ngonkhonog",
+      "patterns": [
+        "Ngon không",
+        "Món ngày có ngon không",
+        "Ngon không",
+        "Ngọt không"
+      ],
+      "responses": [
+        "Rất ngon bạn nhé,Hãy thử thưởng thức"
+      ]
+    },
+    {
+      "tag": "monkhonogcotrongmenu",
+      "patterns": [
+        "Có nước chanh không",
+        "Có đồ ăn vặt không",
+        "Có pizza không",
+        "Có nước trà tắc không",
+        "Cho ly caffe không đường",
+        "Có bibim không",
+        "Có món khác ngoài menu không",
+        "Có mì tôm không",
+        "Có trà đã không"
+      ],
+      "responses": [
+        "Xin lỗi bạn. Món đó hiện không có trong menu của của hàng."
+      ]
+    },
+    {
+      "tag": "vuive",
+      "patterns": [
+        "Hôm nay trời đẹp nhỉ",
+        "Vui nhỉ",
+        "Vui không bạn",
+        "Trời trong xanh",
+        "Nay thật mát mẻ",
+        "Trời đẹp quá"
+      ],
+      "responses": [
+        "Nay thời tiết tốt đẹp.chúc bạn vui vẻ  ",
+        "Thật tuyệt vời,chỉ cần bạn vui, chúng tôi cũng vui"
+      ]
+    },
+    {
+      "tag": "tulammonlagif",
+      "patterns": [
+        "Tự làm món là như thế nào",
+        "Tự làm món là gì",
+        "Làm sao để Tự làm món",
+        "Đăng ký tự làm món để làm gì",
+        "Làm tự tay của chính bạn là ntn",
+        "Làm tự tay của chính bạn là sao"
+      ],
+      "responses": [
+        "Đây là một dịch vụ của của hàng, quý khách có thể đăng ký và chọn món để nhân viên chúng tôi chuẩn bị nguyên liệu, quý khách sẽ tự tay làm và tự thưởng thưởng chính món đó",
+        "Tự làm món nhằm mục dích giúp khách hàng có thể trải nghiệm cách thức làm món"
+      ]
+    },
+    {
+      "tag": "dịch vụ",
+      "patterns": [
+        "Có dịch vụ gì không",
+        "Có gì đặc biệt không",
+        "Giới thiệu dịch vụ",
+        "Có gì hay không"
+      ],
+      "responses": [
+        "Bên mình có dịch vụ \"Làm món từ chính tay khách hàng \"",
+        "Đặc biệt, dịch vụ Khách hàng có thể tự tay làm món, quý khách có thể đăng ký"
+      ]
+    },
+    {
+      "tag": "chatluong",
+      "patterns": [
+        "Món được làm từ ai",
+        "Đảm bảo chất lượng không của hàng",
+        "Liệu có tốt cho sức khỏe"
+      ],
+      "responses": [
+        "Món được chế biến từ những vân viên chuyên nghiệp và đảm bảo chất lượng 100% ạ",
+        "Quý khách hãy yên tâm, chế biến từ những vân viên chuyên nghiệp và đảm bảo chất lượng 100% ạ "
+      ]
+    },
+    {
+      "tag": "thanhlap",
+      "patterns": [
+        "Của hàng được thành lập khi nào",
+        "Có lâu chưa",
+        "Của hàng có lâu chưa",
+        "Được mấy năm rồi",
+        "Mới mở hay sao giờ tôi mới biết tới bạn",
+        "khai trương hôm nào"
+      ],
+      "responses": [
+        "Của hàng chúng tôi thành lập vào 19/6/2000",
+        " "
+      ]
+    },
+    {
+      "tag": "huongdanmuahang",
+      "patterns": [
+        "Làm sao để mua hàng",
+        "Tôi không rõ hình thức mua hàng",
+        "Mua sao ta",
+        "Hướng dẫn tôi cách để mua hàng",
+        "Mua trà sữa như thế nào",
+        "Mua như thế nào"
+      ],
+      "responses": [
+        "Quý khách vui lòng vào của hàng, sau đó có thể thêm món vào giỏ hàng hoặc kích vào món để xem thông tin món -> số lượng -> chọn thêm vào giỏ hàng tới giỏ hàng, cập nhật số lượng -> Tiến hành thanh toán -> nhập thông tin và hình tức thanh toán  ->ấn đặt hàng",
+        "Quý khách hay chọn món->thêm vào giỏ hàng ->Đi tới giỏ hàng và thực hiện thanh toán nhé"
+      ]
+    },
+    {
+      "tag": "hinhthucthanhtoan",
+      "patterns": [
+        "Có những hình thức thanh toán nào",
+        "Có thanh toán khi nhận hàng không",
+        "Có thanh toán bằng thẻ không",
+        "Thanh toán như thế nào",
+        "nhận món mới gửi tiền được không",
+        "Có thanh toán chuyển khoản không",
+        "chuyển khoản được không"
+      ],
+      "responses": [
+        "Có 1.thanh toán khi nhận hàng \n 2. thanh toán bằng paypal \n 3. thanh toán chuyển khoản \n 4. thanh toán tại của hàng ạ"
+      ]
+    },
+    {
+      "tag": "chuyenkhoan",
+      "patterns": [
+        "Thông tin chuyển khoản là gì",
+        "Tên ngân hàng là gì",
+        "Tôi chuyển khoản cho ai",
+        "Số tài khoản",
+        "Có số tài khoản khách không",
+        "Chuyển tiền cho ai đây",
+        "Ngân hàng, chi nhánh nào nhỉ"
+      ],
+      "responses": [
+        "Thông tin chuyển khoản: Tên ngân hàng ACB Sơn Trà, Pham Thị Quỳnh Như ; Số tài khoản: 12365456.Cảm ơn quý khách"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "Cho mình một ly",
+        "Tôi muốn đặt hàng",
+        "Cho tôi món này",
+        "Tôi mua cái này",
+        "Mua cái này",
+        "món này còn không, tôi mua"
+      ],
+      "responses": [
+        "Quý khách vui lòng chọn món và order trên weebsite"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        "Món này bao nhiêu tiền",
+        "Món này bán giá bao nhiêu",
+        "Món này có nhiều người mua không",
+        "Món này là gì",
+        "bao nhiêu tiền vậy",
+        "món này này",
+        "món đó nhiêu tiền",
+        "món đó giá nhiêu",
+        "giá bao nhiêu"
+      ],
+      "responses": [
+        "bạn vui lòng nhập tên món ",
+        "món đó tên gì bạn nhỉ"
+      ]
+    },
+    {
+      "tag": "kotimdcudataa",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "Tôi chưa hiểu ý bạn lắm, bạn có thể nói rõ hơn được không",
+        " "
+      ]
+    },
+    {
+      "tag": "theodoidonhang",
+      "patterns": [
+        "Theo dõi đơn hàng ntn",
+        "Theo dõi đơn hàng như thế nào",
+        "Theo dõi đơn hàng thế nào",
+        "Làm sao để theo dõi đơn hàng",
+        "Tôi đã đặt món xong, làm sao tôi biết món đã được chấp nhận",
+        "Làm sao tôi biết, đơn hàng của tôi đã được chấp nhận",
+        "Làm sao tôi biết đơn hàng của tôi đang được làm, vận chuyển",
+        "Xem lịch sử đơn hàng như thế nào",
+        "Lịch sử đơn hàng ở đâu",
+        "Có xem được lịch sử đơn hàng không",
+        "Có xem được trạng thái đơn hàng không",
+        "Xem trạng thái đơn hàng ntn",
+        "Xem trạng thái đơn hàng như thế nào",
+        "lịch sử đơn hàng"
+      ],
+      "responses": [
+        "Quý khách vui vào  \"Tài Khoản\" -> \"Đơn hàng\" (nếu muốn xem đơn hàng hiện tại) Hoặc chọn   \"Lịch sử đơn hàng\"(Nếu muốn xem các đơn hàng bạn đã đặt) -> Và xem chi tiết, trang thái đơn hàng tại đây "
+      ]
+    },
+    {
+      "tag": "xemthongtincanhan",
+      "patterns": [
+        "xem thông tin cá nhân ở đâu",
+        "Tôi muốn xem thông tin cá nhân của tôi",
+        "có thể thay đổi thông tin tài khoản tôi không",
+        "Có thể thay ảnh đại diện thông",
+        "Chỉnh sửa thông tin cá nhân",
+        "Sửa thông tin tài khoản"
+      ],
+      "responses": [
+        "Để xem thông tin tài khoản, quý khách chọn  \"Tài Khoản\" -> \"Thông tin cá nhân\"(để thay ảnh đại diện hoặc chỉnh sửa thông tin) hoặc chọn \"Đỏi mật khẩu\" (nếu có nhu cầu đổi mật khẩu)"
+      ]
+    },
+    {
+      "tag": "mucdoantoan",
+      "patterns": [
+        "Mức độ an toàn của món ở đây là như thế nào",
+        "món có đạt chất lượng an toàn không",
+        "Chất lượng có đảm bảo không",
+        "Có tốt không",
+        "Liệu có AN TOÀN KHÔNGH"
+      ],
+      "responses": [
+        "Quý khách hãy yên tâm khi sử dụng món, 100% chất lượng sản phẩm đạt chuẩn ạ"
+      ]
+    },
+    {
+      "tag": "kodlydatmonduoc",
+      "patterns": [
+        "Sao tôi không đăng ký tự làm món được nhỉ",
+        "Tôi thay đổi tài khoản được",
+        "Tôi không hủy đặt món được",
+        "Không đặt món được",
+        "Không  xem lịch sử được"
+      ],
+      "responses": [
+        "Xin lỗi bạn, bạn có thể thực hiện thao tác lại lần nữa không ạ"
+      ]
+    },
+    {
+      "tag": "huymon",
+      "patterns": [
+        "Mua món xong có hủy được không",
+        "Hủy đơn được không",
+        "Hủy được không",
+        "Hủy được đơn hàng không",
+        "Tôi muốn hủy đơn hàng",
+        "Làm sao để hủy đơn hàng nhỉ",
+        "Tôi đặt sai địa chỉ, làm sao để hủy đơn",
+        "đặt món xong có hủy được không"
+      ],
+      "responses": [
+        "Quý khách vui vào  \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là được ạ "
+      ]
+    },
+    {
+      "tag": "saithongtinkhidathang",
+      "patterns": [
+        "Lỡ sia thông tin khi đặt hàng, tôi phải làm sao nhỉ",
+        "Lỡ sia thông tin khi đặt hàng, phải làm sao đây ",
+        "Lỡ sia thông tin khi đặt hàng, phải làm ntn đây",
+        "tôi sai thông tin đặt hàng rồi, hủy đơn hàng giúp tôi",
+        "Sai địa chỉ rồi, hủy đơn hàng",
+        "Sai tên người nhận rồi",
+        "Nhầm số điện thoại rồi",
+        "Tôi ",
+        "Sai địa chỉ rồi, làm sao nhỉ",
+        "Sai tên người nhận rồi, chỉnh sửa thông tin đặt hàng được không",
+        "nhầm địa chỉ, tên người nhận, số điện thoai, chỉnh sửa thông tin đặt hàng được không",
+        "Nhầm số điện thoại rồi",
+        "Hãy cho tôi hủy đơn hàng"
+      ],
+      "responses": [
+        "Quý khách có thể hủy đơn hàng nhé chọn \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là sẽ hủy được đơn hàng nhé "
+      ]
+    },
+    {
+      "tag": "ittiennhat",
+      "patterns": [
+        "món nào ít tiền nhất",
+        "Gợi ý có cho tôi món rẻ nhất",
+        "Gợi ý có cho tôi món ít tiền nhất",
+        "Gợi ý có cho tôi món ít tiết kiệm nhất",
+        "Rẻ nhất",
+        "Ít tiền nhất"
+      ],
+      "responses": [
+        "Món có giá cả ít nhất là \"Hồng Trà \" hoặc  \"Trà Sữa MatCha \" với giá chỉ 23.000đ "
+      ]
+    },
+    {
+      "tag": "datnhat",
+      "patterns": [
+        "món nào nhiều tiền nhất",
+        "Gợi ý có cho tôi món đắt nhất",
+        "Gợi ý có cho tôi món nhiều tiền nhất",
+        "Gợi ý có cho tôi món đắt nhất",
+        "mắc tiền nhất",
+        "đắt nhất",
+        "nhiều tiền nhất"
+      ],
+      "responses": [
+        "Món có giá cả ít nhất là \"Trà Xanh sữa Vị Nhài \" hoặc  \"Trà Sữa MatCha \" với giá 45.000đ "
+      ]
+    },
+    {
+      "tag": "maorr",
+      "patterns": [
+        "Mã or để làm gì",
+        "Tôi đặt món trước thì phải làm ntn",
+        "Tôi đặt món trước thì phải làm như thế nào",
+        "Sao khi đặt món tôi nhận được email, nó dùng để làm gì vậy"
+      ],
+      "responses": [
+        "Quý khách dùng mã Or được gửi qua email, khi đến của hàng hãy gửi cho nhân viên để nhân viên làm việc nhanh hơn, quý khách sẽ không phải chờ lâu nhé"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        "",
+        ""
+      ],
+      "responses": [
+        "",
+        " "
+      ]
     }
   ]
 }
