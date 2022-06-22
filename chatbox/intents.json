@@ -42,13 +42,13 @@
         "誰かいますか?",
         "こんにちはお店、買いたいです",
         "飲み物はここでおいしいです",
-        "良い新しい日。",
+        "良い新しい日",
         "あなたの成功を祈る",
         "素敵な引っ掛かりを持っている"
       ],
       "responses": [
-        "こんにちは、訪問していただきありがとうございます。",
-        "お会いできてうれしいです。",
+        "こんにちは、訪問していただきありがとうございます",
+        "お会いできてうれしいです",
         "こんにちは、私はあなたを助けることができますか?"
       ]
     },
@@ -80,9 +80,9 @@
         "訪れた日"
       ],
       "responses": [
-        "またお会いしましょう、ご来場ありがとうございました。",
-        "いってらっしゃい。",
-        "さようなら！早く戻ってきてください。"
+        "またお会いしましょう、ご来場ありがとうございました",
+        "いってらっしゃい",
+        "さようなら！早く戻ってきてください"
       ]
     },
     {
@@ -215,13 +215,13 @@
         "お元気ですか",
         "チャットボックスではない",
         "まあ、お店はありません",
-        "いつもチャット、あなたは疲れるでしょう。",
+        "いつもチャット、あなたは疲れるでしょう",
         "チャットボックスはありません",
         "チャットボットはありません",
         "こんにちはチャットは一日中こんにちは動作します"
       ],
       "responses": [
-        "ありがとうございました。元気です。"
+        "ありがとうございました元気です"
       ]
     },
     {
@@ -251,7 +251,7 @@
         "店舗はいつ価格を引き下げますか?"
       ],
       "responses": [
-        "休日に行くのは良い考えです。"
+        "休日に行くのは良い考えです"
       ]
     },
     {
@@ -376,7 +376,7 @@
         "この夏、私たちはどこへ行くのか",
         "この夏、私たちはどこへ行くのか",
         "将来、どこかに旅行する予定ですか",
-        "どこに行きますか。",
+        "どこに行きますか",
         "どこへ行くか",
         "この天気はどこへ行くべきなのでしょうか",
         "これはどのくらい暑いですか",
@@ -496,6 +496,16 @@
       ]
     },
     {
+      "tag": "dangkyjp",
+      "patterns": [
+        "メールには複数のアカウントが登録されます",
+        "アカウントのメール"
+      ],
+      "responses": [
+        "ただ一つのアカウント、男"
+      ]
+    },
+    {
       "tag": "tuvanmoncosuachua",
       "patterns": [
         "Món nào chưa nhiều sữa chua nhỉ",
@@ -508,6 +518,21 @@
         "Có món sữa chua dâu tằm hoàng kim đó quý khách",
         "Có món sữa chua dâu tằm hạt dẻ đó quý khách",
         "Có món sữa chua trắng đó quý khách"
+      ]
+    },
+    {
+      "tag": "tuvanmoncosuachuajp",
+      "patterns": [
+        "ヨーグルトがあまりないのはどれですか",
+        "ヨーグルトについてアドバイスしたいと思います",
+        "ヨーグルトは",
+        "酸っぱい僧侶がいるクールな料理を探す"
+      ],
+      "responses": [
+        "あなたは酸っぱい牧師の範疇に入っています",
+        "あの黄金の桑ヨーグルトがありますよ、ご列席の皆様",
+        "栗の桑ヨーグルトがあります、皆さん",
+        "白いヨーグルトがあります、皆さん"
       ]
     },
     {
@@ -527,6 +552,26 @@
         "Có rất nhiều loại caffe ạ, Ví dụ như : Hồng trà ngũ cốc kem Cafe bạn có thể thưởng thức thử",
         "Bạn dùng thử Choco Ngũ Cốc Kem Caffe nhé",
         "Choco Ngũ Cốc Kem Caffe mang đến điểm nhấn mới lạ từ mùi vị "
+      ]
+    },
+    {
+      "tag": "tuvancaffejp",
+      "patterns": [
+        "店内にカフェはありますか",
+        "カフェを買いたいのですが",
+        "コーヒーはありますか",
+        "コーヒーはありますか",
+        "カフェフはありますか",
+        "他のカフェは持っていません",
+        "カフェを飲む",
+        "カフェの苦味を飲む",
+        "おいしいカフェが美味しいです"
+      ],
+      "responses": [
+        "あなたは酸っぱい牧師の範疇に入っています",
+        "カフェには多くの種類があり、例えばピンクのティーシリアルアイスクリームカフェを試して楽しむことができます",
+        "チョコシリアルカフェクリームをお試しください",
+        "チョコシリアルカフェクリームは、味から斬新なアクセントをもたらします"
       ]
     },
     {
@@ -572,6 +617,48 @@
       ]
     },
     {
+      "tag": "tuvankemphomaijp",
+      "patterns": [
+        "おいしいチーズ",
+        "チーズはありますか?",
+        "特別なものなら何でも",
+        "スペシャルチーズ",
+        "最も贖われたチーズ",
+        "アイスクリームチーズはそうではありません",
+        "チーズミルクティーを買いたい",
+        "チーズティーはありますか?",
+        "何かを提案する",
+        "1つを提案してください",
+        "あなたが私たちが持つべきだと思う何か",
+        "あなたが持っている特別なものは何ですか?",
+        "あなたには特別なものがあります",
+        "あなたがそんなに特別なものを持っているものの何がそんなに特別なのですか?",
+        "の提案",
+        "何かを提案する",
+        "メニューには特別なものがあります",
+        "提案する",
+        "試してみてください",
+        "他に何かありますか?",
+        "私は何か他のものが欲しい",
+        "私に何か他のものを見せてください",
+        "他に飲み物はありますか?",
+        "テスト経験",
+        "スペシャルあなたが持っている",
+        "あなたが持っているもの",
+        "おいしい食べ物を見つけるのを手伝ってください",
+        "私に何かを提案してください"
+      ],
+      "responses": [
+        "あなたは \" Dâu tằm kem phô mai\" を試してみるべきです ",
+        "あなたは \" Hồng Trà Kem Phô Mai\" を試してみるべきです ",
+        "あなたは \" MatCha Kem Phô Mai\" を試してみるべきです ",
+        "あなたは \" Trà Xanh kem phô mai\" を試してみるべきです ",
+        "あなたは \" Trà Xoài bưởi kem phô mai\" を試してみるべきです ",
+        "申し訳ありませんが、私はあなたにミントホワイトチョコレートを提案することができます",
+        "私はあなたにストロベリークリームチーズをお勧めすることができます"
+      ]
+    },
+    {
       "tag": "hongtra",
       "patterns": [
         "Có hồng trà không ạ",
@@ -588,6 +675,22 @@
       ]
     },
     {
+      "tag": "hongtrajp",
+      "patterns": [
+        "ピンクのお茶はありますか",
+        "ピンクティーはいくらですか",
+        "紅茶とは何ですか",
+        "ピンクティーを買いたいです"
+      ],
+      "responses": [
+        "純粋なピンクのお茶はわずか23,000 VNDです",
+        "紅茶クリームチーズをお試しください",
+        "甘くなりたいなら、グレープフルーツティーをお試しください",
+        "少し苦味が欲しいなら、ピンクティーシリアルコーヒーをお試しください",
+        "「紅茶」という単語で検索すると、あなたよりも多くの詳細をご覧ください"
+      ]
+    },
+    {
       "tag": "thontincanhan",
       "patterns": [
         "họ và tên của bạn là gì ",
@@ -598,6 +701,19 @@
       ],
       "responses": [
         "mình là phạm thị quỳnh như"
+      ]
+    },
+    {
+      "tag": "thontincanhanjp",
+      "patterns": [
+        "あなたの姓とあなたの名前は何ですか?",
+        "店主は誰ですか?",
+        "行の所有者は誰ですか?",
+        "店を作る",
+        "行のディレクター"
+      ],
+      "responses": [
+        "私はファム・ティ・クイン・ニュ です"
       ]
     },
     {
@@ -614,6 +730,22 @@
       ],
       "responses": [
         "0815503597 bạn nhé, hoặc liên hệ email quynhnhu@gmail.com"
+      ]
+    },
+    {
+      "tag": "lienlacjp",
+      "patterns": [
+        "あなたのSDTをお伺いしましょう",
+        "連絡を取りたいです",
+        "店舗に連絡したいのですが",
+        "連絡する理由",
+        "お店が見たいです",
+        "個人情報を教えてください",
+        "店舗情報",
+        "電話番号またはメールアドレスを教えてください"
+      ],
+      "responses": [
+        "0815503597する、またはメール quynhnhu@gmail.com 連絡する"
       ]
     },
     {
@@ -642,6 +774,31 @@
       ]
     },
     {
+      "tag": "hotenjp",
+      "patterns": [
+        "あなたのSDTをお伺いしましょう",
+        "あなたは何性別ですか",
+        "どの学校に通うか",
+        "恋人はいますか",
+        "あなたの名前は何ですか",
+        "お名前は",
+        "あなたは善良な人です",
+        "どこで勉強しているのか聞かせてください",
+        "あなたのSDTをお伺いしましょう",
+        "それで、あなたは何歳ですか",
+        "生まれて何年ですか",
+        "お仕事は何をなさっていますか",
+        "名前は何ですか、いくつですか",
+        "重さは何キロですか",
+        "声を上げるために、あなたは何歳ですか",
+        "あなたの名前は何ですか、話すの便宜のために",
+        "お名前は"
+      ],
+      "responses": [
+        "私はAMAIチャットボットです、私は3歳で、DUTで勉強しています"
+      ]
+    },
+    {
       "tag": "dkylammon",
       "patterns": [
         "Tôi muốn làm món tự chính tay mình",
@@ -665,6 +822,29 @@
       ]
     },
     {
+      "tag": "dkylammonjp",
+      "patterns": [
+        "自分のものを作りたい",
+        "私は自分の食べ物を作ったことがない、私はそれを自分で行うことができますか?",
+        "あなたはあなた自身の食べ物を作ることができますか?",
+        "誰かが私に自分の食べ物を作るように指示しましたか?",
+        "どの料理が適切であるかを時間を登録することをお勧めします",
+        "あなたはあなた自身のグループ食品を作ることができますか?",
+        "自分で食べ物を作る方が高価ですか?",
+        "何かを作る意味は何ですか?",
+        "あなた自身の奇妙な食べ物を作る",
+        "材料と一緒に持参する必要がある自作の料理にサインアップする",
+        "何か持参する必要がありますか?",
+        "価格は高いですか?",
+        "情報をどこに残すか?"
+      ],
+      "responses": [
+        "体験したい場合は、より具体的なカウンセラーにサインアップしてください",
+        "登録してください、私たちはあなたが料理を選び、材料と具体的なアドバイスを準備するのを手伝います",
+        "あなたが食べ物を作る方法がわからない場合は、登録してください、あなたを助けるためにスタッフがいるでしょう"
+      ]
+    },
+    {
       "tag": "datban",
       "patterns": [
         "Tôi muốn đặt bàn",
@@ -679,6 +859,23 @@
       "responses": [
         "có thể liên hệ 0815502607 gặp nhân viên tư vấn bạn nhé!",
         "quý khách liên hệ sdt: 0816970456 để đặt bàn ạ"
+      ]
+    },
+    {
+      "tag": "datbanjp",
+      "patterns": [
+        "テーブルを設定したい",
+        "テーブルをくれ",
+        "テーブルを予約できますか",
+        "連絡先",
+        "私は直接のアドバイスが欲しいです",
+        "直接相談",
+        "私は質問があります、誰に尋ねてください",
+        "それについてお伺いします"
+      ],
+      "responses": [
+        "あなたはあなたのカウンセラーに連絡するこ0815502607ができます!",
+        "電話番号:テーブルを予約するには0816970456してください"
       ]
     },
     {
@@ -702,6 +899,26 @@
       ]
     },
     {
+      "tag": "trochuyenvedianjp",
+      "patterns": [
+        "今日の午後は食べたいですか",
+        "私たちがチキンを食べに行くとき、あなたはどう思いますか",
+        "どこで食べるの",
+        "今日の午後は食べたいですか",
+        "週末に何か食べたいですか",
+        "あなたは何を食べるつもりですか",
+        "どこで食べるの",
+        "今日はどこで食べようか",
+        "食べに行かない",
+        "どこで食べますか",
+        "食べたいですか"
+      ],
+      "responses": [
+        "AMAIミルクティーショップに行って、おいしい料理をお楽しみください",
+        "私たちはあなたを迎えることに非常に興奮しています"
+      ]
+    },
+    {
       "tag": "giaca",
       "patterns": [
         "giá cả của quán nó như thế nào",
@@ -710,6 +927,17 @@
       "responses": [
         "Giá giao động từ 21k -40k phù hợp với mọi người ạ",
         "Giá chỉ 21k-40k để thưởng thức những món rất ngon"
+      ]
+    },
+    {
+      "tag": "giacajp",
+      "patterns": [
+        "レストランの料金はいくらですか?",
+        "カフェ"
+      ],
+      "responses": [
+        "価格は誰にでも適した21k-40kの範囲です",
+        "価格は非常においしい料理を楽しむためにわずか21k-40kです"
       ]
     },
     {
@@ -731,6 +959,24 @@
       ]
     },
     {
+      "tag": "camnhavedoanjp",
+      "patterns": [
+        "いいかな",
+        "スタッフはそこでどのように奉仕しましたか?",
+        "そこの食べ物についてどう思いますか?",
+        "私はそれがここで少しストレッチであることがわかります",
+        "ゲストが食べ物についてよく考える方法",
+        "飲み物に関するコメント",
+        "従業員のレビュー",
+        "従業員の態度"
+      ],
+      "responses": [
+        "ここの味は誰にでも合うのはとても簡単で、スタッフはとてもプロフェッショナルで、熱心です",
+        "飲み物は高品質でとても美味しく、スタッフはとてもプロフェッショナルです",
+        "飲み物は素晴らしいです、あなたがそれを味わう食べたい方法、スタッフは非常にプロフェッショナルです"
+      ]
+    },
+    {
       "tag": "hongtrakemphomai",
       "patterns": [
         "Hồng Trà Kem Phô Mai nhiêu tiền",
@@ -747,6 +993,25 @@
         "Có giá 36,000d ạ,đặc trưng là lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ",
         "Lớp kem phô mai trắng mịn được cầu kì đánh bông, xốp nhẹ,Giá chỉ với 36.000d",
         "Kết hợp ăn ý giữ vị hồng trà truyền thống chát nhẹ và kem phô mai mằn mặn, sóng sánh, ngọt dịu, gia chỉ 36.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrakemphomaijp",
+      "patterns": [
+        "hồng trà kem phô mai はどのくらいのお金",
+        "hồng trà kem phô mai はいくらですか?",
+        "hồng trà kem phô mai は良いです",
+        "hồng trà kem phô mai の味は?",
+        "hồng trà kem phô mai には何がありますか?",
+        "hồng trà kem phô mai はどのくらい良いですか?",
+        "hồng trà kem phô mai には何がありますか?",
+        "hồng trà kem phô mai スペシャルとは何ですか?",
+        "hồng trà kem phô mai とは"
+      ],
+      "responses": [
+        "価格は36,000dで、うるさいホイップされたなめらかな白いクリームクリームが特徴で、軽く多孔質",
+        "上質なホワイトチーズクリームはホイップしてうるさい、軽く多孔質、価格のみ36,000d",
+        "伝統的なティーピンクの味と塩辛いチーズクリーム、ウェーブ、甘さ、スパイスを組み合わせるだけで36,000 VND"
       ]
     },
     {
@@ -770,6 +1035,26 @@
       ]
     },
     {
+      "tag": "dautamkemphomaijp",
+      "patterns": [
+        "Dâu tằm kem phô mai はどのくらいのお金",
+        "Dâu tằm kem phô mai はいくらですか?",
+        "Dâu tằm kem phô mai は良いです",
+        "Dâu tằm kem phô mai の味は?",
+        "Dâu tằm kem phô mai には何がありますか?",
+        "Dâu tằm kem phô mai はどのくらい良いですか?",
+        "Dâu tằm kem phô mai には何がありますか?",
+        "Dâu tằm kem phô mai スペシャルとは何ですか?",
+        "Dâu tằm kem phô mai とは",
+        "Dâu tằm kem phô mai には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "ストロベリークリームチーズ 価格34,000d、桑ジャムからの特徴的な甘酸っぱい味、クリームチーズのちょっとした洪水とブレンド、お客様に大人気",
+        "ニュージーランドの有名なアンカーチーズアイスクリーム、マルベリークリームチーズ価格はわずか34,000dで、お客様に非常に人気があります",
+        "お茶の甘味と桑ジャムの甘酸っぱい味を合わせ、ちょっとしたクリームチーズとブレンドし、お客様に大好評を博した、桑クリームチーズのみ34,000VND"
+      ]
+    },
+    {
       "tag": "MatChakemphomai",
       "patterns": [
         "Matcha Kem Phô Mai nhiêu tiền",
@@ -786,6 +1071,26 @@
         "Có giá 24,000d ạ,đặc trưng vị  vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha",
         "Kem phô mai Anchor nức tiếng New Zealand,Giá chỉ với 24.000d",
         " vị ngậy gây ghiền của kem phô mai khi kết hợp cùng hậu vị chát ngọt của matcha  Giá chỉ 24.000đ"
+      ]
+    },
+    {
+      "tag": "MatChakemphomaijp",
+      "patterns": [
+        "Matcha Kem Phô Mai はどのくらいのお金",
+        "Matcha Kem Phô Mai はいくらですか?",
+        "Matcha Kem Phô Mai は良いです",
+        "Matcha Kem Phô Mai の味は?",
+        "Matcha Kem Phô Mai には何がありますか?",
+        "Matcha Kem Phô Mai はどのくらい良いですか?",
+        "Matcha Kem Phô Mai には何がありますか?",
+        "Matcha Kem Phô Mai スペシャルとは何ですか?",
+        "Matcha Kem Phô Mai とは",
+        "Matcha Kem Phô Mai Kem Phô MaiB には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は24,000dで、チーズアイスクリームの美味しさと抹茶の甘い後味が相まって特徴",
+        "ニュージーランドの有名なアンカーチーズアイスクリーム、価格はわずか24,000dです",
+        "チーズアイスクリームの酔わせるような味と抹茶の甘い後味を組み合わせると、価格はわずか24,000 VNDです"
       ]
     },
     {
@@ -808,6 +1113,26 @@
       ]
     },
     {
+      "tag": "suachuadautamhoangkimjp",
+      "patterns": [
+        "Sữa chua dâu tằm hoàng kim はどのくらいのお金",
+        "Sữa chua dâu tằm hoàng kim はいくらですか?",
+        "Sữa chua dâu tằm hoàng kim は良いです",
+        "Sữa chua dâu tằm hoàng kim の味は?",
+        "Sữa chua dâu tằm hoàng kim には何がありますか?",
+        "Sữa chua dâu tằm hoàng kim はどのくらい良いですか?",
+        "Sữa chua dâu tằm hoàng kim には何がありますか?",
+        "Sữa chua dâu tằm hoàng kim スペシャルとは何ですか?",
+        "Sữa chua dâu tằm hoàng kim とは",
+        "Sữa chua dâu tằm hoàng kim には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は29,000dで、桑ジャムの甘酸っぱい味と涼しい味が混ざり合ったブレンド",
+        "桑ジャムの甘酸っぱい味をクールなバーTasteSáと混ぜ合わせた甘酸っぱい味をわずか29,000dでブレンドし、お客様に非常に人気があります",
+        "涼しい味と混合された桑ジャムからの甘酸っぱい味のブレンド、良質、価格のみ29,000 VND"
+      ]
+    },
+    {
       "tag": "suachadautamhatde",
       "patterns": [
         "Sữa Chua Dâu Tằm Hạt Dẻ nhiêu tiền",
@@ -822,7 +1147,27 @@
       "responses": [
         "Có giá 34.000d ạ,Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt !",
         "Giá chỉ với 34.000d, rất được khách hàng ưu chuộng",
-        " Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt,Giá chỉ 34.000đ"
+        "Sữa Chua Dâu Tằm Hạt Dẻ là sự kết hợp của sữa chua mềm mịn cùng mứt,Giá chỉ 34.000đ"
+      ]
+    },
+    {
+      "tag": "suachadautamhatdejp",
+      "patterns": [
+        "Sữa Chua Dâu Tằm Hạt Dẻ はどのくらいのお金",
+        "Sữa Chua Dâu Tằm Hạt Dẻ はいくらですか?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ は良いです",
+        "Sữa Chua Dâu Tằm Hạt Dẻ の味は?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ には何がありますか?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ はどのくらい良いですか?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ には何がありますか?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ スペシャルとは何ですか?",
+        "Sữa Chua Dâu Tằm Hạt Dẻ とは",
+        "Sữa Chua Dâu Tằm Hạt Dẻ には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は34,000dのチェスナットマルベリーヨーグルトは、ソフトヨーグルトとジャムの組み合わせ!",
+        "価格はわずか34,000dで、顧客に非常に人気があります",
+        "栗桑ヨーグルトはソフトヨーグルトとジャムの組み合わせで、価格はわずか34,000VNDです"
       ]
     },
     {
@@ -845,6 +1190,26 @@
       ]
     },
     {
+      "tag": "suachuatrangjp",
+      "patterns": [
+        "Sữa chua trắng はどのくらいのお金",
+        "Sữa chua trắng はいくらですか?",
+        "Sữa chua trắng は良いです",
+        "Sữa chua trắng の味は?",
+        "Sữa chua trắng には何がありますか?",
+        "Sữa chua trắng はどのくらい良いですか?",
+        "Sữa chua trắng には何がありますか?",
+        "Sữa chua trắng スペシャルとは何ですか?",
+        "Sữa chua trắng とは",
+        "Sữa chua trắng には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "乳酸ミルクの発酵のために、それは$ 35,000の費用がかかります乳酸酵素は人体に不可欠なプロバイオティクスです",
+        "価格はわずか35,000dで、顧客に非常に人気があり、消化を刺激し、腸機能を高める効果があります",
+        "ヨーグルトは白く、柔軟で、匹敵し、甘酸っぱい味と特徴的な香りを持っています 価格はわずか35,000 VNDです"
+      ]
+    },
+    {
       "tag": "hongtra",
       "patterns": [
         " Hồng trà nhiêu tiền",
@@ -861,6 +1226,26 @@
         "Có giá 23.000d ạ,Hồng trà là cách gọi của Trung Quốc, xuất phát từ màu hồng ngọc hoặc nâu đỏ của nước trà sau khi hãm.",
         "Giá chỉ với 23.000d, rất được khách hàng ưu chuộng,Tên gọi trà đen xuất phát từ phương Tây dựa vào màu sắc của lá trà sau khi sấy khô.",
         "Hương vị của hồng trà có vị thơm nhẹ, ít chát và phù hợp với khẩu vị của người Việt hiện nay. Giá chỉ 23.000đ"
+      ]
+    },
+    {
+      "tag": "hongtrajp",
+      "patterns": [
+        " Hồng trà はどのくらいのお金",
+        " Hồng trà はいくらですか?",
+        " Hồng trà は良いです",
+        " Hồng trà の味は?",
+        " Hồng trà には何がありますか?",
+        " Hồng trà はどのくらい良いですか?",
+        " Hồng trà には何がありますか?",
+        " Hồng trà スペシャルとは何ですか?",
+        " Hồng trà とは",
+        " Hồng trà には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は23,000dで、赤茶は中国名で、ブレーキング後のお茶のルビーまたは赤褐色に由来しています",
+        "価格はわずか23,000dで、顧客に非常に人気があり、紅茶の名前は乾燥後の茶葉の色に基づいて西洋から来ています",
+        "ピンクティーの味はわずかな香りを持ち、歌声が少なく、今日のベトナム人の味に適しています価格はわずか23,000 VNDです"
       ]
     },
     {
@@ -1195,28 +1580,309 @@
       ]
     },
     {
-      "tag": "matchakemphomai",
+      "tag": "matchadaudojp",
       "patterns": [
-        "Matchaq",
-        "Kem phô mai",
-        "Matcha kem pho mai nhiêu tiền",
-        "Matcha kem pho mai  bao nhiêu",
-        " Matcha kem pho mai ngon không",
-        "Matcha kem pho mai  vị như thế nào",
-        "Matcha kem pho mai  có những gì",
-        " Matcha kem pho mai chất lượng ra sao",
-        " Matcha kem pho mai có đặc điểm gì",
-        " Matcha kem pho mai có được mua nhiều, ưu chuộc không",
-        " Matcha kem pho mai là gì"
+        "Matcha đậu đỏ はどのくらいのお金",
+        "Matcha đậu đỏ はいくらですか?",
+        "Matcha đậu đỏ は良いです",
+        "Matcha đậu đỏ の味は?",
+        "Matcha đậu đỏ には何がありますか?",
+        "Matcha đậu đỏ はどのくらい良いですか?",
+        "Matcha đậu đỏ には何がありますか?",
+        "Matcha đậu đỏ スペシャルとは何ですか?",
+        "Matcha đậu đỏ とは",
+        "Matcha đậu đỏ には多くのバイヤーがいますか?"
       ],
       "responses": [
-        "Có giá 24.000d ạ,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai",
-        "Giá chỉ với 24.000d,Matcha kem pho mai hòa quyện tinh tế giữa trà và phô mai rất được khách hàng ưu chuộng",
-        "Matcha kem pho mai Giá chỉ 24.000đ, hòa quyện tinh tế giữa trà và phô mai"
+        "価格は24,000d、価格は24,000dで、日本の抹茶パウダー100%の別のレシピに従って調製されました\n",
+        "価格はわずか24,000dで、お客様に大人気で、小豆日本茶は特徴的な香りがします",
+        "100%日本の抹茶パウダー、特徴的な香りの日本茶と別のレシピで準備価格はわずか24,000VNDです"
       ]
     },
     {
-      "tag": "traxanhkemphomai",
+      "tag": "suatuoitranchababykemjp",
+      "patterns": [
+        "Món có Trân Châu",
+        "Gợi ý món trân châu",
+        "Món nào có trân châu",
+        "Trân Châu",
+        "Trà Sữa Trân Châu",
+        "Trân Châu Có món nào ngon",
+        "Sưa Tươi Trân Châu Baby Kem Caffe nhiêu tiền",
+        "Sưa Tươi Trân Châu Baby Kem Caffe はどのくらいのお金",
+        "Sưa Tươi Trân Châu Baby Kem Caffe はいくらですか?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe は良いです",
+        "Sưa Tươi Trân Châu Baby Kem Caffe の味は?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe には何がありますか?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe はどのくらい良いですか?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe には何がありますか?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe スペシャルとは何ですか?",
+        "Sưa Tươi Trân Châu Baby Kem Caffe とは",
+        "Sưa Tươi Trân Châu Baby Kem Caffe には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "Sưa Tươi Trân Châu Baby Kem Caffe,Có giá 25.000d ạ,Thơm, béo, đắng nhẹ, mềm dịu là cảm nhận đầu tiên khi nếm lớp kem cà phê sánh mịn",
+        "Giá chỉ với 25.000d,Sưa Tươi Trân Châu Baby Kem Caffe rất được khách hàng ưu chuộng, được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ",
+        "Được lấy cảm hứng từ sự bồng bềnh của lớp bọt cà phê mềm mịn ,Sưa Tươi Trân Châu Baby Kem Caffe Giá chỉ 25.000đ"
+      ]
+    },
+    {
+      "tag": "trasuabachajp",
+      "patterns": [
+        "真珠の入った料理",
+        "真珠の提案",
+        "どちらが真珠を持っているか",
+        "真珠",
+        "パールミルクティー",
+        "真珠には何か良いところがあります",
+        "ACB はどのくらいのお金",
+        "ACB はいくらですか?",
+        "ACB は良いです",
+        "ACB の味は?",
+        "ACB には何がありますか?",
+        "ACB はどのくらい良いですか?",
+        "ACB には何がありますか?",
+        "ACB スペシャルとは何ですか?",
+        "ACB とは",
+        "ACB には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "フレッシュパールベビーカフェクリーム、25,000dで販売され、香りがよく、脂肪、マイルドな苦味、柔らかい、滑らかなコーヒークリームを味わうときの最初の感覚です",
+        "わずか25,000dで販売されているパールベビーカフェクリームは、柔らかいコーヒーフォームのフロートに触発され、顧客に非常に人気があります",
+        "ソフトコーヒーフォーム層のフロートに触発され、フレッシュパールベビーカフェクリーム価格はわずか25,000 VNDです"
+      ]
+    },
+    {
+      "tag": "trasuadautayjp",
+      "patterns": [
+        "Trà sữa dâu tây はどのくらいのお金",
+        "Trà sữa dâu tây はいくらですか?",
+        "Trà sữa dâu tây は良いです",
+        "Trà sữa dâu tây の味は?",
+        "Trà sữa dâu tây には何がありますか?",
+        "Trà sữa dâu tây はどのくらい良いですか?",
+        "Trà sữa dâu tây には何がありますか?",
+        "Trà sữa dâu tây スペシャルとは何ですか?",
+        "Trà sữa dâu tây とは",
+        "Trà sữa dâu tây には多くのバイヤーがいますか?",
+        "苺",
+        "ストロベリー料理",
+        "イチゴを食べるように勧めてください",
+        "イチゴと誰か?",
+        "いちごミルクティーはありますか?"
+      ],
+      "responses": [
+        "ストロベリーミルクティー 27,000dの費用がかかり、ミルクティーのイチゴ風味は優しいですが、それでも特徴的な香りと味を感じるのに十分ですストロベリーミルクティー",
+        "価格はわずか27,000dで、ストロベリーミルクティーはお客様に大人気で、優しいミルクティーでストロベリー風味",
+        "ストロベリーミルクティー なだめるようなミルクティーでストロベリー風味価格はわずか27,000 VNDです"
+      ]
+    },
+    {
+      "tag": "trasuamatchajp",
+      "patterns": [
+        "Trà sữa matcha はどのくらいのお金",
+        "Trà sữa matcha はいくらですか?",
+        "Trà sữa matcha は良いです",
+        "Trà sữa matcha の味は?",
+        "Trà sữa matcha には何がありますか?",
+        "Trà sữa matcha はどのくらい良いですか?",
+        "Trà sữa matcha には何がありますか?",
+        "Trà sữa matcha スペシャルとは何ですか?",
+        "Trà sữa matcha とは",
+        "Trà sữa matcha には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は23,000dで、特徴的な香りは緑茶葉の涼しい香りです",
+        "価格はわずか23,000dで、顧客に非常に人気があります抹茶のバーの後ろの鮮やかな緑色と軽い苦味",
+        "抹茶の明るい緑色と穏やかな苦味は、料理や飲み物がより人目を引く、より美味しくなるのを助けます、価格はたったの23,000 VNDです"
+      ]
+    },
+    {
+      "tag": "trasuasocolajp",
+      "patterns": [
+        "チョコレート",
+        "どちらにチョコレートが入っていますか?",
+        "私にチョコレートを提案してください",
+        "チョコレートを買いたいです",
+        "Trà Sữa Socola はどのくらいのお金",
+        "Trà Sữa Socola はいくらですか?",
+        "Trà Sữa Socola は良いです",
+        "Trà Sữa Socola の味は?",
+        "Trà Sữa Socola には何がありますか?",
+        "Trà Sữa Socola はどのくらい良いですか?",
+        "Trà Sữa Socola には何がありますか?",
+        "Trà Sữa Socola スペシャルとは何ですか?",
+        "Trà Sữa Socola とは",
+        "Trà Sữa Socola には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "29,000dで販売されているチョコレートミルクティーは、長い間愛の味、幸福の味として知られてきました",
+        "わずか29,000dで販売され、顧客に非常に人気のあるチョコレートは、長い間愛の味、幸福の味として知られてきました",
+        "チョコレートは長い間、愛の味、幸福の味として知られています 価格はわずか29,000 VNDです"
+      ]
+    },
+    {
+      "tag": "trasuaolongjp",
+      "patterns": [
+        "どのオロンがオロンを点滅させるか",
+        "オロン",
+        "オロン",
+        "ウーロン",
+        "ウーロンの提案",
+        "Trà Sữa Olong Ô long はどのくらいのお金",
+        "Trà Sữa Olong Ô long はいくらですか?",
+        "Trà Sữa Olong Ô long は良いです",
+        "Trà Sữa Olong Ô long の味は?",
+        "Trà Sữa Olong Ô long には何がありますか?",
+        "Trà Sữa Olong Ô long はどのくらい良いですか?",
+        "Trà Sữa Olong Ô long には何がありますか?",
+        "Trà Sữa Olong Ô long スペシャルとは何ですか?",
+        "Trà Sữa Olong Ô long とは",
+        "Trà Sữa Olong Ô long には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は42,000d、オロンミルクティー これは半酸化茶で、お茶の酸化レベルは8〜80%の範囲です",
+        "価格はわずか42,000dで、顧客に非常に人気があり、ウーロン茶は豊かな味、淡黄色、ミディアムで甘い味があります",
+        "ウーロン茶は、中国発祥の丸みを帯びた葉巻きの形をしています!価格はわずか42,000 VNDです"
+      ]
+    },
+    {
+      "tag": "traxanhsuavinhaijp",
+      "patterns": [
+        "ジャスミン",
+        "ジャスミン緑茶",
+        "ジャスミンマリネ茶",
+        "ジャスミン風味ミルク緑茶",
+        "Trà xanh sữa vị nhài はどのくらいのお金",
+        "Trà xanh sữa vị nhài はいくらですか?",
+        "Trà xanh sữa vị nhài は良いです",
+        "Trà xanh sữa vị nhài の味は?",
+        "Trà xanh sữa vị nhài には何がありますか?",
+        "Trà xanh sữa vị nhài はどのくらい良いですか?",
+        "Trà xanh sữa vị nhài には何がありますか?",
+        "Trà xanh sữa vị nhài スペシャルとは何ですか?",
+        "Trà xanh sữa vị nhài とは",
+        "Trà xanh sữa vị nhài には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は45,000dで、ジャスミンミルク入り緑茶、マリネ茶の香りと砂糖の甘みが相まって、初めて飲むと少し酸っぱい味がします",
+        "ジャスミンマリネ茶の香りと砂糖の甘さが相まって、最初に飲んだとき、少し酸っぱい味がします価格はわずか45,000dで、ジャスミンミルク入り緑茶はお客様に大人気です",
+        "ジャスミン緑茶、価格はわずか45,000 VND、マリネ茶の香りは砂糖の甘さと相まって、最初に飲んだとき、それはわずかに酸っぱい味を持っています"
+      ]
+    },
+    {
+      "tag": "traxanhjp",
+      "patterns": [
+        "緑茶はありますか?",
+        "緑茶を買いたいです",
+        "緑茶を販売していません",
+        "trà xanh はどのくらいのお金",
+        "trà xanh はいくらですか?",
+        "trà xanh は良いです",
+        "trà xanh の味は?",
+        "trà xanh には何がありますか?",
+        "trà xanh はどのくらい良いですか?",
+        "trà xanh には何がありますか?",
+        "trà xanh スペシャルとは何ですか?",
+        "trà xanh とは",
+        "trà xanh には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "37,000dで販売されている、緑茶緑茶の木の特徴は、多くの葉を持つほこりや小さな木に成長する多年生の緑の植物です",
+        "価格はわずか37,000dで、緑茶は顧客に非常に人気があり、若い葉や芽は薄緑色で、葉の下側は短い白い綿毛があります",
+        "価格はわずか37,000 VNDで、若い緑茶の木や芽は薄緑色で、葉の下側は短い白い綿毛があります"
+      ]
+    },
+    {
+      "tag": "olongthaicucjp",
+      "patterns": [
+        "オロン茶はありますか?",
+        "太極拳",
+        "極端なウーロン茶がある",
+        "Ô Long thái cực はどのくらいのお金",
+        "Ô Long thái cực はいくらですか?",
+        "Ô Long thái cực は良いです",
+        "Ô Long thái cực の味は?",
+        "Ô Long thái cực には何がありますか?",
+        "Ô Long thái cực はどのくらい良いですか?",
+        "Ô Long thái cực には何がありますか?",
+        "Ô Long thái cực スペシャルとは何ですか?",
+        "Ô Long thái cực とは",
+        "Ô Long thái cực には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は38,000dで、ウーロン茶とブラックパールとホワイトダイヤモンドの2種類のトッピングを組み合わせたオロン太極拳",
+        "わずか38,000dで販売されているOlong Taiは顧客に非常に人気があり、2種類のトッピングの白と黒の色は、コントラストと補完の両方の2つの明確な極端を象徴しています",
+        "オロン太極拳、価格はわずか38,000 VND、2種類のトッピングの白 - 黒の色は、互いに対照的で補完的な2つの異なる極端を象徴しています"
+      ]
+    },
+    {
+      "tag": "probibuitrangchaysuongmaijp",
+      "patterns": [
+        "真珠の入った料理",
+        "真珠の提案",
+        "どちらが真珠を持っているか",
+        "真珠はよく飲む?",
+        "probi bưởi trân châu sương mai nhiêu tiền",
+        "probi bưởi trân châu sương mai はどのくらいのお金",
+        "probi bưởi trân châu sương mai はいくらですか?",
+        "probi bưởi trân châu sương mai は良いです",
+        "probi bưởi trân châu sương mai の味は?",
+        "probi bưởi trân châu sương mai には何がありますか?",
+        "probi bưởi trân châu sương mai はどのくらい良いですか?",
+        "probi bưởi trân châu sương mai には何がありますか?",
+        "probi bưởi trân châu sương mai スペシャルとは何ですか?",
+        "probi bưởi trân châu sương mai とは",
+        "probi bưởi trân châu sương mai には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は40,000d、グレープフルーツグレープフルーツデューイアプリコット、グリルココナッツトッピング",
+        "価格はわずか40,000dで、明日のグレープフルーツパールデューのグリルココナッツトッピングはお客様に大人気です",
+        "プロビグレープフルーツ真珠の朝露とグリルココナッツトッピング、価格のみ40,000 VND"
+      ]
+    },
+    {
+      "tag": "Chocongucockemcaffejp",
+      "patterns": [
+        "Choco Ngũ Cốc Kem Caffe はどのくらいのお金",
+        "Choco Ngũ Cốc Kem Caffe はいくらですか?",
+        "Choco Ngũ Cốc Kem Caffe は良いです",
+        "Choco Ngũ Cốc Kem Caffe の味は?",
+        "Choco Ngũ Cốc Kem Caffe には何がありますか?",
+        "Choco Ngũ Cốc Kem Caffe はどのくらい良いですか?",
+        "Choco Ngũ Cốc Kem Caffe には何がありますか?",
+        "Choco Ngũ Cốc Kem Caffe スペシャルとは何ですか?",
+        "Choco Ngũ Cốc Kem Caffe とは",
+        "Choco Ngũ Cốc Kem Caffe には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "32,000dで販売されているチョコシリアルカフェクリームカフェは、チョコレートの甘い味、甘いピンクの紅茶の風味、コーヒーアイスクリームの脂肪の香りの微妙な交差点であり、独特の味と香りからユニークな体験として新しいアクセントをもたらします",
+        "わずか32,000dで販売されているチョコシリアルカフェクリームは、チョコレートの甘い味、香り高いピンクティー、マキアートコーヒークリームの脂肪の香りの繊細な交差点で、お客様に非常に人気があります",
+        "チョコシリアルカフェクリームチョコレートの甘い味、香り高いピンクティー、コーヒーアイスクリームマキアートの脂肪の香りの繊細な交差点、ユニークな体験としての独特の味と香りから新しいハイライトをもたらす価格はわずか32,000 VND"
+      ]
+    },
+    {
+      "tag": "hongtrangucockemcaffejp",
+      "patterns": [
+        "Hồng trà ngũ cốc kem caffe はどのくらいのお金",
+        "Hồng trà ngũ cốc kem caffe はいくらですか?",
+        "Hồng trà ngũ cốc kem caffe は良いです",
+        "Hồng trà ngũ cốc kem caffe の味は?",
+        "Hồng trà ngũ cốc kem caffe には何がありますか?",
+        "Hồng trà ngũ cốc kem caffe はどのくらい良いですか?",
+        "Hồng trà ngũ cốc kem caffe には何がありますか?",
+        "Hồng trà ngũ cốc kem caffe スペシャルとは何ですか?",
+        "Hồng trà ngũ cốc kem caffe とは",
+        "Hồng trà ngũ cốc kem caffe には多くのバイヤーがいますか?"
+      ],
+      "responses": [
+        "価格は32,000dのピンクティーシリアルカフェ、チョコレートの甘味、チョコレートの甘味、マキアートコーヒークリームの脂肪の香りが混ざり合ったアロマピンクティーの繊細な交差点",
+        "チョコレートの甘い味、マキアートコーヒークリームの脂肪の香りと混合された香り高いピンクティーの風味の間の繊細な交差点 わずか32q,000dの価格、紅茶シリアルカフェクリームは顧客に非常に人気があります",
+        "チョコレートの甘い味、コーヒーアイスクリームマキアートの脂肪の香りと混合されたクールなピンクティーフレーバーの繊細な交差点、ピンクティーシリアルカフェ価格はわずか32,000 VNDです"
+      ]
+    },
+    {
+      "tag": "traxanhkemphomaijp",
       "patterns": [
         "trà xanh kem",
         "kem phô mai, trà xanh",
@@ -1256,27 +1922,6 @@
         "Có giá 28.000d ạ,Trà xoài bưởi hồng kem phô mai,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
         "Giá chỉ với 28.000d,Trà xoài bưởi hồng kem phô mai rất được khách hàng ưu chuộng hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài",
         "Trà xoài bưởi hồng kem phô mai Giá chỉ 28.000đ ,hương vị thơm béo của kem phô mai, vị chua ngọt tươi mát của mứt bưởi, xoài"
-      ]
-    },
-    {
-      "tag": "traxanhxoai",
-      "patterns": [
-        "Xoài",
-        "Trà Xanh xoài",
-        "Trà xanh xoài nhiêu tiền",
-        "Trà xanh xoài bao nhiêu",
-        "Trà xanh xoài ngon không",
-        "Trà xanh xoài vị như thế nào",
-        "Trà xanh xoài có những gì",
-        "Trà xanh xoài chất lượng ra sao",
-        "Trà xanh xoài có đặc điểm gì",
-        "Trà xanh xoài có được mua nhiều, ưu chuộc không",
-        "Trà xanh xoài là gì"
-      ],
-      "responses": [
-        "Có giá 27.000d ạ,Trà xanh xoài trà xanh kết hợp với zombie cô đặc xoài tươi",
-        "Giá chỉ với 27.000d,Trà xanh xoài rất được khách hàng ưu chuộng trà xanh kết hợp với zombie cô đặc xoài tươi",
-        "Trà xanh xoài Giá chỉ 27.000đ trà xanh kết hợp với zombie cô đặc xoài tươi"
       ]
     },
     {
@@ -1337,6 +1982,19 @@
       ]
     },
     {
+      "tag": "phamvidathangjp",
+      "patterns": [
+        "私は遠くに何かを届けていますか?",
+        "配達で7km?",
+        "4kmの航空便",
+        "何キロメートルが配達されませんか?"
+      ],
+      "responses": [
+        "ご関心をお寄せいただきありがとうございます、半径7km以内の配送店",
+        "7km以内の配達"
+      ]
+    },
+    {
       "tag": "tuyennhanvien",
       "patterns": [
         "Cửa hàng có tuyển nhân  viên không",
@@ -1348,7 +2006,22 @@
       ],
       "responses": [
         "Cảm ơn bạn, Của hàng đã đủ nhân viên rồi bạn nhé",
-        "Cảm ơn bạn, Nếu tuyển nhân viên của hàng sẽ đăng trên trang facebook bn nhé.qq"
+        "Cảm ơn bạn, Nếu tuyển nhân viên của hàng sẽ đăng trên trang facebook bn nhé."
+      ]
+    },
+    {
+      "tag": "tuyennhanvienjp",
+      "patterns": [
+        "店舗は従業員を雇用していますか?",
+        "スタッフの採用",
+        "働くスタッフ",
+        "働く人々",
+        "ジョブ登録",
+        "仕えたいです"
+      ],
+      "responses": [
+        "ありがとう、店には十分なスタッフがいます",
+        "ありがとう、あなたが店の従業員を雇うならば、Facebookページbnに投稿します"
       ]
     },
     {
@@ -1365,6 +2038,19 @@
       ]
     },
     {
+      "tag": "phivanchuyejp",
+      "patterns": [
+        "送料",
+        "2kmの交通費はいくらですか?",
+        "7kmどのくらいの送料",
+        "送料",
+        "ジオアグッズの費用はいくらですか?"
+      ],
+      "responses": [
+        "7km以内の一般送料は25k/1注文です"
+      ]
+    },
+    {
       "tag": "conmonkhong",
       "patterns": [
         "món này còn không",
@@ -1377,14 +2063,35 @@
       ]
     },
     {
+      "tag": "conmonkhongjp",
+      "patterns": [
+        "これも当てはまりません",
+        "そして、いいえ",
+        "さえない"
+      ],
+      "responses": [
+        "そして友達",
+        "Web サイトに表示されるすべてのアイテムは引き続き使用できます"
+      ]
+    },
+    {
       "tag": "hoivan",
       "patterns": [
         "bạn có biết tôi hỏi món gì không",
-        "món tôi hỏiq"
+        "món tôi hỏi"
       ],
       "responses": [
-        "quý khách cứ an tâm, Tất cả các món hiển thị trên website vẫn còn hàng nhé",
-        " "
+        "quý khách cứ an tâm, Tất cả các món hiển thị trên website vẫn còn hàng nhé"
+      ]
+    },
+    {
+      "tag": "hoivanjp",
+      "patterns": [
+        "私が何を求めたか知っていますか?",
+        "私が尋ねた食べ物"
+      ],
+      "responses": [
+        "ウェブサイトに表示されているすべてのアイテムはまだ利用可能ですのでご安心ください"
       ]
     },
     {
@@ -1426,6 +2133,18 @@
       ]
     },
     {
+      "tag": "noidungtuvanjp",
+      "patterns": [
+        "相談の内容は?",
+        "アドバイス内容の記入内容",
+        "日曜大工の登録場所に記入するもの"
+      ],
+      "responses": [
+        "作成したいものや行から来る可能性のある時間を入力します",
+        "何かできることはないか聞いてもらえますか?"
+      ]
+    },
+    {
       "tag": "baolauthilienhelaij",
       "patterns": [
         "Bao lâu thì đơn hàng của tôi có thể được xác nhận",
@@ -1440,6 +2159,20 @@
       ]
     },
     {
+      "tag": "baolauthilienhelaijp",
+      "patterns": [
+        "注文はどのくらいの期間確認できますか?",
+        "自作登録にどれくらいの時間がかかるか確認できる",
+        "確認はどのくらいの期間ですか?",
+        "いつ確認されますか?",
+        "注文はいつ承認されますか?"
+      ],
+      "responses": [
+        "できる限りの努力をします。",
+        "迅速になりますので、お待ちください。"
+      ]
+    },
+    {
       "tag": "soluongmon",
       "patterns": [
         "Số lượng mua tối đa là bao nhiêu",
@@ -1448,6 +2181,17 @@
       "responses": [
         "Mõi món mua 1 lần được nhiều nhất 51 xuất",
         "Nhiều nhất 51ly/ 1 sản phẩm"
+      ]
+    },
+    {
+      "tag": "soluongmonjp",
+      "patterns": [
+        "最大購入金額はいくらですか?",
+        "ほとんどのアイテムを購入します。"
+      ],
+      "responses": [
+        "最も多く購入された1回アイテム51のエクスポート",
+        "最大51カップ/1製品"
       ]
     },
     {
@@ -1464,6 +2208,19 @@
       ]
     },
     {
+      "tag": "giohangjp",
+      "patterns": [
+        "トップカートが最新でないのはなぜですか?",
+        "カートは空ではありません。",
+        "合計金額が正しくありません。",
+        "カートは間違ったお金です。"
+      ],
+      "responses": [
+        "申し訳ありませんが、F5を気にするか、あなたのウェブをリロード",
+        "ウェブをリロードして申し訳ありませんが、よろしくお願いいたします。"
+      ]
+    },
+    {
       "tag": "dkyntn",
       "patterns": [
         "Tôi muốn tự làm món",
@@ -1476,6 +2233,21 @@
         "Hãy để lại thông tin đăng ký để được tư vấn bạn nhé",
         "Hãy điền thông tin đăng ký để được tư vấn bạn nhé",
         "Ở gần cuối cùng trang chủ có form đăng ký tự làm món,Quý khách vui lòng để lại thông tin"
+      ]
+    },
+    {
+      "tag": "dkyntnjp",
+      "patterns": [
+        "自分で食べ物を作りたい。",
+        "登録方法",
+        "ntnのあなた自身の作りにサインアップしてください",
+        "自分の料理にサインアップする方法",
+        "あなた自身の食べ物を作る方法"
+      ],
+      "responses": [
+        "アドバイスのためにあなたの登録情報を残してください。",
+        "あなたのアドバイスのために登録情報を記入してください。",
+        "ホームページの最後には自作登録フォームがありますので、情報を残してください"
       ]
     },
     {
@@ -1499,9 +2271,29 @@
       ]
     },
     {
+      "tag": "camonjp",
+      "patterns": [
+        "ありがとうございました",
+        "チャットボットありがとうございます。",
+        "チャットは非常に熱心です。",
+        "こんにちは、それは楽しいです。",
+        "それはあまりにも良いです。",
+        "ありがとうございました",
+        "それは楽しいです。",
+        "わかりました、ありがとうございました。",
+        "わかりました。",
+        "ありがとうございました",
+        "桶。ありがとうbn"
+      ],
+      "responses": [
+        "こんにちは。お手伝いできてうれしいです。",
+        "こんにちは。あなたを助けることは私の幸せです。"
+      ]
+    },
+    {
       "tag": "chamcham",
       "patterns": [
-        "7Sao chậm chạp vật",
+        "Sao chậm chạp vật",
         "quá tệ",
         "Sao lâu qúa nhỉ",
         "chậm qúa shop ơi",
@@ -1512,6 +2304,22 @@
       "responses": [
         "xin lỗi quý khách,tôi có thể  giúp gì được cho bạn",
         " Rất xin lỗi, chúng tôi sẽ cố gắng khắc phục"
+      ]
+    },
+    {
+      "tag": "chamchamjp",
+      "patterns": [
+        "なぜレスリングが遅いのですか?",
+        "ひどすぎる",
+        "なぜそんなに長いのですか?",
+        "それは遅すぎる、ショップ。",
+        "悪い",
+        "よくないです",
+        "それは迷惑です"
+      ],
+      "responses": [
+        "申し訳ありませんが、ゲスト、私はあなたを助けるために何ができますか?",
+        "申し訳ありませんが、修正しようとします。"
       ]
     },
     {
@@ -1526,6 +2334,20 @@
       "responses": [
         "Bạn ơi, cố gắng lên nhé, rồi mọi chuyển cũng sẽ qua",
         "Cố gắng lên nhé bạn, Hãy ghé chúng tôi để cảm nhận được sự ấm áp "
+      ]
+    },
+    {
+      "tag": "metmoijp",
+      "patterns": [
+        "今日は疲れました。",
+        "私は疲れています",
+        "今は悲しいです。",
+        "私は幸せではありません。",
+        "それは退屈です。"
+      ],
+      "responses": [
+        "私の友人、起き上がろうとすると、すべての転送が渡されます。",
+        "立ち上がろうとしなさい、男よ、暖かさを感じるために私たちのところに来てください。"
       ]
     },
     {
@@ -1558,6 +2380,23 @@
       ]
     },
     {
+      "tag": "monkhonogcotrongmenujp",
+      "patterns": [
+        "レモネードはありますか?",
+        "ジャンクフードはありますか?",
+        "ピザはありますか?",
+        "お茶はありますか?",
+        "無糖カフェグラス用",
+        "ビビムはありますか?",
+        "メニュー以外に何かありますか?",
+        "エビ麺はありますか?",
+        "お茶はそうではありませんでした。"
+      ],
+      "responses": [
+        "ごめんなさい、男。現在メニューにはありません。"
+      ]
+    },
+    {
       "tag": "vuive",
       "patterns": [
         "Hôm nay trời đẹp nhỉ",
@@ -1573,6 +2412,21 @@
       ]
     },
     {
+      "tag": "vuivejp",
+      "patterns": [
+        "今日は綺麗です。",
+        "それは楽しいです。",
+        "それは楽しいです、男。",
+        "空は青い。",
+        "今はかっこいいです。",
+        "美しいです。"
+      ],
+      "responses": [
+        "天気は良く、良い時期をお過ごしください。",
+        "あなたが幸せである限り、私たちも幸せです。"
+      ]
+    },
+    {
       "tag": "tulammonlagif",
       "patterns": [
         "Tự làm món là như thế nào",
@@ -1585,6 +2439,21 @@
       "responses": [
         "Đây là một dịch vụ của của hàng, quý khách có thể đăng ký và chọn món để nhân viên chúng tôi chuẩn bị nguyên liệu, quý khách sẽ tự tay làm và tự thưởng thưởng chính món đó",
         "Tự làm món nhằm mục dích giúp khách hàng có thể trải nghiệm cách thức làm món"
+      ]
+    },
+    {
+      "tag": "tulammonlagifjp",
+      "patterns": [
+        "あなた自身の食べ物を作る方法",
+        "自家製料理とは",
+        "あなた自身の食べ物を作る方法",
+        "あなた自身の食べ物を作るために何のためにサインアップする",
+        "あなた自身の手はntnです。",
+        "自分の手でやってることって何?"
+      ],
+      "responses": [
+        "これは商品のサービスです、あなたは私たちのスタッフが食材を準備するために料理を登録して選ぶことができます、あなたはあなた自身のものを作りそしてその料理であなた自身に報酬を与えるでしょう。",
+        "顧客が料理の作り方を体験できるように、独自の料理を作る"
       ]
     },
     {
@@ -1658,6 +2527,21 @@
       ]
     },
     {
+      "tag": "hinhthucthanhtoanjp",
+      "patterns": [
+        "どのような支払い方法がありますか?",
+        "空気を受け取ると支払いがあります",
+        "カードでの支払いは可能ですか?",
+        "お支払い方法",
+        "あなたはお金を送るために何か新しいものを手に入れることができますか?",
+        "振込金はありますか?",
+        "送金はできますか?"
+      ],
+      "responses": [
+        "1.商品を受け取る際のお支払い\n 2. PayPalで支払う\n 3. 振込金\n 4. 商品で支払う"
+      ]
+    },
+    {
       "tag": "chuyenkhoan",
       "patterns": [
         "Thông tin chuyển khoản là gì",
@@ -1670,6 +2554,21 @@
       ],
       "responses": [
         "Thông tin chuyển khoản: Tên ngân hàng ACB Sơn Trà, Pham Thị Quỳnh Như ; Số tài khoản: 12365456.Cảm ơn quý khách"
+      ]
+    },
+    {
+      "tag": "chuyenkhoanjp",
+      "patterns": [
+        "転送情報とは",
+        "銀行名は何ですか?",
+        "送金先は誰にすればいいですか?",
+        "口座番号",
+        "ゲストアカウント番号をお持ちですか?",
+        "送金先は誰ですか?",
+        "銀行、どの支店?"
+      ],
+      "responses": [
+        "転送情報:ACBソントラ銀行名、ファムティクインヌー。口座番号:12365456.ありがとうございます"
       ]
     },
     {
@@ -1687,7 +2586,7 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "oreders",
       "patterns": [
         "Món này bao nhiêu tiền",
         "Món này bán giá bao nhiêu",
@@ -1702,6 +2601,24 @@
       "responses": [
         "bạn vui lòng nhập tên món ",
         "món đó tên gì bạn nhỉ"
+      ]
+    },
+    {
+      "tag": "oredersjp",
+      "patterns": [
+        "このお金はいくらですか?",
+        "これはいくらで売れますか?",
+        "これはこれを買っている多くの人々がいますか?",
+        "この料理は何ですか?",
+        "どのくらいのお金?",
+        "この料理",
+        "いくらお金がかかるのだろう。",
+        "その料理の費用はいくらですか?",
+        "いくらですか。"
+      ],
+      "responses": [
+        "アイテム名を入力してください",
+        "あなたにとってその名前は何ですか?"
       ]
     },
     {
@@ -1738,6 +2655,28 @@
       ]
     },
     {
+      "tag": "theodoidonhangjp",
+      "patterns": [
+        "NTN注文の追跡",
+        "注文を追跡する方法",
+        "注文を追跡する方法",
+        "注文を追跡する方法",
+        "私はすでにそれを注文しました、それが受け入れられていることをどうやって知るのですか?",
+        "注文が受理されたことをどうやって知ることができますか?",
+        "注文が作成され、出荷されていることを確認するにはどうすればよいですか?",
+        "注文履歴の仕組みを見る",
+        "注文履歴はどこにありますか",
+        "注文履歴はわかりますか?",
+        "注文状況はわかりますか?",
+        "NTN注文状況の表示",
+        "注文状況を確認する",
+        "注文履歴"
+      ],
+      "responses": [
+        "「アカウント」に進んでください - 「注文」を>(現在の注文を見たい場合)または「注文履歴」(注文した注文を見たい場合)を選択してください - >そして詳細を見る、注文ページはこちら"
+      ]
+    },
+    {
       "tag": "xemthongtincanhan",
       "patterns": [
         "xem thông tin cá nhân ở đâu",
@@ -1749,6 +2688,20 @@
       ],
       "responses": [
         "Để xem thông tin tài khoản, quý khách chọn  \"Tài Khoản\" -> \"Thông tin cá nhân\"(để thay ảnh đại diện hoặc chỉnh sửa thông tin) hoặc chọn \"Đỏi mật khẩu\" (nếu có nhu cầu đổi mật khẩu)"
+      ]
+    },
+    {
+      "tag": "xemthongtincanhanjp",
+      "patterns": [
+        "個人情報がどこにあるかを確認します。",
+        "個人情報を見たい。",
+        "アカウント情報を変更できますか?",
+        "プロフィール写真は変更できます。",
+        "個人情報の編集",
+        "アカウント情報の編集"
+      ],
+      "responses": [
+        "アカウント情報を表示するには、「アカウント」->「個人情報」(プロフィール写真の変更や情報の編集)を選択するか、「パスワード」(パスワードを変更する必要がある場合)を選択します。"
       ]
     },
     {
@@ -1791,6 +2744,22 @@
       ],
       "responses": [
         "Quý khách vui vào  \"Tài Khoản\" -> \"Đơn hàng\" -> \"Hủy đơn hàng\"  -<\"Xác nhận\" là được ạ "
+      ]
+    },
+    {
+      "tag": "huymonjp",
+      "patterns": [
+        "キャンセルできるものを購入してもらえますか?",
+        "申請をキャンセルしてもらえますか?",
+        "キャンセル。",
+        "キャンセルされた航空注文",
+        "注文をキャンセルしたい",
+        "注文をキャンセルするには?",
+        "住所を間違えてしまい、申請をキャンセルする方法",
+        "キャンセルして注文を終了できますか?"
+      ],
+      "responses": [
+        "「アカウント」 - 「注文」> - 「注文のキャンセル」>「確認」<大丈夫です。"
       ]
     },
     {
@@ -1853,17 +2822,6 @@
       ],
       "responses": [
         "Quý khách dùng mã Or được gửi qua email, khi đến của hàng hãy gửi cho nhân viên để nhân viên làm việc nhanh hơn, quý khách sẽ không phải chờ lâu nhé"
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        "",
-        ""
-      ],
-      "responses": [
-        "",
-        " "
       ]
     }
   ]
