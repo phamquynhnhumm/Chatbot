@@ -66,8 +66,7 @@
         "Hẹn gặp lại, cảm ơn đã ghé thăm",
         "Chúc một ngày tốt lành",
         "Tạm biệt! Quay lại sớm."
-      ],
-      "context_set": ""
+      ]
     },
     {
       "tag": "goodbyes",
@@ -97,8 +96,7 @@
         "Rất vui được trợ giúp!",
         "Bất cứ lúc nào!",
         "Niềm vui của tôi"
-      ],
-      "context_set": ""
+      ]
     },
     {
       "tag": "thanksd",
@@ -170,8 +168,7 @@
       "responses": [
         "Trong vòng bán kính 4km shop giao trong 10-15p bạn nhé!",
         "Chúng tôi sẽ giao tới bạn sớm nhất 5-15p bạn nhé"
-      ],
-      "context_set": ""
+      ]
     },
     {
       "tag": "giaohangjp",
@@ -265,8 +262,7 @@
       ],
       "responses": [
         "Cảm ơn bạn! \nMình có thu tiền hộ nha bạn yên tâm nhé!"
-      ],
-      "context_set": ""
+      ]
     },
     {
       "tag": "thuhotienjp",
